@@ -227,3 +227,72 @@ document.addEventListener('keydown', (e) => {
 window.showMissingReviewsModal = showMissingReviewsModal;
 window.closeModal = closeModal;
 window.sortTable = sortTable;
+
+// ========== AUTO-REFRESH FUNCTIONALITY ==========
+let autoRefreshInterval;
+let isAutoRefreshEnabled = false;
+
+function toggleAutoRefresh() {
+    if (isAutoRefreshEnabled) {
+        clearInterval(autoRefreshInterval);
+        isAutoRefreshEnabled = false;
+        console.log('🔴 Table auto-refresh désactivé');
+    } else {
+        autoRefreshInterval = setInterval(() => {
+            console.log('🔄 Actualisation automatique du tableau...');
+            // Recharger la page ou refaire l'appel API
+            refreshTableData();
+        }, 30000);
+        isAutoRefreshEnabled = true;
+        console.log('🟢 Table auto-refresh activé (30s)');
+    }
+}
+
+// Fonction pour rafraîchir les données
+async function refreshTableData() {
+    try {
+        // Reproduire la logique de votre loadGigachadRanking
+        const response = await fetch('https://ethos.guezito.com/api/gigachads');
+        const data = await response.json();
+        
+        // Appeler les fonctions qui existent déjà
+        if (typeof displayGigachadRanking === 'function') {
+            displayGigachadRanking(data);
+        } else {
+            console.warn('displayGigachadRanking function not found');
+        }
+    } catch (error) {
+        console.error('Erreur lors du rafraîchissement:', error);
+    }
+}
+
+// Démarrer l'auto-refresh après un délai
+setTimeout(() => {
+    console.log('🚀 Démarrage de l\'auto-refresh...');
+    toggleAutoRefresh();
+}, 5000); // 5 secondes après le chargement
+
+// Gestion de la visibilité
+document.addEventListener('visibilitychange', function() {
+    if (document.hidden) {
+        if (autoRefreshInterval) {
+            clearInterval(autoRefreshInterval);
+            console.log('⏸️ Table auto-refresh en pause');
+        }
+    } else {
+        if (isAutoRefreshEnabled) {
+            autoRefreshInterval = setInterval(() => {
+                console.log('🔄 Actualisation automatique du tableau...');
+                refreshTableData();
+            }, 30000);
+            console.log('▶️ Table auto-refresh repris');
+        }
+    }
+});
+
+// Contrôles globaux
+window.gigachadTable = {
+    toggleAutoRefresh: toggleAutoRefresh,
+    manualRefresh: refreshTableData,
+    isAutoRefreshEnabled: () => isAutoRefreshEnabled
+};

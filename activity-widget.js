@@ -1,6 +1,6 @@
 const DEBUG_MODE = true;
 const MAX_ITEMS = 20; // Augmenté pour avoir plus d'activités mixtes
-const GITHUB_JSON_URL = 'https://raw.githubusercontent.com/guezito-dev/notion-gigachads/main/Ethos/gigachads-ranking.json';
+const GITHUB_JSON_URL = 'https://raw.githubusercontent.com/guezito-dev/Ethos/main/gigachads-ranking.json';
 
 let gigachadsData = null;
 const processedActivities = new Set();
