@@ -2,7 +2,7 @@ let rankingData = [];
 
 // Récupération des données
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('gigachads-ranking.json')
+    fetch('https://raw.githubusercontent.com/guezito-dev/ethos/main/gigachads-ranking.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Erreur lors du chargement des données:', error);
         });
 });
-
 // Fonction pour calculer les gigachads qui n'ont pas encore été reviewés OU vouchés
 function getMissingReviews(currentUser, allUsers) {
     const reviewedAvatars = new Set();
@@ -87,7 +86,6 @@ function getMissingReviews(currentUser, allUsers) {
     
     return missingReviews;
 }
-
 // Fonction pour afficher la modal avec les personnes manquantes
 function showMissingReviewsModal(userIndex) {
     const user = rankingData[userIndex];
@@ -139,7 +137,6 @@ function showMissingReviewsModal(userIndex) {
         }
     });
 }
-
 // Fonction pour fermer la modal
 function closeModal() {
     const modal = document.querySelector('.modal-overlay');
@@ -147,12 +144,10 @@ function closeModal() {
         modal.remove();
     }
 }
-
 // Fonction pour échapper les caractères spéciaux dans JSON
 function escapeJsonForHtml(obj) {
     return JSON.stringify(obj).replace(/'/g, '&#39;').replace(/"/g, '&quot;');
 }
-
 
 // Fonction pour afficher le tableau
 function renderTable(data) {
@@ -198,7 +193,6 @@ function renderTable(data) {
         tableBody.appendChild(row);
     });
 }
-
 // Fonction de tri
 function sortTable(key) {
     rankingData.sort((a, b) => {
@@ -214,14 +208,12 @@ function sortTable(key) {
     
     renderTable(rankingData);
 }
-
 // Fonction pour gérer la fermeture de la modal avec la touche Échap
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
         closeModal();
     }
 });
-
 // Exposer les fonctions globalement pour les événements onclick
 window.showMissingReviewsModal = showMissingReviewsModal;
 window.closeModal = closeModal;
