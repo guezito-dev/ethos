@@ -1,7 +1,433 @@
 {
-  "totalCount": 213,
-  "fetchedAt": "2025-07-09T23:11:49.307Z",
-  "recoveredProfilesCount": 5,
+  "totalCount": 189,
+  "fetchedAt": "2025-07-10T01:10:06.406Z",
+  "recoveredProfilesCount": 0,
+  "duplicatesRemoved": 24,
+  "auditResults": {
+    "hasDuplicates": true,
+    "totalDuplicates": 59,
+    "duplicatesById": [
+      {
+        "type": "ID",
+        "value": 10792400,
+        "user": "Guezito1",
+        "index": 55,
+        "details": "ID 10792400 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 14251028,
+        "user": "abschud",
+        "index": 56,
+        "details": "ID 14251028 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 51830,
+        "user": "LoshmiOnChain",
+        "index": 59,
+        "details": "ID 51830 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 20909,
+        "user": "ProofOfEly",
+        "index": 61,
+        "details": "ID 20909 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 3871141,
+        "user": "StoopidPenguin_",
+        "index": 100,
+        "details": "ID 3871141 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 3933609,
+        "user": "anatolijshishk2",
+        "index": 101,
+        "details": "ID 3933609 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 349292,
+        "user": "goldensuspended",
+        "index": 104,
+        "details": "ID 349292 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 1030,
+        "user": "AndrewAsksHow",
+        "index": 105,
+        "details": "ID 1030 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 3752589,
+        "user": "Polish_Buddy",
+        "index": 106,
+        "details": "ID 3752589 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 2671113,
+        "user": "fifilechien",
+        "index": 107,
+        "details": "ID 2671113 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 19632,
+        "user": "maya_lndn",
+        "index": 108,
+        "details": "ID 19632 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 12108450,
+        "user": "curtisjcummings",
+        "index": 109,
+        "details": "ID 12108450 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 12110599,
+        "user": "ACthreeNFT",
+        "index": 110,
+        "details": "ID 12110599 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 12111706,
+        "user": "Rubiks_Gus",
+        "index": 111,
+        "details": "ID 12111706 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 12117183,
+        "user": "MisterPonX",
+        "index": 112,
+        "details": "ID 12117183 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 12959513,
+        "user": "TheFlockinho",
+        "index": 114,
+        "details": "ID 12959513 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 12181356,
+        "user": "MarvinAgunkwo",
+        "index": 115,
+        "details": "ID 12181356 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 13558490,
+        "user": "0xVal1",
+        "index": 116,
+        "details": "ID 13558490 déjà présent"
+      },
+      {
+        "type": "ID",
+        "value": 13913306,
+        "user": "debuddha1",
+        "index": 117,
+        "details": "ID 13913306 déjà présent"
+      }
+    ],
+    "duplicatesByProfileId": [
+      {
+        "type": "PROFILE_ID",
+        "value": 14905,
+        "user": "Guezito1",
+        "index": 55,
+        "details": "ProfileId 14905 déjà présent"
+      },
+      {
+        "type": "PROFILE_ID",
+        "value": 21448,
+        "user": "abschud",
+        "index": 56,
+        "details": "ProfileId 21448 déjà présent"
+      },
+      {
+        "type": "PROFILE_ID",
+        "value": 3497,
+        "user": "LoshmiOnChain",
+        "index": 59,
+        "details": "ProfileId 3497 déjà présent"
+      },
+      {
+        "type": "PROFILE_ID",
+        "value": 2535,
+        "user": "ProofOfEly",
+        "index": 61,
+        "details": "ProfileId 2535 déjà présent"
+      },
+      {
+        "type": "PROFILE_ID",
+        "value": 5389,
+        "user": "goldensuspended",
+        "index": 104,
+        "details": "ProfileId 5389 déjà présent"
+      },
+      {
+        "type": "PROFILE_ID",
+        "value": 3471,
+        "user": "AndrewAsksHow",
+        "index": 105,
+        "details": "ProfileId 3471 déjà présent"
+      },
+      {
+        "type": "PROFILE_ID",
+        "value": 7712,
+        "user": "fifilechien",
+        "index": 107,
+        "details": "ProfileId 7712 déjà présent"
+      },
+      {
+        "type": "PROFILE_ID",
+        "value": 3434,
+        "user": "maya_lndn",
+        "index": 108,
+        "details": "ProfileId 3434 déjà présent"
+      },
+      {
+        "type": "PROFILE_ID",
+        "value": 17505,
+        "user": "curtisjcummings",
+        "index": 109,
+        "details": "ProfileId 17505 déjà présent"
+      },
+      {
+        "type": "PROFILE_ID",
+        "value": 17514,
+        "user": "ACthreeNFT",
+        "index": 110,
+        "details": "ProfileId 17514 déjà présent"
+      },
+      {
+        "type": "PROFILE_ID",
+        "value": 17515,
+        "user": "Rubiks_Gus",
+        "index": 111,
+        "details": "ProfileId 17515 déjà présent"
+      },
+      {
+        "type": "PROFILE_ID",
+        "value": 17525,
+        "user": "MisterPonX",
+        "index": 112,
+        "details": "ProfileId 17525 déjà présent"
+      },
+      {
+        "type": "PROFILE_ID",
+        "value": 18787,
+        "user": "TheFlockinho",
+        "index": 114,
+        "details": "ProfileId 18787 déjà présent"
+      },
+      {
+        "type": "PROFILE_ID",
+        "value": 17631,
+        "user": "MarvinAgunkwo",
+        "index": 115,
+        "details": "ProfileId 17631 déjà présent"
+      },
+      {
+        "type": "PROFILE_ID",
+        "value": 20474,
+        "user": "0xVal1",
+        "index": 116,
+        "details": "ProfileId 20474 déjà présent"
+      },
+      {
+        "type": "PROFILE_ID",
+        "value": 21077,
+        "user": "debuddha1",
+        "index": 117,
+        "details": "ProfileId 21077 déjà présent"
+      }
+    ],
+    "duplicatesByUsername": [
+      {
+        "type": "USERNAME",
+        "value": "iamvasugupta",
+        "user": "iamvasugupta",
+        "index": 19,
+        "details": "Username iamvasugupta déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "greenytrades",
+        "user": "greenytrades",
+        "index": 54,
+        "details": "Username greenytrades déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "Guezito1",
+        "user": "Guezito1",
+        "index": 55,
+        "details": "Username Guezito1 déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "abschud",
+        "user": "abschud",
+        "index": 56,
+        "details": "Username abschud déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "part_thai_guy",
+        "user": "part_thai_guy",
+        "index": 57,
+        "details": "Username part_thai_guy déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "LoshmiOnChain",
+        "user": "LoshmiOnChain",
+        "index": 59,
+        "details": "Username LoshmiOnChain déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "ProofOfEly",
+        "user": "ProofOfEly",
+        "index": 61,
+        "details": "Username ProofOfEly déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "StoopidPenguin_",
+        "user": "StoopidPenguin_",
+        "index": 100,
+        "details": "Username StoopidPenguin_ déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "anatolijshishk2",
+        "user": "anatolijshishk2",
+        "index": 101,
+        "details": "Username anatolijshishk2 déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "goldensuspended",
+        "user": "goldensuspended",
+        "index": 104,
+        "details": "Username goldensuspended déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "AndrewAsksHow",
+        "user": "AndrewAsksHow",
+        "index": 105,
+        "details": "Username AndrewAsksHow déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "Polish_Buddy",
+        "user": "Polish_Buddy",
+        "index": 106,
+        "details": "Username Polish_Buddy déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "fifilechien",
+        "user": "fifilechien",
+        "index": 107,
+        "details": "Username fifilechien déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "maya_lndn",
+        "user": "maya_lndn",
+        "index": 108,
+        "details": "Username maya_lndn déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "curtisjcummings",
+        "user": "curtisjcummings",
+        "index": 109,
+        "details": "Username curtisjcummings déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "ACthreeNFT",
+        "user": "ACthreeNFT",
+        "index": 110,
+        "details": "Username ACthreeNFT déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "Rubiks_Gus",
+        "user": "Rubiks_Gus",
+        "index": 111,
+        "details": "Username Rubiks_Gus déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "MisterPonX",
+        "user": "MisterPonX",
+        "index": 112,
+        "details": "Username MisterPonX déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "TheFlockinho",
+        "user": "TheFlockinho",
+        "index": 114,
+        "details": "Username TheFlockinho déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "MarvinAgunkwo",
+        "user": "MarvinAgunkwo",
+        "index": 115,
+        "details": "Username MarvinAgunkwo déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "0xVal1",
+        "user": "0xVal1",
+        "index": 116,
+        "details": "Username 0xVal1 déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "debuddha1",
+        "user": "debuddha1",
+        "index": 117,
+        "details": "Username debuddha1 déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "BrianAitch",
+        "user": "BrianAitch",
+        "index": 130,
+        "details": "Username BrianAitch déjà présent"
+      },
+      {
+        "type": "USERNAME",
+        "value": "ParzivalNwa",
+        "user": "ParzivalNwa",
+        "index": 185,
+        "details": "Username ParzivalNwa déjà présent"
+      }
+    ],
+    "duplicatesByAddress": [],
+    "auditedAt": "2025-07-10T01:10:03.365Z"
+  },
   "users": [
     {
       "id": 13247265,
@@ -60,7 +486,7 @@
       "displayName": "cos",
       "avatarUrl": "https://pbs.twimg.com/profile_images/1878732424382746624/H2YiWXOa.jpg",
       "description": null,
-      "score": 1598,
+      "score": 1599,
       "addedAt": "2025-07-09T20:18:19.134Z"
     },
     {
@@ -384,26 +810,6 @@
       "addedAt": "2025-06-19T18:07:34.666Z"
     },
     {
-      "id": 10792400,
-      "profileId": 14905,
-      "username": "Guezito1",
-      "displayName": "guezit0",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-      "description": null,
-      "score": 1414,
-      "addedAt": "2025-06-19T18:07:34.666Z"
-    },
-    {
-      "id": 14251028,
-      "profileId": 21448,
-      "username": "abschud",
-      "displayName": "AbsChud",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1851988390041841664/HDqWgPew.jpg",
-      "description": null,
-      "score": 1281,
-      "addedAt": "2025-06-19T18:07:34.666Z"
-    },
-    {
       "id": 20814,
       "profileId": 3549,
       "username": "apcollectiveio",
@@ -411,26 +817,6 @@
       "avatarUrl": "https://pbs.twimg.com/profile_images/1925415192105738240/OXXXAr2y.jpg",
       "description": null,
       "score": 1533,
-      "addedAt": "2025-06-19T18:07:34.666Z"
-    },
-    {
-      "id": 51830,
-      "profileId": 3497,
-      "username": "LoshmiOnChain",
-      "displayName": "Loshmi",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1923407216565952512/_EzXPI7j.jpg",
-      "description": null,
-      "score": 1552,
-      "addedAt": "2025-06-19T18:07:34.666Z"
-    },
-    {
-      "id": 20909,
-      "profileId": 2535,
-      "username": "ProofOfEly",
-      "displayName": "Ely",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1899824667671576576/RVqjlLdW.jpg",
-      "description": null,
-      "score": 1524,
       "addedAt": "2025-06-19T18:07:34.666Z"
     },
     {
@@ -654,86 +1040,6 @@
       "addedAt": "2025-06-19T18:07:34.543Z"
     },
     {
-      "id": 349292,
-      "profileId": 5389,
-      "username": "goldensuspended",
-      "displayName": "Golden",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1940867558426423296/toLkcPZm.jpg",
-      "description": null,
-      "score": 1454,
-      "addedAt": "2025-06-19T18:07:34.543Z"
-    },
-    {
-      "id": 1030,
-      "profileId": 3471,
-      "username": "AndrewAsksHow",
-      "displayName": "Andrew Forte",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1927146881626284032/-nkyasH0.png",
-      "description": null,
-      "score": 1494,
-      "addedAt": "2025-06-19T18:07:34.543Z"
-    },
-    {
-      "id": 2671113,
-      "profileId": 7712,
-      "username": "fifilechien",
-      "displayName": "Fifi 🐧🦇🔊🏴",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1599133692219228167/cZZJ_DA1.jpg",
-      "description": null,
-      "score": 1303,
-      "addedAt": "2025-06-19T18:07:34.543Z"
-    },
-    {
-      "id": 19632,
-      "profileId": 3434,
-      "username": "maya_lndn",
-      "displayName": "Maya",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1846935633614258176/MvEBbrLa.jpg",
-      "description": null,
-      "score": 1560,
-      "addedAt": "2025-06-19T18:07:34.543Z"
-    },
-    {
-      "id": 12108450,
-      "profileId": 17505,
-      "username": "curtisjcummings",
-      "displayName": "Curtis Cummings",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1877738565037158402/XCG2C4Py.jpg",
-      "description": null,
-      "score": 1274,
-      "addedAt": "2025-06-19T18:07:34.543Z"
-    },
-    {
-      "id": 12110599,
-      "profileId": 17514,
-      "username": "ACthreeNFT",
-      "displayName": "AC💕 Three🧬🪽",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1933742259851141120/50FKx9yq.jpg",
-      "description": null,
-      "score": 1255,
-      "addedAt": "2025-06-19T18:07:34.543Z"
-    },
-    {
-      "id": 12111706,
-      "profileId": 17515,
-      "username": "Rubiks_Gus",
-      "displayName": "Rubiks (Gus)",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1895139176384712704/MO5aFVfH.jpg",
-      "description": null,
-      "score": 1324,
-      "addedAt": "2025-06-19T18:07:34.543Z"
-    },
-    {
-      "id": 12117183,
-      "profileId": 17525,
-      "username": "MisterPonX",
-      "displayName": "MrP",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1940196403247984640/OF2drRf8.jpg",
-      "description": null,
-      "score": 1415,
-      "addedAt": "2025-06-19T18:07:34.543Z"
-    },
-    {
       "id": 12508084,
       "profileId": 18291,
       "username": "AgniesskaS",
@@ -741,46 +1047,6 @@
       "avatarUrl": "https://pbs.twimg.com/profile_images/1936837160818151424/JpegdKzb.jpg",
       "description": null,
       "score": 1217,
-      "addedAt": "2025-06-19T18:07:34.543Z"
-    },
-    {
-      "id": 12959513,
-      "profileId": 18787,
-      "username": "TheFlockinho",
-      "displayName": "Flockinho ⚪️⚫️",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1913328482865528833/4qDlBtbz.jpg",
-      "description": null,
-      "score": 1215,
-      "addedAt": "2025-06-19T18:07:34.543Z"
-    },
-    {
-      "id": 12181356,
-      "profileId": 17631,
-      "username": "MarvinAgunkwo",
-      "displayName": "Marvin Agunkwo",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1927625750313611264/iH_2spdf.jpg",
-      "description": null,
-      "score": 1244,
-      "addedAt": "2025-06-19T18:07:34.543Z"
-    },
-    {
-      "id": 13558490,
-      "profileId": 20474,
-      "username": "0xVal1",
-      "displayName": "val_",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1883274485932908544/0o1YgpAu.jpg",
-      "description": null,
-      "score": 1240,
-      "addedAt": "2025-06-19T18:07:34.543Z"
-    },
-    {
-      "id": 13913306,
-      "profileId": 21077,
-      "username": "debuddha1",
-      "displayName": "debuddha",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1859343236805902337/E8QDUDbh.jpg",
-      "description": null,
-      "score": 1230,
       "addedAt": "2025-06-19T18:07:34.543Z"
     },
     {
@@ -850,7 +1116,7 @@
       "displayName": "envok",
       "avatarUrl": "https://pbs.twimg.com/profile_images/1929494982412337153/k0VALDqJ.jpg",
       "description": null,
-      "score": 1250,
+      "score": 1265,
       "addedAt": "2025-06-19T18:07:34.438Z"
     },
     {
@@ -980,7 +1246,7 @@
       "displayName": "T.M.A",
       "avatarUrl": "https://pbs.twimg.com/profile_images/1918317475176792064/aVpWz_3R.jpg",
       "description": null,
-      "score": 1899,
+      "score": 1900,
       "addedAt": "2025-06-19T18:07:34.438Z"
     },
     {
@@ -1010,7 +1276,7 @@
       "displayName": "SHL",
       "avatarUrl": "https://pbs.twimg.com/profile_images/1935707018314051584/B2WNA-Br.jpg",
       "description": null,
-      "score": 1588,
+      "score": 1589,
       "addedAt": "2025-06-19T18:07:34.438Z"
     },
     {
@@ -1180,7 +1446,7 @@
       "displayName": "Galileo",
       "avatarUrl": "https://pbs.twimg.com/profile_images/1884750097042354176/Os3coswo.jpg",
       "description": null,
-      "score": 2093,
+      "score": 2094,
       "addedAt": "2025-06-19T18:07:34.351Z"
     },
     {
@@ -1270,7 +1536,7 @@
       "displayName": "PandyBear",
       "avatarUrl": "https://pbs.twimg.com/profile_images/1899427095605809152/cTrr8xhr.jpg",
       "description": null,
-      "score": 1264,
+      "score": 1265,
       "addedAt": "2025-06-19T18:07:34.351Z"
     },
     {
@@ -1362,16 +1628,6 @@
       "description": null,
       "score": 1200,
       "addedAt": "2025-07-09T20:18:19.099Z"
-    },
-    {
-      "id": 3764056,
-      "profileId": 18304,
-      "username": "iamvasugupta",
-      "displayName": "vasu",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1924712559988637696/yxM0stu-.jpg",
-      "description": null,
-      "score": 1240,
-      "addedAt": "2025-06-19T18:16:37.859Z"
     },
     {
       "id": 3754478,
@@ -1501,26 +1757,6 @@
       "avatarUrl": "https://pbs.twimg.com/profile_images/1851459046705856513/vpTI9FTG.jpg",
       "description": null,
       "score": 1265,
-      "addedAt": "2025-06-19T18:07:34.666Z"
-    },
-    {
-      "id": 590912,
-      "profileId": 17780,
-      "username": "greenytrades",
-      "displayName": "Greeny",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1916583729386115073/EyBuVJGh.jpg",
-      "description": null,
-      "score": 1438,
-      "addedAt": "2025-06-19T18:07:34.666Z"
-    },
-    {
-      "id": 5024842,
-      "profileId": 18139,
-      "username": "part_thai_guy",
-      "displayName": "Part Thai",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1865420086259208192/k5XnCTzR.jpg",
-      "description": null,
-      "score": 1266,
       "addedAt": "2025-06-19T18:07:34.666Z"
     },
     {
@@ -1694,26 +1930,6 @@
       "addedAt": "2025-06-19T18:07:34.543Z"
     },
     {
-      "id": 3871141,
-      "profileId": null,
-      "username": "StoopidPenguin_",
-      "displayName": "Stoopid Penguin",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1879686259401977856/EVdLPHNY.jpg",
-      "description": null,
-      "score": 1205,
-      "addedAt": "2025-06-19T18:07:34.543Z"
-    },
-    {
-      "id": 3933609,
-      "profileId": null,
-      "username": "anatolijshishk2",
-      "displayName": "Carbodex",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1884387909609926656/ijvdop7d.jpg",
-      "description": null,
-      "score": 1205,
-      "addedAt": "2025-06-19T18:07:34.543Z"
-    },
-    {
       "id": 3940042,
       "profileId": null,
       "username": "Toonoxx_abs",
@@ -1729,16 +1945,6 @@
       "username": "iFreedomz",
       "displayName": "LuziaX 🐧 ✳️",
       "avatarUrl": "https://pbs.twimg.com/profile_images/1871441539127517184/ANE8un3y.jpg",
-      "description": null,
-      "score": 1205,
-      "addedAt": "2025-06-19T18:07:34.543Z"
-    },
-    {
-      "id": 3752589,
-      "profileId": null,
-      "username": "Polish_Buddy",
-      "displayName": "Polish_Buddy✳️🐧",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1909405504486453248/1iD8CZFb.jpg",
       "description": null,
       "score": 1205,
       "addedAt": "2025-06-19T18:07:34.543Z"
@@ -1761,16 +1967,6 @@
       "avatarUrl": "https://pbs.twimg.com/profile_images/1859220583101403136/NnKlfrXE.jpg",
       "description": null,
       "score": 1205,
-      "addedAt": "2025-06-19T18:07:34.438Z"
-    },
-    {
-      "id": 3753170,
-      "profileId": 17891,
-      "username": "BrianAitch",
-      "displayName": "Brian",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1926016631404191745/46ySquwq.jpg",
-      "description": null,
-      "score": 1367,
       "addedAt": "2025-06-19T18:07:34.438Z"
     },
     {
@@ -2001,16 +2197,6 @@
       "avatarUrl": "https://pbs.twimg.com/profile_images/1905046984748097537/7UmZCxqy.jpg",
       "description": null,
       "score": 1210,
-      "addedAt": "2025-06-19T18:07:34.351Z"
-    },
-    {
-      "id": 3793617,
-      "profileId": 17954,
-      "username": "ParzivalNwa",
-      "displayName": "Parzival.Pengu",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1892356817537110016/77ltuqUX.jpg",
-      "description": null,
-      "score": 1234,
       "addedAt": "2025-06-19T18:07:34.351Z"
     },
     {
