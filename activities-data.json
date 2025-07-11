@@ -1,12 +1,12 @@
 {
   "success": true,
   "totalVouches": 35,
-  "totalReviews": 98,
+  "totalReviews": 99,
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-07-11T15:52:14.671Z",
-  "lastUpdated": "11/07/2025 17:52:14",
+  "generatedAt": "2025-07-11T16:02:15.879Z",
+  "lastUpdated": "11/07/2025 18:02:15",
   "data": {
     "vouches": [
       {
@@ -89,7 +89,7 @@
           "subjectName": "Nat 🐧✳️",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1942402554907795456/ZzM3D7KO.png",
-          "timeAgo": "56m ago",
+          "timeAgo": "1h ago",
           "stakeAmount": "0.010",
           "clickUrl": "https://app.ethos.network/activity/vouch/29405",
           "vouchId": 29405
@@ -920,7 +920,7 @@
           "name": "sillybilly ✳️🦇🔊",
           "username": "sillyybillyyyyy",
           "description": "",
-          "score": 1325,
+          "score": 1338,
           "scoreXpMultiplier": 1,
           "profileId": 19246,
           "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
@@ -1092,7 +1092,7 @@
           "name": "sillybilly ✳️🦇🔊",
           "username": "sillyybillyyyyy",
           "description": "",
-          "score": 1325,
+          "score": 1338,
           "scoreXpMultiplier": 1,
           "profileId": 19246,
           "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
@@ -1167,7 +1167,7 @@
           "name": "sillybilly ✳️🦇🔊",
           "username": "sillyybillyyyyy",
           "description": "",
-          "score": 1325,
+          "score": 1338,
           "scoreXpMultiplier": 1,
           "profileId": 19246,
           "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
@@ -1253,7 +1253,7 @@
           "name": "sillybilly ✳️🦇🔊",
           "username": "sillyybillyyyyy",
           "description": "",
-          "score": 1325,
+          "score": 1338,
           "scoreXpMultiplier": 1,
           "profileId": 19246,
           "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
@@ -1734,6 +1734,86 @@
       {
         "type": "review",
         "data": {
+          "id": 278383,
+          "authorProfileId": 3378,
+          "author": "0xbc1fF39B2Ba84E6CaeC1daaf8441B199b29Bf9e5",
+          "subject": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966",
+          "score": "positive",
+          "comment": "My friend Silly.",
+          "metadata": "{\"description\":\"Silly was one of the first people I met within the Abstract ecosystem. He welcomed me on Discord and made my experience much more enjoyable. Beyond the human aspect, Silly posts daily summaries of what’s happening in the ecosystem. If you're new or looking to get into Abstract, Silly is exactly who you need.\"}",
+          "createdAt": 1752249363,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 5,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1752249363,
+        "author": {
+          "userkey": "address:0xbc1fF39B2Ba84E6CaeC1daaf8441B199b29Bf9e5",
+          "avatar": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
+          "name": "gucci",
+          "username": "gucci_gcc",
+          "description": "",
+          "score": 1627,
+          "scoreXpMultiplier": 1.25,
+          "profileId": 3378,
+          "primaryAddress": "0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df"
+        },
+        "subject": {
+          "userkey": "address:0x607d2381aFecbD80c4AD5CCE8059205C2a297966",
+          "avatar": "https://pbs.twimg.com/profile_images/1930290437807583239/uIAXkO-6.jpg",
+          "name": "sillybilly ✳️🦇🔊",
+          "username": "sillyybillyyyyy",
+          "description": "",
+          "score": 1338,
+          "scoreXpMultiplier": 1,
+          "profileId": 19246,
+          "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
+        },
+        "events": [
+          {
+            "id": 5039607,
+            "blockIndex": 1293,
+            "blockNumber": 32730008,
+            "contract": "review",
+            "createdAt": 1752249364,
+            "processed": true,
+            "txHash": "0x8593d8fc4ec92b6e4f9feb2c377bb26ea08dcbc5bef5f9d4839fdb4f738aac50",
+            "updatedAt": 1752249364
+          }
+        ],
+        "llmQualityScore": 73,
+        "translation": {
+          "contentHash": "a704289cdb13d7001d7a80584cde3ef755971d9c2a35afb105f8395b9d607336",
+          "detectedLanguage": "en",
+          "translatedContent": "My friend Silly.",
+          "translatedDescription": "Silly was one of the first people I met within the Abstract ecosystem. He welcomed me on Discord and made my experience much more enjoyable. Beyond the human aspect, Silly posts daily summaries of what’s happening in the ecosystem. If you're new or looking to get into Abstract, Silly is exactly who you need."
+        },
+        "enriched": {
+          "authorName": "gucci",
+          "subjectName": "sillybilly ✳️🦇🔊",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1930290437807583239/uIAXkO-6.jpg",
+          "timeAgo": "6m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/278383",
+          "reviewId": 278383
+        }
+      },
+      {
+        "type": "review",
+        "data": {
           "id": 276648,
           "authorProfileId": 19246,
           "author": "0xc5c1e47208a5f2191B645084C896347229c5B306",
@@ -1763,7 +1843,7 @@
           "name": "sillybilly ✳️🦇🔊",
           "username": "sillyybillyyyyy",
           "description": "",
-          "score": 1325,
+          "score": 1338,
           "scoreXpMultiplier": 1,
           "profileId": 19246,
           "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
@@ -1843,7 +1923,7 @@
           "name": "sillybilly ✳️🦇🔊",
           "username": "sillyybillyyyyy",
           "description": "",
-          "score": 1325,
+          "score": 1338,
           "scoreXpMultiplier": 1,
           "profileId": 19246,
           "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
@@ -3123,7 +3203,7 @@
           "name": "sillybilly ✳️🦇🔊",
           "username": "sillyybillyyyyy",
           "description": "",
-          "score": 1325,
+          "score": 1338,
           "scoreXpMultiplier": 1,
           "profileId": 19246,
           "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
@@ -3249,86 +3329,6 @@
           "scoreText": "Positive",
           "clickUrl": "https://app.ethos.network/activity/review/267388",
           "reviewId": 267388
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 266054,
-          "authorProfileId": 14543,
-          "author": "0xBb086DA4c9C4bB2cd6a0Da9E65c6fDF62d394e7A",
-          "subject": "0xb4D64772218d36f97974E8bB6eF0D01b026c9a14",
-          "score": "positive",
-          "comment": "One of the greatest content creator in Web3",
-          "metadata": "{\"description\":\"His contents always concise and hit to the right spots for web3 people. If you want any insight information for the trends/what's happening/what matters at that moment, you can get it from Gorilla's channels.\"}",
-          "createdAt": 1751777749,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 13,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1751777749,
-        "author": {
-          "userkey": "address:0xBb086DA4c9C4bB2cd6a0Da9E65c6fDF62d394e7A",
-          "avatar": "https://pbs.twimg.com/profile_images/1940808296392544259/9nv9zTEI.jpg",
-          "name": "Radtanapan | BIP-420 🐱",
-          "username": "radtanapan",
-          "description": "",
-          "score": 1329,
-          "scoreXpMultiplier": 1,
-          "profileId": 14543,
-          "primaryAddress": "0xb2F9974B8514559b8aBe16431194482FCb305675"
-        },
-        "subject": {
-          "userkey": "address:0xb4D64772218d36f97974E8bB6eF0D01b026c9a14",
-          "avatar": "https://pbs.twimg.com/profile_images/1670275516878712832/mMvuhAtS.png",
-          "name": "Gorilla",
-          "username": "CryptoGorillaYT",
-          "description": "",
-          "score": 1717,
-          "scoreXpMultiplier": 1.25,
-          "profileId": 2293,
-          "primaryAddress": "0xb4D64772218d36f97974E8bB6eF0D01b026c9a14"
-        },
-        "events": [
-          {
-            "id": 4638742,
-            "blockIndex": 341,
-            "blockNumber": 32494201,
-            "contract": "review",
-            "createdAt": 1751777750,
-            "processed": true,
-            "txHash": "0x90431eed81110a9727562caaba1d2d496390a5459b42b1ee316cc41001f27788",
-            "updatedAt": 1751777750
-          }
-        ],
-        "llmQualityScore": 73,
-        "translation": {
-          "contentHash": "ad85ea24c7dceca726d8628710cfeee630ff4ba5447c3d836fdffd7cd9425d0d",
-          "detectedLanguage": "en",
-          "translatedContent": "One of the greatest content creators in Web3",
-          "translatedDescription": "His content is always concise and hits the right spots for Web3 enthusiasts. If you want insightful information on trends, what's happening, and what matters at any given moment, you can get it from Gorilla's channels."
-        },
-        "enriched": {
-          "authorName": "Radtanapan | BIP-420 🐱",
-          "subjectName": "Gorilla",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1940808296392544259/9nv9zTEI.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1670275516878712832/mMvuhAtS.png",
-          "timeAgo": "5d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/266054",
-          "reviewId": 266054
         }
       }
     ]
