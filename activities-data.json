@@ -1,12 +1,12 @@
 {
   "success": true,
   "totalVouches": 35,
-  "totalReviews": 97,
+  "totalReviews": 98,
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-07-12T19:42:09.435Z",
-  "lastUpdated": "12/07/2025 21:42:09",
+  "generatedAt": "2025-07-12T19:52:07.591Z",
+  "lastUpdated": "12/07/2025 21:52:07",
   "data": {
     "vouches": [
       {
@@ -748,7 +748,7 @@
           "name": "mxbely",
           "username": "mxbelyg",
           "description": "",
-          "score": 1312,
+          "score": 1320,
           "scoreXpMultiplier": 1,
           "profileId": 17503,
           "primaryAddress": "0xAf2010cF97F6d783C99810B63365167E6DA838aF"
@@ -1734,6 +1734,166 @@
       {
         "type": "review",
         "data": {
+          "id": 282314,
+          "authorProfileId": 14905,
+          "author": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
+          "subject": "0x86362a4C99d900D72d787Ef1BddA38Fd318aa5E9",
+          "score": "positive",
+          "comment": "El Crazy dev",
+          "metadata": "{\"description\":\"Coffee, know as one of the greatest dev with Cygaar, work actually on AbstractChain. \\n\\nI just read that Abstract Decoded interview with RpGmAx - absolutely loved it. You guys gotta check it out.\\n\\nFun fact: he's been rocking that Bored Ape PFP forever, but recently switched to a Penguin... and not just any Penguin, you know? That Penguin.\\n\\nBig thanks for everything you do for Abstract, man. A real behind-the-scenes legend.\"}",
+          "createdAt": 1752349699,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 7,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1752349699,
+        "author": {
+          "userkey": "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
+          "avatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
+          "name": "guezit0",
+          "username": "Guezito1",
+          "description": "",
+          "score": 1433,
+          "scoreXpMultiplier": 1,
+          "profileId": 14905,
+          "primaryAddress": "0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5"
+        },
+        "subject": {
+          "userkey": "address:0x86362a4C99d900D72d787Ef1BddA38Fd318aa5E9",
+          "avatar": "https://pbs.twimg.com/profile_images/1943799654811828224/yeMULMpq.jpg",
+          "name": "coffee (☕️,☕️)",
+          "username": "coffeexcoin",
+          "description": "",
+          "score": 1433,
+          "scoreXpMultiplier": 1,
+          "profileId": 1607,
+          "primaryAddress": "0x86362a4C99d900D72d787Ef1BddA38Fd318aa5E9"
+        },
+        "events": [
+          {
+            "id": 5159044,
+            "blockIndex": 94,
+            "blockNumber": 32780176,
+            "contract": "review",
+            "createdAt": 1752349700,
+            "processed": true,
+            "txHash": "0x85d18dd302cbad56f82bfd54f769b451ff265e607dd4570b8becbf6207360b4c",
+            "updatedAt": 1752349720
+          }
+        ],
+        "llmQualityScore": 73,
+        "translation": {
+          "contentHash": "592df8df808514a64d8dff8fd64dd4f794c3762a3220d02c79983bae53be5f0b",
+          "detectedLanguage": "Spanish",
+          "translatedContent": "The Crazy dev",
+          "translatedDescription": "Coffee, known as one of the greatest devs with Cygaar, currently works on AbstractChain.\n\nI just read that Abstract Decoded interview with RpGmAx - absolutely loved it. You guys gotta check it out.\n\nFun fact: he's been rocking that Bored Ape PFP forever, but recently switched to a Penguin... and not just any Penguin, you know? That Penguin.\n\nBig thanks for everything you do for Abstract, man. A real behind-the-scenes legend."
+        },
+        "enriched": {
+          "authorName": "guezit0",
+          "subjectName": "coffee (☕️,☕️)",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1943799654811828224/yeMULMpq.jpg",
+          "timeAgo": "3m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/282314",
+          "reviewId": 282314
+        }
+      },
+      {
+        "type": "review",
+        "data": {
+          "id": 282296,
+          "authorProfileId": 14905,
+          "author": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
+          "subject": "0xAf2010cF97F6d783C99810B63365167E6DA838aF",
+          "score": "positive",
+          "comment": "El Collab Manager",
+          "metadata": "{\"description\":\"This guy is a negotiation machine, seriously—he can pull WL spots for any project out of thin air, always grinding for us Gigachads. 😂\\n\\nHonestly, we’re so damn lucky to have him in the community.\\n\\nAnd let’s not forget—dude’s an insane streamer, genuinely one of the good ones, and somehow still finds time to be super active in like five different ecosystems at once.\\n\\nBut fr… is he actually just one person behind that tiny, adorable PFP? Like… how?\"}",
+          "createdAt": 1752349409,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 2,
+          "downvotes": 1
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1752349409,
+        "author": {
+          "userkey": "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
+          "avatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
+          "name": "guezit0",
+          "username": "Guezito1",
+          "description": "",
+          "score": 1433,
+          "scoreXpMultiplier": 1,
+          "profileId": 14905,
+          "primaryAddress": "0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5"
+        },
+        "subject": {
+          "userkey": "address:0xAf2010cF97F6d783C99810B63365167E6DA838aF",
+          "avatar": "https://pbs.twimg.com/profile_images/1927456293427544064/crZiEzeu.jpg",
+          "name": "mxbely",
+          "username": "mxbelyg",
+          "description": "",
+          "score": 1320,
+          "scoreXpMultiplier": 1,
+          "profileId": 17503,
+          "primaryAddress": "0xAf2010cF97F6d783C99810B63365167E6DA838aF"
+        },
+        "events": [
+          {
+            "id": 5158762,
+            "blockIndex": 75,
+            "blockNumber": 32780031,
+            "contract": "review",
+            "createdAt": 1752349410,
+            "processed": true,
+            "txHash": "0xe5b65dfc103e0592f228c9ffce3c6b35ba15d1711996cc773218bbbbbc50dfca",
+            "updatedAt": 1752349410
+          }
+        ],
+        "llmQualityScore": 73,
+        "translation": {
+          "contentHash": "2bd2fa4060b6d283e8640f459a9e53d0e5dbaa0bb909b40898d636acf8cb53e9",
+          "detectedLanguage": "Spanish",
+          "translatedContent": "The Collab Manager",
+          "translatedDescription": "This guy is a negotiation machine, seriously—he can pull WL spots for any project out of thin air, always grinding for us Gigachads. 😂\n\nHonestly, we’re so damn lucky to have him in the community.\n\nAnd let’s not forget—dude’s an insane streamer, genuinely one of the good ones, and somehow still finds time to be super active in like five different ecosystems at once.\n\nBut fr… is he actually just one person behind that tiny, adorable PFP? Like… how?"
+        },
+        "enriched": {
+          "authorName": "guezit0",
+          "subjectName": "mxbely",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1927456293427544064/crZiEzeu.jpg",
+          "timeAgo": "8m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/282296",
+          "reviewId": 282296
+        }
+      },
+      {
+        "type": "review",
+        "data": {
           "id": 280360,
           "authorProfileId": 21077,
           "author": "0x13823883263a345Ef8Dc01724653Ea22ecD3b2E7",
@@ -1803,7 +1963,7 @@
           "subjectName": "guezit0",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1859343236805902337/E8QDUDbh.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "timeAgo": "10h ago",
+          "timeAgo": "11h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -1883,7 +2043,7 @@
           "subjectName": "Radtanapan | BIP-420 🐱",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1879452028088561664/OY16oEAN.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1940808296392544259/9nv9zTEI.jpg",
-          "timeAgo": "13h ago",
+          "timeAgo": "14h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -3169,166 +3329,6 @@
           "scoreText": "Positive",
           "clickUrl": "https://app.ethos.network/activity/review/268206",
           "reviewId": 268206
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 268204,
-          "authorProfileId": 8091,
-          "author": "0x699a3dDd507107B83BBF1934371EB4ad50c689A6",
-          "subject": "0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5",
-          "score": "positive",
-          "comment": "The OG Gigachad in the space",
-          "metadata": "{\"description\":\"There are some giga chads I’ve seen who are seriously active and helpful. Guezit0 in particular always hypes up the chat, keeps the energy going, and consistently shares solid, easy-to-follow strategies that work for most people. Real one\"}",
-          "createdAt": 1751859475,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 6,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1751859475,
-        "author": {
-          "userkey": "address:0x699a3dDd507107B83BBF1934371EB4ad50c689A6",
-          "avatar": "https://pbs.twimg.com/profile_images/1879452028088561664/OY16oEAN.jpg",
-          "name": "Alita",
-          "username": "Alita_CTA",
-          "description": "",
-          "score": 1408,
-          "scoreXpMultiplier": 1,
-          "profileId": 8091,
-          "primaryAddress": "0x0074480Bc5348E27ee11b1E7c780d39b58c77483"
-        },
-        "subject": {
-          "userkey": "address:0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5",
-          "avatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "name": "guezit0",
-          "username": "Guezito1",
-          "description": "",
-          "score": 1433,
-          "scoreXpMultiplier": 1,
-          "profileId": 14905,
-          "primaryAddress": "0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5"
-        },
-        "events": [
-          {
-            "id": 4707259,
-            "blockIndex": 361,
-            "blockNumber": 32535064,
-            "contract": "review",
-            "createdAt": 1751859476,
-            "processed": true,
-            "txHash": "0xf8d9882a7d2cb97374e2d9413f8ce6f99ac14d31ef51830e8bac86d11720e0b6",
-            "updatedAt": 1751859477
-          }
-        ],
-        "llmQualityScore": 84,
-        "translation": {
-          "contentHash": "e8f938b91d6972c111a8043613fa67d555d9e00126821714190175ff028bb7de",
-          "detectedLanguage": "en",
-          "translatedContent": "The OG Gigachad in the space",
-          "translatedDescription": "There are some giga chads I’ve seen who are seriously active and helpful. Guezit0 in particular always hypes up the chat, keeps the energy going, and consistently shares solid, easy-to-follow strategies that work for most people. Real one"
-        },
-        "enriched": {
-          "authorName": "Alita",
-          "subjectName": "guezit0",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1879452028088561664/OY16oEAN.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "timeAgo": "5d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/268204",
-          "reviewId": 268204
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 267994,
-          "authorProfileId": 20474,
-          "author": "0x28F76F8d5f6B9a161867392C94C1323D719D7559",
-          "subject": "0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5",
-          "score": "positive",
-          "comment": "The Go-To Guy in Abstract",
-          "metadata": "{\"description\":\"Every community has that one person who somehow knows everything, helps everyone, and still finds time to drop useful stuff daily — that’s Guezito.\\nHis planning doc is the go-to resource for navigating Abstract. It’s not just detailed, it’s actually readable and up-to-date (rare combo).\\nBut what stands out most? The way he backs other creators. Always showing love, promoting projects that deserve more attention, and genuinely lifting people up.\\nGuezito isn’t just building for himself — he’s building with and for the community. And it shows.\"}",
-          "createdAt": 1751848899,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 12,
-          "downvotes": 2
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1751848899,
-        "author": {
-          "userkey": "address:0x28F76F8d5f6B9a161867392C94C1323D719D7559",
-          "avatar": "https://pbs.twimg.com/profile_images/1883274485932908544/0o1YgpAu.jpg",
-          "name": "val_",
-          "username": "0xVal1",
-          "description": "",
-          "score": 1252,
-          "scoreXpMultiplier": 1,
-          "profileId": 20474,
-          "primaryAddress": "0x7688cB0AcA3740B723495C9b640Fb479E983924c"
-        },
-        "subject": {
-          "userkey": "address:0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5",
-          "avatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "name": "guezit0",
-          "username": "Guezito1",
-          "description": "",
-          "score": 1433,
-          "scoreXpMultiplier": 1,
-          "profileId": 14905,
-          "primaryAddress": "0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5"
-        },
-        "events": [
-          {
-            "id": 4697509,
-            "blockIndex": 243,
-            "blockNumber": 32529776,
-            "contract": "review",
-            "createdAt": 1751848900,
-            "processed": true,
-            "txHash": "0xef8d4a409a1a1394595222a34370c8e9df8504f3bfdeb985ec0a707be0d853db",
-            "updatedAt": 1751848900
-          }
-        ],
-        "llmQualityScore": 84,
-        "translation": {
-          "contentHash": "89461d7434789dca2eda65eebff13b65b9f9ece4c96b87dcf4fffb2e005bee8d",
-          "detectedLanguage": "en",
-          "translatedContent": "The Go-To Guy in Abstract",
-          "translatedDescription": "Every community has that one person who somehow knows everything, helps everyone, and still finds time to drop useful stuff daily — that’s Guezito.\nHis planning doc is the go-to resource for navigating Abstract. It’s not just detailed, it’s actually readable and up-to-date (rare combo).\nBut what stands out most? The way he backs other creators. Always showing love, promoting projects that deserve more attention, and genuinely lifting people up.\nGuezito isn’t just building for himself — he’s building with and for the community. And it shows."
-        },
-        "enriched": {
-          "authorName": "val_",
-          "subjectName": "guezit0",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1883274485932908544/0o1YgpAu.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "timeAgo": "5d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/267994",
-          "reviewId": 267994
         }
       }
     ]
