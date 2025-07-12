@@ -1,12 +1,12 @@
 {
   "success": true,
   "totalVouches": 35,
-  "totalReviews": 100,
+  "totalReviews": 102,
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-07-12T20:22:08.015Z",
-  "lastUpdated": "12/07/2025 22:22:08",
+  "generatedAt": "2025-07-12T20:32:08.636Z",
+  "lastUpdated": "12/07/2025 22:32:08",
   "data": {
     "vouches": [
       {
@@ -1734,6 +1734,166 @@
       {
         "type": "review",
         "data": {
+          "id": 282409,
+          "authorProfileId": 14905,
+          "author": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
+          "subject": "0x53854EdF8DCD8eED337C3Cb30E6E5ffd65CC4EbD",
+          "score": "positive",
+          "comment": "The 42 Pool Survivor",
+          "metadata": "{\"description\":\"This dev stays quiet in his corner, no flash, no noise - but don’t let that fool you. Dude’s an absolute beast when it comes to talent.\\n\\nSeriously skilled at what he does. Back in the day, he made waves when he contributed to improving elizaOS.\"}",
+          "createdAt": 1752352039,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 3,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1752352039,
+        "author": {
+          "userkey": "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
+          "avatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
+          "name": "guezit0",
+          "username": "Guezito1",
+          "description": "",
+          "score": 1433,
+          "scoreXpMultiplier": 1,
+          "profileId": 14905,
+          "primaryAddress": "0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5"
+        },
+        "subject": {
+          "userkey": "address:0x53854EdF8DCD8eED337C3Cb30E6E5ffd65CC4EbD",
+          "avatar": "https://pbs.twimg.com/profile_images/1901584499575791616/EC86zjFJ.jpg",
+          "name": "SliKᵍᵐ",
+          "username": "0xSLK",
+          "description": "",
+          "score": 1274,
+          "scoreXpMultiplier": 1,
+          "profileId": 8263,
+          "primaryAddress": "0x53854EdF8DCD8eED337C3Cb30E6E5ffd65CC4EbD"
+        },
+        "events": [
+          {
+            "id": 5161111,
+            "blockIndex": 229,
+            "blockNumber": 32781346,
+            "contract": "review",
+            "createdAt": 1752352040,
+            "processed": true,
+            "txHash": "0x1f80ff300f5081fd6c6f41a202a1d71c00afcccf50e8a332cc39e63899cc5733",
+            "updatedAt": 1752352040
+          }
+        ],
+        "llmQualityScore": 73,
+        "translation": {
+          "contentHash": "87b033911882d1ee6aa417298573dede9f9f76e8270bab78134ef3282286dda9",
+          "detectedLanguage": "en",
+          "translatedContent": "The 42 Pool Survivor",
+          "translatedDescription": "This dev stays quiet in his corner, no flash, no noise - but don’t let that fool you. Dude’s an absolute beast when it comes to talent.\n\nSeriously skilled at what he does. Back in the day, he made waves when he contributed to improving elizaOS."
+        },
+        "enriched": {
+          "authorName": "guezit0",
+          "subjectName": "SliKᵍᵐ",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1901584499575791616/EC86zjFJ.jpg",
+          "timeAgo": "4m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/282409",
+          "reviewId": 282409
+        }
+      },
+      {
+        "type": "review",
+        "data": {
+          "id": 282402,
+          "authorProfileId": 14905,
+          "author": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
+          "subject": "0xb4D64772218d36f97974E8bB6eF0D01b026c9a14",
+          "score": "positive",
+          "comment": "The Interview Machine",
+          "metadata": "{\"description\":\"I genuinely love watching his interviews with web3 founders. He's not afraid to ask the tough questions, covers a huge range of topics, and you can feel how invested he is in his research. Dude knows his stuff - seriously competent.\\n\\nHe's landed some big ones too - like Shan before Redacted launched, and that recent Serpin interview (which I really enjoyed).\\n\\nBig thanks for what you bring to the ecosystem. We need this kind of content.\"}",
+          "createdAt": 1752351819,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 3,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1752351819,
+        "author": {
+          "userkey": "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
+          "avatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
+          "name": "guezit0",
+          "username": "Guezito1",
+          "description": "",
+          "score": 1433,
+          "scoreXpMultiplier": 1,
+          "profileId": 14905,
+          "primaryAddress": "0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5"
+        },
+        "subject": {
+          "userkey": "address:0xb4D64772218d36f97974E8bB6eF0D01b026c9a14",
+          "avatar": "https://pbs.twimg.com/profile_images/1670275516878712832/mMvuhAtS.png",
+          "name": "Gorilla",
+          "username": "CryptoGorillaYT",
+          "description": "",
+          "score": 1722,
+          "scoreXpMultiplier": 1.25,
+          "profileId": 2293,
+          "primaryAddress": "0xb4D64772218d36f97974E8bB6eF0D01b026c9a14"
+        },
+        "events": [
+          {
+            "id": 5161010,
+            "blockIndex": 108,
+            "blockNumber": 32781236,
+            "contract": "review",
+            "createdAt": 1752351820,
+            "processed": true,
+            "txHash": "0x4b6184d98b81a330565350368862281f453d00e168fa9aea8c8e586f27fdd22c",
+            "updatedAt": 1752351820
+          }
+        ],
+        "llmQualityScore": 84,
+        "translation": {
+          "contentHash": "ac7a3e0ba6345e5259941b1ed2a5e05b3d0b6cc860507b0a855c572fc679b454",
+          "detectedLanguage": "en",
+          "translatedContent": "\"The Interview Machine\"",
+          "translatedDescription": "I genuinely love watching his interviews with web3 founders. He's not afraid to ask the tough questions, covers a huge range of topics, and you can feel how invested he is in his research. Dude knows his stuff - seriously competent.\n\nHe's landed some big ones too - like Shan before Redacted launched, and that recent Serpin interview (which I really enjoyed).\n\nBig thanks for what you bring to the ecosystem. We need this kind of content."
+        },
+        "enriched": {
+          "authorName": "guezit0",
+          "subjectName": "Gorilla",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1670275516878712832/mMvuhAtS.png",
+          "timeAgo": "8m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/282402",
+          "reviewId": 282402
+        }
+      },
+      {
+        "type": "review",
+        "data": {
           "id": 282393,
           "authorProfileId": 14905,
           "author": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
@@ -1803,7 +1963,7 @@
           "subjectName": "Greeny",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1916583729386115073/EyBuVJGh.jpg",
-          "timeAgo": "1m ago",
+          "timeAgo": "11m ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -1829,7 +1989,7 @@
           }
         },
         "votes": {
-          "upvotes": 0,
+          "upvotes": 1,
           "downvotes": 0
         },
         "replySummary": {
@@ -1854,7 +2014,7 @@
           "name": "Rubiks (Gus)",
           "username": "Rubiks_Gus",
           "description": "",
-          "score": 1340,
+          "score": 1347,
           "scoreXpMultiplier": 1,
           "profileId": 17515,
           "primaryAddress": "0x466b86b8D12ce1AF9915183D4dC0c4ddB0a27ac8"
@@ -1883,7 +2043,7 @@
           "subjectName": "Rubiks (Gus)",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1895139176384712704/MO5aFVfH.jpg",
-          "timeAgo": "3m ago",
+          "timeAgo": "13m ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -1963,7 +2123,7 @@
           "subjectName": "Marianne🥝",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1923430158251282432/N6Wb24Sd.jpg",
-          "timeAgo": "6m ago",
+          "timeAgo": "16m ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -2043,7 +2203,7 @@
           "subjectName": "MAXIMUS",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1880286958246633472/iBZy8-ED.jpg",
-          "timeAgo": "11m ago",
+          "timeAgo": "21m ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -2123,7 +2283,7 @@
           "subjectName": "coffee (☕️,☕️)",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1943799654811828224/yeMULMpq.jpg",
-          "timeAgo": "33m ago",
+          "timeAgo": "43m ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -2203,7 +2363,7 @@
           "subjectName": "mxbely",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1927456293427544064/crZiEzeu.jpg",
-          "timeAgo": "38m ago",
+          "timeAgo": "48m ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -3169,166 +3329,6 @@
           "scoreText": "Positive",
           "clickUrl": "https://app.ethos.network/activity/review/269839",
           "reviewId": 269839
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 269837,
-          "authorProfileId": 17525,
-          "author": "0x18958894413b43ee1d3beB65baB3C9F6063237C7",
-          "subject": "0x83be849f0f51D23F17e49838f2811E3178226d6a",
-          "score": "positive",
-          "comment": "Creative Vision",
-          "metadata": "{\"description\":\"Cos brings a rare mix of deep insight, creative vision, and genuine community spirit. Every post feels intentional, grounded in both experience and a clear sense of where the space is headed. They have a way of making complex ideas accessible while still keeping things sharp and thought-provoking. Cos is not just reacting to the culture, they are helping shape it. If you are paying attention, you already know. If you are not, now is the time to start.  I've enjoyed following Cos and continually learn something from him often.\"}",
-          "createdAt": 1751909901,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 7,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1751909901,
-        "author": {
-          "userkey": "address:0x18958894413b43ee1d3beB65baB3C9F6063237C7",
-          "avatar": "https://pbs.twimg.com/profile_images/1942659908580560896/ANYpZZC7.jpg",
-          "name": "MrP",
-          "username": "MisterPonX",
-          "description": "",
-          "score": 1430,
-          "scoreXpMultiplier": 1,
-          "profileId": 17525,
-          "primaryAddress": "0xdbDb4465314CdF3f92417e2c9AF78b4d64062F00"
-        },
-        "subject": {
-          "userkey": "address:0x83be849f0f51D23F17e49838f2811E3178226d6a",
-          "avatar": "https://pbs.twimg.com/profile_images/1878732424382746624/H2YiWXOa.jpg",
-          "name": "cos",
-          "username": "Cos0x",
-          "description": "",
-          "score": 1606,
-          "scoreXpMultiplier": 1.25,
-          "profileId": 3019,
-          "primaryAddress": "0x83be849f0f51D23F17e49838f2811E3178226d6a"
-        },
-        "events": [
-          {
-            "id": 4750205,
-            "blockIndex": 336,
-            "blockNumber": 32560277,
-            "contract": "review",
-            "createdAt": 1751909902,
-            "processed": true,
-            "txHash": "0xe2fd371437478425ceb0598fcf342da95e272f548b18f41afb933ff588c90c77",
-            "updatedAt": 1751909902
-          }
-        ],
-        "llmQualityScore": 84,
-        "translation": {
-          "contentHash": "f99f325bff39622854baa48c2e0f3b7f13d7a7c5f28a21d0d730e5a41690d9b8",
-          "detectedLanguage": "en",
-          "translatedContent": "Creative Vision",
-          "translatedDescription": "Cos brings a rare mix of deep insight, creative vision, and genuine community spirit. Every post feels intentional, grounded in both experience and a clear sense of where the space is headed. They have a way of making complex ideas accessible while still keeping things sharp and thought-provoking. Cos is not just reacting to the culture, they are helping shape it. If you are paying attention, you already know. If you are not, now is the time to start. I've enjoyed following Cos and continually learn something from him often."
-        },
-        "enriched": {
-          "authorName": "MrP",
-          "subjectName": "cos",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1942659908580560896/ANYpZZC7.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1878732424382746624/H2YiWXOa.jpg",
-          "timeAgo": "5d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/269837",
-          "reviewId": 269837
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 269820,
-          "authorProfileId": 17525,
-          "author": "0x18958894413b43ee1d3beB65baB3C9F6063237C7",
-          "subject": "0x0074480Bc5348E27ee11b1E7c780d39b58c77483",
-          "score": "positive",
-          "comment": "Powerhouse Giga Chad",
-          "metadata": "{\"description\":\"Alita is a force in the space. Sharp, fearless, and relentlessly consistent, they do not just take part in the culture, they help define it. Whether they are surfacing high-quality alpha, uplifting emerging voices, or driving conversations that matter, Alita moves with purpose and clarity. Their presence earns respect and their impact stretches far beyond the feed. This is not someone chasing hype. This is someone shaping what comes next\"}",
-          "createdAt": 1751909515,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 6,
-          "downvotes": 1
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1751909515,
-        "author": {
-          "userkey": "address:0x18958894413b43ee1d3beB65baB3C9F6063237C7",
-          "avatar": "https://pbs.twimg.com/profile_images/1942659908580560896/ANYpZZC7.jpg",
-          "name": "MrP",
-          "username": "MisterPonX",
-          "description": "",
-          "score": 1430,
-          "scoreXpMultiplier": 1,
-          "profileId": 17525,
-          "primaryAddress": "0xdbDb4465314CdF3f92417e2c9AF78b4d64062F00"
-        },
-        "subject": {
-          "userkey": "address:0x0074480Bc5348E27ee11b1E7c780d39b58c77483",
-          "avatar": "https://pbs.twimg.com/profile_images/1879452028088561664/OY16oEAN.jpg",
-          "name": "Alita",
-          "username": "Alita_CTA",
-          "description": "",
-          "score": 1408,
-          "scoreXpMultiplier": 1,
-          "profileId": 8091,
-          "primaryAddress": "0x0074480Bc5348E27ee11b1E7c780d39b58c77483"
-        },
-        "events": [
-          {
-            "id": 4749905,
-            "blockIndex": 413,
-            "blockNumber": 32560084,
-            "contract": "review",
-            "createdAt": 1751909516,
-            "processed": true,
-            "txHash": "0x728c20ad62bcbe37cdad37bc4e7ef89dca0850236ecfa0b1f340a662dff37686",
-            "updatedAt": 1751909517
-          }
-        ],
-        "llmQualityScore": 34,
-        "translation": {
-          "contentHash": "a7853be116830d08d451e60f69d6f7891da38a1656a3cf3efcbd8caaca2ce58e",
-          "detectedLanguage": "en",
-          "translatedContent": "Powerhouse Giga Chad",
-          "translatedDescription": "Alita is a force in the space. Sharp, fearless, and relentlessly consistent, they do not just take part in the culture, they help define it. Whether they are surfacing high-quality alpha, uplifting emerging voices, or driving conversations that matter, Alita moves with purpose and clarity. Their presence earns respect and their impact stretches far beyond the feed. This is not someone chasing hype. This is someone shaping what comes next"
-        },
-        "enriched": {
-          "authorName": "MrP",
-          "subjectName": "Alita",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1942659908580560896/ANYpZZC7.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1879452028088561664/OY16oEAN.jpg",
-          "timeAgo": "5d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/269820",
-          "reviewId": 269820
         }
       }
     ]
