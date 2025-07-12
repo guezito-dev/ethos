@@ -1,12 +1,12 @@
 {
   "success": true,
   "totalVouches": 32,
-  "totalReviews": 108,
+  "totalReviews": 109,
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-07-12T22:02:18.843Z",
-  "lastUpdated": "13/07/2025 00:02:18",
+  "generatedAt": "2025-07-12T22:12:08.904Z",
+  "lastUpdated": "13/07/2025 00:12:08",
   "data": {
     "vouches": [
       {
@@ -1734,6 +1734,86 @@
       {
         "type": "review",
         "data": {
+          "id": 282690,
+          "authorProfileId": 19246,
+          "author": "0xc5c1e47208a5f2191B645084C896347229c5B306",
+          "subject": "0xbFE384D79969Bcb583B8A0e5FEDC314Aee480E7e",
+          "score": "positive",
+          "comment": "Top tier contributor",
+          "metadata": "{\"description\":\"A part of the huddle and husker always outperforms with his inner igloo's recaps that he's been cooking since the very first!\\n\\nPersonally, I used to be included in his recap and was super honored to be mentioned in the discussion, which I could say he's the gem every community is looking for.\"}",
+          "createdAt": 1752358299,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 1,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1752358299,
+        "author": {
+          "userkey": "address:0xc5c1e47208a5f2191B645084C896347229c5B306",
+          "avatar": "https://pbs.twimg.com/profile_images/1930290437807583239/uIAXkO-6.jpg",
+          "name": "sillybilly ✳️🦇🔊",
+          "username": "sillyybillyyyyy",
+          "description": "",
+          "score": 1353,
+          "scoreXpMultiplier": 1,
+          "profileId": 19246,
+          "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
+        },
+        "subject": {
+          "userkey": "address:0xbFE384D79969Bcb583B8A0e5FEDC314Aee480E7e",
+          "avatar": "https://pbs.twimg.com/profile_images/1863420289360556033/oULF0_rr.jpg",
+          "name": "Husker",
+          "username": "husker_eth",
+          "description": "",
+          "score": 1232,
+          "scoreXpMultiplier": 1,
+          "profileId": 17634,
+          "primaryAddress": "0xbFE384D79969Bcb583B8A0e5FEDC314Aee480E7e"
+        },
+        "events": [
+          {
+            "id": 5167193,
+            "blockIndex": 540,
+            "blockNumber": 32784476,
+            "contract": "review",
+            "createdAt": 1752358300,
+            "processed": true,
+            "txHash": "0x511046dccc5dd7321ea83d7480f3f77e6c7bac1d28b51375ab744497168e2b24",
+            "updatedAt": 1752358300
+          }
+        ],
+        "llmQualityScore": 84,
+        "translation": {
+          "contentHash": "b6aff19cb2c60379647184fb6d64607a8d40c42293a6fbb51e5e2bdcd887fc54",
+          "detectedLanguage": "en",
+          "translatedContent": "Top tier contributor",
+          "translatedDescription": "A part of the huddle and husker, he always outperforms with his inner igloo's recaps that he's been cooking up since the very beginning!\n\nPersonally, I used to be included in his recap and was super honored to be mentioned in the discussion, which I could say he's the gem every community is looking for."
+        },
+        "enriched": {
+          "authorName": "sillybilly ✳️🦇🔊",
+          "subjectName": "Husker",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1930290437807583239/uIAXkO-6.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1863420289360556033/oULF0_rr.jpg",
+          "timeAgo": "29s ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/282690",
+          "reviewId": 282690
+        }
+      },
+      {
+        "type": "review",
+        "data": {
           "id": 282522,
           "authorProfileId": 14905,
           "author": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
@@ -1803,7 +1883,7 @@
           "subjectName": "Bunya🏀",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1939056014784921601/X2tyzXQ4.jpg",
-          "timeAgo": "58m ago",
+          "timeAgo": "1h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -2763,7 +2843,7 @@
           "subjectName": "MAXIMUS",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1880286958246633472/iBZy8-ED.jpg",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -3249,86 +3329,6 @@
           "scoreText": "Positive",
           "clickUrl": "https://app.ethos.network/activity/review/278843",
           "reviewId": 278843
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 278383,
-          "authorProfileId": 3378,
-          "author": "0xbc1fF39B2Ba84E6CaeC1daaf8441B199b29Bf9e5",
-          "subject": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966",
-          "score": "positive",
-          "comment": "My friend Silly.",
-          "metadata": "{\"description\":\"Silly was one of the first people I met within the Abstract ecosystem. He welcomed me on Discord and made my experience much more enjoyable. Beyond the human aspect, Silly posts daily summaries of what’s happening in the ecosystem. If you're new or looking to get into Abstract, Silly is exactly who you need.\"}",
-          "createdAt": 1752249363,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 9,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1752249363,
-        "author": {
-          "userkey": "address:0xbc1fF39B2Ba84E6CaeC1daaf8441B199b29Bf9e5",
-          "avatar": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
-          "name": "gucci",
-          "username": "gucci_gcc",
-          "description": "",
-          "score": 1631,
-          "scoreXpMultiplier": 1.25,
-          "profileId": 3378,
-          "primaryAddress": "0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df"
-        },
-        "subject": {
-          "userkey": "address:0x607d2381aFecbD80c4AD5CCE8059205C2a297966",
-          "avatar": "https://pbs.twimg.com/profile_images/1930290437807583239/uIAXkO-6.jpg",
-          "name": "sillybilly ✳️🦇🔊",
-          "username": "sillyybillyyyyy",
-          "description": "",
-          "score": 1353,
-          "scoreXpMultiplier": 1,
-          "profileId": 19246,
-          "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
-        },
-        "events": [
-          {
-            "id": 5039607,
-            "blockIndex": 1293,
-            "blockNumber": 32730008,
-            "contract": "review",
-            "createdAt": 1752249364,
-            "processed": true,
-            "txHash": "0x8593d8fc4ec92b6e4f9feb2c377bb26ea08dcbc5bef5f9d4839fdb4f738aac50",
-            "updatedAt": 1752249364
-          }
-        ],
-        "llmQualityScore": 73,
-        "translation": {
-          "contentHash": "a704289cdb13d7001d7a80584cde3ef755971d9c2a35afb105f8395b9d607336",
-          "detectedLanguage": "en",
-          "translatedContent": "My friend Silly.",
-          "translatedDescription": "Silly was one of the first people I met within the Abstract ecosystem. He welcomed me on Discord and made my experience much more enjoyable. Beyond the human aspect, Silly posts daily summaries of what’s happening in the ecosystem. If you're new or looking to get into Abstract, Silly is exactly who you need."
-        },
-        "enriched": {
-          "authorName": "gucci",
-          "subjectName": "sillybilly ✳️🦇🔊",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1930290437807583239/uIAXkO-6.jpg",
-          "timeAgo": "1d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/278383",
-          "reviewId": 278383
         }
       }
     ]
