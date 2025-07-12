@@ -1,12 +1,12 @@
 {
   "success": true,
   "totalVouches": 35,
-  "totalReviews": 99,
+  "totalReviews": 100,
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-07-12T00:32:10.160Z",
-  "lastUpdated": "12/07/2025 02:32:10",
+  "generatedAt": "2025-07-12T00:42:07.804Z",
+  "lastUpdated": "12/07/2025 02:42:07",
   "data": {
     "vouches": [
       {
@@ -404,7 +404,7 @@
           "name": "Ely",
           "username": "ProofOfEly",
           "description": "",
-          "score": 1526,
+          "score": 1528,
           "scoreXpMultiplier": 1,
           "profileId": 2535,
           "primaryAddress": "0x253a41571830Dca332724DFF29Afb8960ffcCDf6"
@@ -479,7 +479,7 @@
           "name": "Ely",
           "username": "ProofOfEly",
           "description": "",
-          "score": 1526,
+          "score": 1528,
           "scoreXpMultiplier": 1,
           "profileId": 2535,
           "primaryAddress": "0x253a41571830Dca332724DFF29Afb8960ffcCDf6"
@@ -576,7 +576,7 @@
           "name": "Ely",
           "username": "ProofOfEly",
           "description": "",
-          "score": 1526,
+          "score": 1528,
           "scoreXpMultiplier": 1,
           "profileId": 2535,
           "primaryAddress": "0x253a41571830Dca332724DFF29Afb8960ffcCDf6"
@@ -651,7 +651,7 @@
           "name": "Ely",
           "username": "ProofOfEly",
           "description": "",
-          "score": 1526,
+          "score": 1528,
           "scoreXpMultiplier": 1,
           "profileId": 2535,
           "primaryAddress": "0x253a41571830Dca332724DFF29Afb8960ffcCDf6"
@@ -1734,6 +1734,86 @@
       {
         "type": "review",
         "data": {
+          "id": 279366,
+          "authorProfileId": 17531,
+          "author": "0xBDa4f483431074DcB0D9e13dc488A7611d6d58aC",
+          "subject": "0x253a41571830Dca332724DFF29Afb8960ffcCDf6",
+          "score": "positive",
+          "comment": "Giga Mindset",
+          "metadata": "{\"description\":\"A super smart guy who shares interesting content on stream about Abstract, with real insights and also some wild moments too jaja. On a personal note, I really appreciate the advice and thoughts he’s shared on the projects we’re building. Often wise and balanced, it’s always a pleasure to listen to him, and even more to watch him. So don’t hesitate to check out his streams, you’ll also catch some alpha in there\"}",
+          "createdAt": 1752280653,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 3,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1752280653,
+        "author": {
+          "userkey": "address:0xBDa4f483431074DcB0D9e13dc488A7611d6d58aC",
+          "avatar": "https://pbs.twimg.com/profile_images/1940382416964644864/VA6E_vJC.jpg",
+          "name": "L0K0",
+          "username": "KeTalLoko",
+          "description": "",
+          "score": 1300,
+          "scoreXpMultiplier": 1,
+          "profileId": 17531,
+          "primaryAddress": "0xA270Bde2ecbD72aD259D02D7cCB47D2d95eF94eD"
+        },
+        "subject": {
+          "userkey": "address:0x253a41571830Dca332724DFF29Afb8960ffcCDf6",
+          "avatar": "https://pbs.twimg.com/profile_images/1899824667671576576/RVqjlLdW.jpg",
+          "name": "Ely",
+          "username": "ProofOfEly",
+          "description": "",
+          "score": 1528,
+          "scoreXpMultiplier": 1,
+          "profileId": 2535,
+          "primaryAddress": "0x253a41571830Dca332724DFF29Afb8960ffcCDf6"
+        },
+        "events": [
+          {
+            "id": 5075594,
+            "blockIndex": 194,
+            "blockNumber": 32745653,
+            "contract": "review",
+            "createdAt": 1752280654,
+            "processed": true,
+            "txHash": "0x21565baf3618b559dd7ce4d4c28166d1d50c55774441e17c2cb1900569597496",
+            "updatedAt": 1752280654
+          }
+        ],
+        "llmQualityScore": 73,
+        "translation": {
+          "contentHash": "d0131cece8372d305e404f14b2979346d0072eb8d211e2de3b1677714a113965",
+          "detectedLanguage": "es",
+          "translatedContent": "Giga Mindset",
+          "translatedDescription": "A super smart guy who shares interesting content on stream about Abstract, with real insights and also some wild moments too haha. On a personal note, I really appreciate the advice and thoughts he’s shared on the projects we’re building. Often wise and balanced, it’s always a pleasure to listen to him, and even more to watch him. So don’t hesitate to check out his streams, you’ll also catch some alpha in there"
+        },
+        "enriched": {
+          "authorName": "L0K0",
+          "subjectName": "Ely",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1940382416964644864/VA6E_vJC.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1899824667671576576/RVqjlLdW.jpg",
+          "timeAgo": "4m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/279366",
+          "reviewId": 279366
+        }
+      },
+      {
+        "type": "review",
+        "data": {
           "id": 278843,
           "authorProfileId": 17525,
           "author": "0x18958894413b43ee1d3beB65baB3C9F6063237C7",
@@ -2334,7 +2414,7 @@
           "name": "Ely",
           "username": "ProofOfEly",
           "description": "",
-          "score": 1526,
+          "score": 1528,
           "scoreXpMultiplier": 1,
           "profileId": 2535,
           "primaryAddress": "0x253a41571830Dca332724DFF29Afb8960ffcCDf6"
@@ -3083,7 +3163,7 @@
           "subjectName": "guezit0",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1883274485932908544/0o1YgpAu.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "timeAgo": "4d ago",
+          "timeAgo": "5d ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -3249,86 +3329,6 @@
           "scoreText": "Positive",
           "clickUrl": "https://app.ethos.network/activity/review/267975",
           "reviewId": 267975
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 267692,
-          "authorProfileId": 19246,
-          "author": "0xc5c1e47208a5f2191B645084C896347229c5B306",
-          "subject": "0x64281CB494f97e8C1216d2C757c0fc50B09ac0d2",
-          "score": "positive",
-          "comment": "One of the pudgy legend",
-          "metadata": "{\"description\":\"Personally been in Pudgy Penguin discord for almost a year and Berko is always there to engage and support everyone of us who is a part of the huddle\"}",
-          "createdAt": 1751833337,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 8,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1751833337,
-        "author": {
-          "userkey": "address:0xc5c1e47208a5f2191B645084C896347229c5B306",
-          "avatar": "https://pbs.twimg.com/profile_images/1930290437807583239/uIAXkO-6.jpg",
-          "name": "sillybilly ✳️🦇🔊",
-          "username": "sillyybillyyyyy",
-          "description": "",
-          "score": 1344,
-          "scoreXpMultiplier": 1,
-          "profileId": 19246,
-          "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
-        },
-        "subject": {
-          "userkey": "address:0x64281CB494f97e8C1216d2C757c0fc50B09ac0d2",
-          "avatar": "https://pbs.twimg.com/profile_images/1885782267026391040/l-0TvQR0.jpg",
-          "name": "Berko 🐧",
-          "username": "Berko_Crypto",
-          "description": "",
-          "score": 1317,
-          "scoreXpMultiplier": 1,
-          "profileId": 21182,
-          "primaryAddress": "0x64281CB494f97e8C1216d2C757c0fc50B09ac0d2"
-        },
-        "events": [
-          {
-            "id": 4687384,
-            "blockIndex": 827,
-            "blockNumber": 32521995,
-            "contract": "review",
-            "createdAt": 1751833339,
-            "processed": true,
-            "txHash": "0x7640b30d5132e62e61ed23922fe0d76f13aab72e0eb418f77049426e9d2af120",
-            "updatedAt": 1751833593
-          }
-        ],
-        "llmQualityScore": 96,
-        "translation": {
-          "contentHash": "3b0d0a695389282c5734684a699e3fdc780cc02a98fc1394cc110ffa73f44026",
-          "detectedLanguage": "en",
-          "translatedContent": "One of the Pudgy legends",
-          "translatedDescription": "I've personally been in the Pudgy Penguin Discord for almost a year, and Berko is always there to engage with and support every one of us who is part of the huddle."
-        },
-        "enriched": {
-          "authorName": "sillybilly ✳️🦇🔊",
-          "subjectName": "Berko 🐧",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1930290437807583239/uIAXkO-6.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1885782267026391040/l-0TvQR0.jpg",
-          "timeAgo": "5d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/267692",
-          "reviewId": 267692
         }
       }
     ]
