@@ -1,12 +1,12 @@
 {
   "success": true,
   "totalVouches": 32,
-  "totalReviews": 110,
+  "totalReviews": 111,
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-07-13T08:22:10.756Z",
-  "lastUpdated": "13/07/2025 10:22:10",
+  "generatedAt": "2025-07-13T08:32:07.730Z",
+  "lastUpdated": "13/07/2025 10:32:07",
   "data": {
     "vouches": [
       {
@@ -1425,7 +1425,7 @@
           "name": "AL 🐧 ✳️",
           "username": "thepeengwin",
           "description": "",
-          "score": 1463,
+          "score": 1468,
           "scoreXpMultiplier": 1,
           "profileId": 14074,
           "primaryAddress": "0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6"
@@ -1522,7 +1522,7 @@
           "name": "AL 🐧 ✳️",
           "username": "thepeengwin",
           "description": "",
-          "score": 1463,
+          "score": 1468,
           "scoreXpMultiplier": 1,
           "profileId": 14074,
           "primaryAddress": "0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6"
@@ -1597,7 +1597,7 @@
           "name": "AL 🐧 ✳️",
           "username": "thepeengwin",
           "description": "",
-          "score": 1463,
+          "score": 1468,
           "scoreXpMultiplier": 1,
           "profileId": 14074,
           "primaryAddress": "0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6"
@@ -1694,7 +1694,7 @@
           "name": "AL 🐧 ✳️",
           "username": "thepeengwin",
           "description": "",
-          "score": 1463,
+          "score": 1468,
           "scoreXpMultiplier": 1,
           "profileId": 14074,
           "primaryAddress": "0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6"
@@ -1731,6 +1731,86 @@
       }
     ],
     "reviews": [
+      {
+        "type": "review",
+        "data": {
+          "id": 283883,
+          "authorProfileId": 19246,
+          "author": "0xc5c1e47208a5f2191B645084C896347229c5B306",
+          "subject": "0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6",
+          "score": "positive",
+          "comment": "Abstract DCA & Streamer guy",
+          "metadata": "{\"description\":\"been talking with AL on his stream and seeing his pengu dca make me feel like I should have done it along with him since day 1\\n\\nThe streaming that I get to watch while experiencing an earthquake for the first time in my life\"}",
+          "createdAt": 1752395135,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 6,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1752395135,
+        "author": {
+          "userkey": "address:0xc5c1e47208a5f2191B645084C896347229c5B306",
+          "avatar": "https://pbs.twimg.com/profile_images/1930290437807583239/uIAXkO-6.jpg",
+          "name": "sillybilly ✳️🦇🔊",
+          "username": "sillyybillyyyyy",
+          "description": "",
+          "score": 1360,
+          "scoreXpMultiplier": 1,
+          "profileId": 19246,
+          "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
+        },
+        "subject": {
+          "userkey": "address:0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6",
+          "avatar": "https://pbs.twimg.com/profile_images/1928200077492850688/vQu2sYkB.jpg",
+          "name": "AL 🐧 ✳️",
+          "username": "thepeengwin",
+          "description": "",
+          "score": 1468,
+          "scoreXpMultiplier": 1,
+          "profileId": 14074,
+          "primaryAddress": "0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6"
+        },
+        "events": [
+          {
+            "id": 5207788,
+            "blockIndex": 389,
+            "blockNumber": 32802894,
+            "contract": "review",
+            "createdAt": 1752395135,
+            "processed": true,
+            "txHash": "0x42a3c0ee2b825de42bfdb5254c76e1797c525c448d59e26a86b195900b4cc7cd",
+            "updatedAt": 1752395136
+          }
+        ],
+        "llmQualityScore": 84,
+        "translation": {
+          "contentHash": "6ad057d93fb0e40f3b7952b2b913e95682f0459c3b5053c1aca8396dfc7eb639",
+          "detectedLanguage": "en",
+          "translatedContent": "Abstract DCA & Streamer guy",
+          "translatedDescription": "Been talking with AL on his stream and seeing his pengu DCA makes me feel like I should have done it along with him since day 1.\n\nThe streaming that I get to watch while experiencing an earthquake for the first time in my life."
+        },
+        "enriched": {
+          "authorName": "sillybilly ✳️🦇🔊",
+          "subjectName": "AL 🐧 ✳️",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1930290437807583239/uIAXkO-6.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1928200077492850688/vQu2sYkB.jpg",
+          "timeAgo": "6m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/283883",
+          "reviewId": 283883
+        }
+      },
       {
         "type": "review",
         "data": {
@@ -1803,7 +1883,7 @@
           "subjectName": "Passion",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1930290437807583239/uIAXkO-6.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1861998883309834240/UhHhnxaH.jpg",
-          "timeAgo": "33m ago",
+          "timeAgo": "43m ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -1883,7 +1963,7 @@
           "subjectName": "sillybilly ✳️🦇🔊",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1863420289360556033/oULF0_rr.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1930290437807583239/uIAXkO-6.jpg",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -2763,7 +2843,7 @@
           "subjectName": "SliKᵍᵐ",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1901584499575791616/EC86zjFJ.jpg",
-          "timeAgo": "11h ago",
+          "timeAgo": "12h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -2843,7 +2923,7 @@
           "subjectName": "Gorilla",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1670275516878712832/mMvuhAtS.png",
-          "timeAgo": "11h ago",
+          "timeAgo": "12h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -2869,7 +2949,7 @@
           }
         },
         "votes": {
-          "upvotes": 5,
+          "upvotes": 6,
           "downvotes": 0
         },
         "replySummary": {
@@ -3249,86 +3329,6 @@
           "scoreText": "Positive",
           "clickUrl": "https://app.ethos.network/activity/review/282314",
           "reviewId": 282314
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 282296,
-          "authorProfileId": 14905,
-          "author": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
-          "subject": "0xAf2010cF97F6d783C99810B63365167E6DA838aF",
-          "score": "positive",
-          "comment": "El Collab Manager",
-          "metadata": "{\"description\":\"This guy is a negotiation machine, seriously—he can pull WL spots for any project out of thin air, always grinding for us Gigachads. 😂\\n\\nHonestly, we’re so damn lucky to have him in the community.\\n\\nAnd let’s not forget—dude’s an insane streamer, genuinely one of the good ones, and somehow still finds time to be super active in like five different ecosystems at once.\\n\\nBut fr… is he actually just one person behind that tiny, adorable PFP? Like… how?\"}",
-          "createdAt": 1752349409,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 5,
-          "downvotes": 1
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1752349409,
-        "author": {
-          "userkey": "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
-          "avatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "name": "guezit0",
-          "username": "Guezito1",
-          "description": "",
-          "score": 1434,
-          "scoreXpMultiplier": 1,
-          "profileId": 14905,
-          "primaryAddress": "0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5"
-        },
-        "subject": {
-          "userkey": "address:0xAf2010cF97F6d783C99810B63365167E6DA838aF",
-          "avatar": "https://pbs.twimg.com/profile_images/1927456293427544064/crZiEzeu.jpg",
-          "name": "mxbely",
-          "username": "mxbelyg",
-          "description": "",
-          "score": 1320,
-          "scoreXpMultiplier": 1,
-          "profileId": 17503,
-          "primaryAddress": "0xAf2010cF97F6d783C99810B63365167E6DA838aF"
-        },
-        "events": [
-          {
-            "id": 5158762,
-            "blockIndex": 75,
-            "blockNumber": 32780031,
-            "contract": "review",
-            "createdAt": 1752349410,
-            "processed": true,
-            "txHash": "0xe5b65dfc103e0592f228c9ffce3c6b35ba15d1711996cc773218bbbbbc50dfca",
-            "updatedAt": 1752349410
-          }
-        ],
-        "llmQualityScore": 73,
-        "translation": {
-          "contentHash": "2bd2fa4060b6d283e8640f459a9e53d0e5dbaa0bb909b40898d636acf8cb53e9",
-          "detectedLanguage": "Spanish",
-          "translatedContent": "The Collab Manager",
-          "translatedDescription": "This guy is a negotiation machine, seriously—he can pull WL spots for any project out of thin air, always grinding for us Gigachads. 😂\n\nHonestly, we’re so damn lucky to have him in the community.\n\nAnd let’s not forget—dude’s an insane streamer, genuinely one of the good ones, and somehow still finds time to be super active in like five different ecosystems at once.\n\nBut fr… is he actually just one person behind that tiny, adorable PFP? Like… how?"
-        },
-        "enriched": {
-          "authorName": "guezit0",
-          "subjectName": "mxbely",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1927456293427544064/crZiEzeu.jpg",
-          "timeAgo": "12h ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/282296",
-          "reviewId": 282296
         }
       }
     ]
