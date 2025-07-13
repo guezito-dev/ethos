@@ -5,8 +5,8 @@
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-07-13T07:42:12.218Z",
-  "lastUpdated": "13/07/2025 09:42:12",
+  "generatedAt": "2025-07-13T07:52:13.947Z",
+  "lastUpdated": "13/07/2025 09:52:13",
   "data": {
     "vouches": [
       {
@@ -1734,6 +1734,86 @@
       {
         "type": "review",
         "data": {
+          "id": 283795,
+          "authorProfileId": 19246,
+          "author": "0xc5c1e47208a5f2191B645084C896347229c5B306",
+          "subject": "0x665D84AA353c86E26A6c5D244d7Aca7B7A5aA7CC",
+          "score": "positive",
+          "comment": "A really nice and friendly guy",
+          "metadata": "{\"description\":\"happened to met passion irl at Abstract event which turned out that he's really nice to people around the circle.\\n\\nAfter we followed each other on X, it led me to know more about him as one of the content creators that creates quality content for Gigaverse, Onchain Heroes, Gacha, and dapps within Abstract ecosystem\"}",
+          "createdAt": 1752392897,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 6,
+          "downvotes": 1
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1752392897,
+        "author": {
+          "userkey": "address:0xc5c1e47208a5f2191B645084C896347229c5B306",
+          "avatar": "https://pbs.twimg.com/profile_images/1930290437807583239/uIAXkO-6.jpg",
+          "name": "sillybilly ✳️🦇🔊",
+          "username": "sillyybillyyyyy",
+          "description": "",
+          "score": 1360,
+          "scoreXpMultiplier": 1,
+          "profileId": 19246,
+          "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
+        },
+        "subject": {
+          "userkey": "address:0x665D84AA353c86E26A6c5D244d7Aca7B7A5aA7CC",
+          "avatar": "https://pbs.twimg.com/profile_images/1861998883309834240/UhHhnxaH.jpg",
+          "name": "Passion",
+          "username": "MetaPassionNFT",
+          "description": "",
+          "score": 1347,
+          "scoreXpMultiplier": 1,
+          "profileId": 4737,
+          "primaryAddress": "0x665D84AA353c86E26A6c5D244d7Aca7B7A5aA7CC"
+        },
+        "events": [
+          {
+            "id": 5204815,
+            "blockIndex": 736,
+            "blockNumber": 32801775,
+            "contract": "review",
+            "createdAt": 1752392898,
+            "processed": true,
+            "txHash": "0x84a56c21110408ccb1157f608f88ffbbfd93edbbaea8be81e086ece2f7ea53e2",
+            "updatedAt": 1752392899
+          }
+        ],
+        "llmQualityScore": 84,
+        "translation": {
+          "contentHash": "7f440c3ebd7c6b1fbf8d776d7d3f9261334a29d19dd94e92ef9c883224acd8f5",
+          "detectedLanguage": "en",
+          "translatedContent": "A really nice and friendly guy",
+          "translatedDescription": "I happened to meet passion irl at the Abstract event and discovered that he's really nice to people around him. After we followed each other on X, I got to know more about him as a content creator who creates quality content for Gigaverse, Onchain Heroes, Gacha, and dapps within the Abstract ecosystem."
+        },
+        "enriched": {
+          "authorName": "sillybilly ✳️🦇🔊",
+          "subjectName": "Passion",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1930290437807583239/uIAXkO-6.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1861998883309834240/UhHhnxaH.jpg",
+          "timeAgo": "3m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/283795",
+          "reviewId": 283795
+        }
+      },
+      {
+        "type": "review",
+        "data": {
           "id": 283160,
           "authorProfileId": 17634,
           "author": "0xbFE384D79969Bcb583B8A0e5FEDC314Aee480E7e",
@@ -2363,7 +2443,7 @@
           "subjectName": "skarly (s2 arc)",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1929230028581322752/cCdRM0NJ.jpg",
-          "timeAgo": "10h ago",
+          "timeAgo": "11h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -2443,7 +2523,7 @@
           "subjectName": "Ely",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1899824667671576576/RVqjlLdW.jpg",
-          "timeAgo": "10h ago",
+          "timeAgo": "11h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -3163,7 +3243,7 @@
           "subjectName": "coffee (☕️,☕️)",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1943799654811828224/yeMULMpq.jpg",
-          "timeAgo": "11h ago",
+          "timeAgo": "12h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -3243,92 +3323,12 @@
           "subjectName": "mxbely",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1927456293427544064/crZiEzeu.jpg",
-          "timeAgo": "11h ago",
+          "timeAgo": "12h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
           "clickUrl": "https://app.ethos.network/activity/review/282296",
           "reviewId": 282296
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 280360,
-          "authorProfileId": 21077,
-          "author": "0x13823883263a345Ef8Dc01724653Ea22ecD3b2E7",
-          "subject": "0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5",
-          "score": "positive",
-          "comment": "\"Guezit0: calm, clear, consistent",
-          "metadata": "{\"description\":\"When it comes to spotting plays, guezit0’s vision is unmatched. He doesn’t just call alpha early - he brings the squad in with him, sharing insights and keeping everyone ahead of the curve. Fucking Legend\"}",
-          "createdAt": 1752310217,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 7,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1752310217,
-        "author": {
-          "userkey": "address:0x13823883263a345Ef8Dc01724653Ea22ecD3b2E7",
-          "avatar": "https://pbs.twimg.com/profile_images/1859343236805902337/E8QDUDbh.jpg",
-          "name": "debuddha",
-          "username": "debuddha1",
-          "description": "",
-          "score": 1256,
-          "scoreXpMultiplier": 1,
-          "profileId": 21077,
-          "primaryAddress": "0x4ac9a97b3edb3f11b5ca91d8dE9468CF4882A7af"
-        },
-        "subject": {
-          "userkey": "address:0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5",
-          "avatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "name": "guezit0",
-          "username": "Guezito1",
-          "description": "",
-          "score": 1434,
-          "scoreXpMultiplier": 1,
-          "profileId": 14905,
-          "primaryAddress": "0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5"
-        },
-        "events": [
-          {
-            "id": 5113394,
-            "blockIndex": 1073,
-            "blockNumber": 32760435,
-            "contract": "review",
-            "createdAt": 1752310218,
-            "processed": true,
-            "txHash": "0x197b19b3356a67b06b9a1f6f14712117e7ae368b3b9c79c96a993fe875ff2e36",
-            "updatedAt": 1752310218
-          }
-        ],
-        "llmQualityScore": 73,
-        "translation": {
-          "contentHash": "8b4ba7e84358b98a48803daf6dbd460becccf564355fc410ca574d7cc4558c23",
-          "detectedLanguage": "en",
-          "translatedContent": "\"Guezit0: calm, clear, consistent\"",
-          "translatedDescription": "\"When it comes to spotting plays, guezit0’s vision is unmatched. He doesn’t just call alpha early - he brings the squad in with him, sharing insights and keeping everyone ahead of the curve. Fucking Legend\""
-        },
-        "enriched": {
-          "authorName": "debuddha",
-          "subjectName": "guezit0",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1859343236805902337/E8QDUDbh.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "timeAgo": "22h ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/280360",
-          "reviewId": 280360
         }
       }
     ]
