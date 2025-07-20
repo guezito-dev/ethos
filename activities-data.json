@@ -1,12 +1,12 @@
 {
   "success": true,
   "totalVouches": 29,
-  "totalReviews": 110,
+  "totalReviews": 111,
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-07-20T04:11:49.769Z",
-  "lastUpdated": "20/07/2025 06:11:49",
+  "generatedAt": "2025-07-20T04:21:49.392Z",
+  "lastUpdated": "20/07/2025 06:21:49",
   "data": {
     "vouches": [
       {
@@ -1511,7 +1511,7 @@
           "name": "Aiz",
           "username": "Aizcalibur",
           "description": "",
-          "score": 1798,
+          "score": 1799,
           "scoreXpMultiplier": 1.25,
           "profileId": 893,
           "primaryAddress": "0xd0232776459fDF134AE7EA2E5AaAE58904fc3bFe"
@@ -1597,7 +1597,7 @@
           "name": "Aiz",
           "username": "Aizcalibur",
           "description": "",
-          "score": 1798,
+          "score": 1799,
           "scoreXpMultiplier": 1.25,
           "profileId": 893,
           "primaryAddress": "0xd0232776459fDF134AE7EA2E5AaAE58904fc3bFe"
@@ -1731,6 +1731,86 @@
       }
     ],
     "reviews": [
+      {
+        "type": "review",
+        "data": {
+          "id": 306755,
+          "authorProfileId": 14543,
+          "author": "0xBb086DA4c9C4bB2cd6a0Da9E65c6fDF62d394e7A",
+          "subject": "0xd0232776459fDF134AE7EA2E5AaAE58904fc3bFe",
+          "score": "positive",
+          "comment": "Legend of Infographic on Abstract",
+          "metadata": "{\"description\":\"I'm a big fan of his post on x especially. Infographic which can summarize many details into 1 picture (for example gigaverse/onechain heroes) His attention into detail skill is awesome.\"}",
+          "createdAt": 1752985279,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 1,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1752985279,
+        "author": {
+          "userkey": "address:0xBb086DA4c9C4bB2cd6a0Da9E65c6fDF62d394e7A",
+          "avatar": "https://pbs.twimg.com/profile_images/1940808296392544259/9nv9zTEI.jpg",
+          "name": "Radtanapan | BIP-420 🐱",
+          "username": "radtanapan",
+          "description": "",
+          "score": 1362,
+          "scoreXpMultiplier": 1,
+          "profileId": 14543,
+          "primaryAddress": "0xb2F9974B8514559b8aBe16431194482FCb305675"
+        },
+        "subject": {
+          "userkey": "address:0xd0232776459fDF134AE7EA2E5AaAE58904fc3bFe",
+          "avatar": "https://pbs.twimg.com/profile_images/1874517348134109184/9ck9sUGA.jpg",
+          "name": "Aiz",
+          "username": "Aizcalibur",
+          "description": "",
+          "score": 1799,
+          "scoreXpMultiplier": 1.25,
+          "profileId": 893,
+          "primaryAddress": "0xd0232776459fDF134AE7EA2E5AaAE58904fc3bFe"
+        },
+        "events": [
+          {
+            "id": 5840720,
+            "blockIndex": 58,
+            "blockNumber": 33097966,
+            "contract": "review",
+            "createdAt": 1752985280,
+            "processed": true,
+            "txHash": "0xeda9d24aec8922b31b6230937a27573647dde0e3bb7f066f1ec34416ef5424e6",
+            "updatedAt": 1752985280
+          }
+        ],
+        "llmQualityScore": 84,
+        "translation": {
+          "contentHash": "8403baec3d3eb59b9c2a2236a25a2c5ffca2b22766ec81911a314ed634f4583f",
+          "detectedLanguage": "en",
+          "translatedContent": "Legend of Infographic on Abstract",
+          "translatedDescription": "I'm a big fan of his post on X especially. The infographic summarizes many details into one picture (for example, gigaverse/onechain heroes). His attention to detail is awesome."
+        },
+        "enriched": {
+          "authorName": "Radtanapan | BIP-420 🐱",
+          "subjectName": "Aiz",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1940808296392544259/9nv9zTEI.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1874517348134109184/9ck9sUGA.jpg",
+          "timeAgo": "28s ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/306755",
+          "reviewId": 306755
+        }
+      },
       {
         "type": "review",
         "data": {
@@ -3249,86 +3329,6 @@
           "scoreText": "Positive",
           "clickUrl": "https://app.ethos.network/activity/review/282459",
           "reviewId": 282459
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 282441,
-          "authorProfileId": 14905,
-          "author": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
-          "subject": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966",
-          "score": "positive",
-          "comment": "New Gigachad",
-          "metadata": "{\"description\":\"He recently got promoted to Gigachad on Abstract—I didn’t know him super well before that, but he actually DM’d me after a post I was on X. He was curious about the Notion setup I had and shared some of the behind-the-scenes work he’s been doing to build on Abstract.\\n\\nDude’s fully committed to Abstract—well-connected, supports everyone in the ecosystem, and always there to lend a hand with good vibes.\\n\\nGlad to have you in the fam.\"}",
-          "createdAt": 1752352719,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 8,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 1,
-          "participated": true
-        },
-        "timestamp": 1752352719,
-        "author": {
-          "userkey": "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
-          "avatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "name": "guezit0",
-          "username": "Guezito1",
-          "description": "",
-          "score": 1446,
-          "scoreXpMultiplier": 1,
-          "profileId": 14905,
-          "primaryAddress": "0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5"
-        },
-        "subject": {
-          "userkey": "address:0x607d2381aFecbD80c4AD5CCE8059205C2a297966",
-          "avatar": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
-          "name": "sillybilly 🐧✳️",
-          "username": "sillyybillyyyyy",
-          "description": "",
-          "score": 1425,
-          "scoreXpMultiplier": 1,
-          "profileId": 19246,
-          "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
-        },
-        "events": [
-          {
-            "id": 5161678,
-            "blockIndex": 38,
-            "blockNumber": 32781686,
-            "contract": "review",
-            "createdAt": 1752352720,
-            "processed": true,
-            "txHash": "0xd22de87e3dd353c831d70a96adc57089f0de5768d5874a53951082b5893327da",
-            "updatedAt": 1752352720
-          }
-        ],
-        "llmQualityScore": 84,
-        "translation": {
-          "contentHash": "ee8ecb8d19da602d9fdf7c2ef5c7c2cf7d8a28933fecbc59e6fea62e3ffdbe29",
-          "detectedLanguage": "en",
-          "translatedContent": "New Gigachad",
-          "translatedDescription": "He recently got promoted to Gigachad on Abstract—I didn’t know him super well before that, but he actually DM’d me after a post I was on X. He was curious about the Notion setup I had and shared some of the behind-the-scenes work he’s been doing to build on Abstract.\n\nDude’s fully committed to Abstract—well-connected, supports everyone in the ecosystem, and always there to lend a hand with good vibes.\n\nGlad to have you in the fam."
-        },
-        "enriched": {
-          "authorName": "guezit0",
-          "subjectName": "sillybilly 🐧✳️",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
-          "timeAgo": "7d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/282441",
-          "reviewId": 282441
         }
       }
     ]
