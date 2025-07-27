@@ -1,12 +1,12 @@
 {
   "success": true,
   "totalVouches": 29,
-  "totalReviews": 113,
+  "totalReviews": 114,
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-07-27T17:51:24.489Z",
-  "lastUpdated": "27/07/2025 19:51:24",
+  "generatedAt": "2025-07-27T18:01:22.924Z",
+  "lastUpdated": "27/07/2025 20:01:22",
   "data": {
     "vouches": [
       {
@@ -3469,6 +3469,172 @@
       {
         "type": "review",
         "data": {
+          "id": 325769,
+          "authorProfileId": 3378,
+          "author": "0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df",
+          "subject": "0x9fF26d7e160A52064b328E38793e3569acbcaE99",
+          "score": "positive",
+          "comment": "Iconic",
+          "metadata": "{\"description\":\"One of the best creators in Web3, honestly, I think she’s the best. Totally killing it in gaming and always dropping top alpha on play-to-airdrop and play-to-earn.\"}",
+          "createdAt": 1753638733,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 6,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1753638733,
+        "author": {
+          "userkey": "address:0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df",
+          "profileId": 3378,
+          "name": "gucci",
+          "username": "gucci_gcc",
+          "avatar": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
+          "description": null,
+          "score": 1647,
+          "scoreXpMultiplier": 1.25,
+          "primaryAddress": "0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df"
+        },
+        "subject": {
+          "userkey": "address:0x9fF26d7e160A52064b328E38793e3569acbcaE99",
+          "profileId": 2294,
+          "name": "Elisa",
+          "username": "eeelistar",
+          "avatar": "https://pbs.twimg.com/profile_images/1945769639323009024/Z8rbd7Q_.jpg",
+          "description": null,
+          "score": 1695,
+          "scoreXpMultiplier": 1.25,
+          "primaryAddress": "0x9fF26d7e160A52064b328E38793e3569acbcaE99"
+        },
+        "authorUser": {
+          "id": 7213,
+          "profileId": 3378,
+          "displayName": "gucci",
+          "username": "gucci_gcc",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
+          "description": null,
+          "score": 1647,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df",
+            "address:0xbc1fF39B2Ba84E6CaeC1daaf8441B199b29Bf9e5",
+            "service:x.com:1470800265695608844",
+            "profileId:3378",
+            "service:discord:930080564428566539",
+            "service:telegram:1436290029",
+            "service:farcaster:786075"
+          ],
+          "xpTotal": 305043,
+          "xpStreakDays": 62,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/gucci_gcc",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/gucci_gcc/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 106
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "41603564579714473",
+                "count": 4
+              },
+              "received": {
+                "amountWeiTotal": "73067768710475053",
+                "count": 7
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 51522,
+          "profileId": 2294,
+          "displayName": "Elisa",
+          "username": "eeelistar",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1945769639323009024/Z8rbd7Q_.jpg",
+          "description": null,
+          "score": 1695,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x9fF26d7e160A52064b328E38793e3569acbcaE99",
+            "address:0x1b9f6d75372cF26874727d6a86BdD895950FdEF4",
+            "service:x.com:210831184",
+            "profileId:2294"
+          ],
+          "xpTotal": 2726,
+          "xpStreakDays": 0,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/eeelistar",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/eeelistar/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 2,
+                "neutral": 0,
+                "positive": 90
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "0",
+                "count": 0
+              },
+              "received": {
+                "amountWeiTotal": "85674615614029347",
+                "count": 4
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 7362077,
+            "blockIndex": 70,
+            "blockNumber": 33424693,
+            "contract": "review",
+            "createdAt": 1753638734,
+            "processed": true,
+            "txHash": "0x32fcab1123bd158fc300f89d7c4fbd43a7cd77facac1f18606ac0243ac433e3f",
+            "updatedAt": 1753638734
+          }
+        ],
+        "llmQualityScore": 11,
+        "translation": {
+          "contentHash": "55965409925eec8c9a3da740c0b21844ce1154382ae8ef5e8c072c29d156e31a",
+          "detectedLanguage": "en",
+          "translatedLanguage": "en",
+          "translatedContent": "Iconic",
+          "translatedDescription": "One of the best creators in Web3, honestly, I think she’s the best. Totally killing it in gaming and always dropping top alpha on play-to-airdrop and play-to-earn."
+        },
+        "enriched": {
+          "authorName": "gucci",
+          "subjectName": "Elisa",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1945769639323009024/Z8rbd7Q_.jpg",
+          "timeAgo": "9m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/325769",
+          "reviewId": 325769
+        }
+      },
+      {
+        "type": "review",
+        "data": {
           "id": 324784,
           "authorProfileId": 6202,
           "author": "0xE85811DeaA383a4cA79Ea002b369A16a14F8b1DC",
@@ -6608,172 +6774,6 @@
           "scoreText": "Positive",
           "clickUrl": "https://app.ethos.network/activity/review/282522",
           "reviewId": 282522
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 282506,
-          "authorProfileId": 14905,
-          "author": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
-          "subject": "0x3ec98ED36F87980A9F4331Fce5957a55d5a1a6DF",
-          "score": "positive",
-          "comment": "Cybersecurity in web3",
-          "metadata": "{\"description\":\"As someone who studied cybersecurity, I really appreciate Beau’s work. He’s one of the few actually preaching security best practices in this space.\\n\\nThe harsh truth? Most people only care about security after something goes wrong—after the hack, the exploit, the lost funds. If more people followed accounts like Beau’s before disaster strikes, we’d avoid so many preventable catastrophes.\\n\\nSo yeah, huge respect for what you’re doing. You’re out here saving people from themselves, and that’s no small feat. Keep being that white knight in a space that desperately needs more of them.\"}",
-          "createdAt": 1752353917,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 6,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1752353917,
-        "author": {
-          "userkey": "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
-          "profileId": 14905,
-          "name": "guezit0",
-          "username": "Guezito1",
-          "avatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "description": null,
-          "score": 1428,
-          "scoreXpMultiplier": 1,
-          "primaryAddress": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731"
-        },
-        "subject": {
-          "userkey": "address:0x3ec98ED36F87980A9F4331Fce5957a55d5a1a6DF",
-          "profileId": 1168,
-          "name": "Beau",
-          "username": "beausecurity",
-          "avatar": "https://pbs.twimg.com/profile_images/1931203087319945217/v2nx_MJY.jpg",
-          "description": null,
-          "score": 1621,
-          "scoreXpMultiplier": 1.25,
-          "primaryAddress": "0x3ec98ED36F87980A9F4331Fce5957a55d5a1a6DF"
-        },
-        "authorUser": {
-          "id": 10792400,
-          "profileId": 14905,
-          "displayName": "guezit0",
-          "username": "Guezito1",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "description": null,
-          "score": 1428,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
-            "address:0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5",
-            "service:x.com:1120360579598831616",
-            "profileId:14905",
-            "service:discord:269284273457070081",
-            "service:telegram:636314012",
-            "service:farcaster:298275"
-          ],
-          "xpTotal": 26603,
-          "xpStreakDays": 51,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/Guezito1",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/Guezito1/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 28
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "233361413826160623",
-                "count": 9
-              },
-              "received": {
-                "amountWeiTotal": "30799999999999999",
-                "count": 3
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 16600,
-          "profileId": 1168,
-          "displayName": "Beau",
-          "username": "beausecurity",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1931203087319945217/v2nx_MJY.jpg",
-          "description": null,
-          "score": 1621,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0x3ec98ED36F87980A9F4331Fce5957a55d5a1a6DF",
-            "address:0xe4F1169676929f52cd763732cDA98E38b5500Bae",
-            "service:x.com:1425647349783617539",
-            "profileId:1168"
-          ],
-          "xpTotal": 118767,
-          "xpStreakDays": 0,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/beausecurity",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/beausecurity/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 1,
-                "positive": 53
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "112043717347853877",
-                "count": 10
-              },
-              "received": {
-                "amountWeiTotal": "93279720445454498",
-                "count": 5
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 5162729,
-            "blockIndex": 100,
-            "blockNumber": 32782285,
-            "contract": "review",
-            "createdAt": 1752353918,
-            "processed": true,
-            "txHash": "0xab6e11d599ca3b239e1b6ece8ade1fa53105a645a3b577dda55528a8a1e84e63",
-            "updatedAt": 1752353918
-          }
-        ],
-        "llmQualityScore": 84,
-        "translation": {
-          "contentHash": "b28e565702753c7cac8e29e4949c77604aaa091d0bcac7a11b36e88add4e0466",
-          "detectedLanguage": "en",
-          "translatedLanguage": "en",
-          "translatedContent": "Cybersecurity in web3",
-          "translatedDescription": "As someone who studied cybersecurity, I really appreciate Beau’s work. He’s one of the few actually preaching security best practices in this space.\n\nThe harsh truth? Most people only care about security after something goes wrong—after the hack, the exploit, the lost funds. If more people followed accounts like Beau’s before disaster strikes, we’d avoid so many preventable catastrophes.\n\nSo yeah, huge respect for what you’re doing. You’re out here saving people from themselves, and that’s no small feat. Keep being that white knight in a space that desperately needs more of them."
-        },
-        "enriched": {
-          "authorName": "guezit0",
-          "subjectName": "Beau",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1931203087319945217/v2nx_MJY.jpg",
-          "timeAgo": "14d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/282506",
-          "reviewId": 282506
         }
       }
     ]
