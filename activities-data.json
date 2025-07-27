@@ -5,8 +5,8 @@
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-07-27T07:41:24.069Z",
-  "lastUpdated": "27/07/2025 09:41:24",
+  "generatedAt": "2025-07-27T07:52:24.326Z",
+  "lastUpdated": "27/07/2025 09:52:24",
   "data": {
     "vouches": [
       {
@@ -3469,6 +3469,169 @@
       {
         "type": "review",
         "data": {
+          "id": 324784,
+          "authorProfileId": 6202,
+          "author": "0xE85811DeaA383a4cA79Ea002b369A16a14F8b1DC",
+          "subject": "0xCCe3B99Ddf68baea82689c0e51bb4d5d875DF0e4",
+          "score": "positive",
+          "comment": "Great builder/creator",
+          "metadata": "{\"description\":\"He is in my circle for years and saw him growing with APC. On X he is very active with podcasts. Besides that he writes great content about web3, projects or founders.\\n\\nInsightful with good takes.\"}",
+          "createdAt": 1753602611,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 1,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1753602611,
+        "author": {
+          "userkey": "address:0x0c17F58C469Da5781486DC3CF8E3f19E2F50eedB",
+          "profileId": 6202,
+          "name": "𝗗𝗨𝗗𝗘🎧 (builders arc)",
+          "username": "DUDEisonchain",
+          "avatar": "https://pbs.twimg.com/profile_images/1893219811926102017/_IvFDhi4.jpg",
+          "description": null,
+          "score": 1403,
+          "scoreXpMultiplier": 1,
+          "primaryAddress": "0x0c17F58C469Da5781486DC3CF8E3f19E2F50eedB"
+        },
+        "subject": {
+          "userkey": "address:0x360493891d958F487f6B8A2501d43A523e982453",
+          "profileId": 2998,
+          "name": "Galileo",
+          "username": "GalileoWil",
+          "avatar": "https://pbs.twimg.com/profile_images/1884750097042354176/Os3coswo.jpg",
+          "description": null,
+          "score": 2112,
+          "scoreXpMultiplier": 1.5,
+          "primaryAddress": "0x360493891d958F487f6B8A2501d43A523e982453"
+        },
+        "authorUser": {
+          "id": 1107264,
+          "profileId": 6202,
+          "displayName": "𝗗𝗨𝗗𝗘🎧 (builders arc)",
+          "username": "DUDEisonchain",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1893219811926102017/_IvFDhi4.jpg",
+          "description": null,
+          "score": 1403,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x0c17F58C469Da5781486DC3CF8E3f19E2F50eedB",
+            "address:0xE85811DeaA383a4cA79Ea002b369A16a14F8b1DC",
+            "service:x.com:1432641840025583618",
+            "profileId:6202"
+          ],
+          "xpTotal": 111342,
+          "xpStreakDays": 23,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/DUDEisonchain",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/DUDEisonchain/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 25
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "0",
+                "count": 0
+              },
+              "received": {
+                "amountWeiTotal": "0",
+                "count": 0
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 4726,
+          "profileId": 2998,
+          "displayName": "Galileo",
+          "username": "GalileoWil",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1884750097042354176/Os3coswo.jpg",
+          "description": null,
+          "score": 2112,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x360493891d958F487f6B8A2501d43A523e982453",
+            "address:0xCCe3B99Ddf68baea82689c0e51bb4d5d875DF0e4",
+            "service:x.com:765159719514300416",
+            "profileId:2998"
+          ],
+          "xpTotal": 634376,
+          "xpStreakDays": 0,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/GalileoWil",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/GalileoWil/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 4,
+                "positive": 180
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "1830462592400296858",
+                "count": 16
+              },
+              "received": {
+                "amountWeiTotal": "1850551264408033461",
+                "count": 18
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 7253484,
+            "blockIndex": 176,
+            "blockNumber": 33406632,
+            "contract": "review",
+            "createdAt": 1753602612,
+            "processed": true,
+            "txHash": "0x01cedcdf077333ce1021bc03c8a5dcaa6cc1c293e440206d69b537f36cdff353",
+            "updatedAt": 1753602612
+          }
+        ],
+        "llmQualityScore": 84,
+        "translation": {
+          "contentHash": "f920c5e711720c1fbcaa17961c60748d355fe0a3e52b8b0d8968af99c7f5722c",
+          "detectedLanguage": "English",
+          "translatedLanguage": "en",
+          "translatedContent": "Great builder/creator",
+          "translatedDescription": "He's been in my circle for years, and I've seen him grow with APC. He's very active on X with podcasts. Besides that, he writes great content about web3, projects, or founders. Insightful with good takes."
+        },
+        "enriched": {
+          "authorName": "𝗗𝗨𝗗𝗘🎧 (builders arc)",
+          "subjectName": "Galileo",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1893219811926102017/_IvFDhi4.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1884750097042354176/Os3coswo.jpg",
+          "timeAgo": "2m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/324784",
+          "reviewId": 324784
+        }
+      },
+      {
+        "type": "review",
+        "data": {
           "id": 314740,
           "authorProfileId": 14074,
           "author": "0xA96E173551f07aF35F2bc4cBCD8D3a21E8DA39BC",
@@ -5610,7 +5773,7 @@
           "subjectName": "Passion",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1861998883309834240/UhHhnxaH.jpg",
-          "timeAgo": "13d ago",
+          "timeAgo": "14d ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -6611,175 +6774,6 @@
           "scoreText": "Positive",
           "clickUrl": "https://app.ethos.network/activity/review/282506",
           "reviewId": 282506
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 282495,
-          "authorProfileId": 14905,
-          "author": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
-          "subject": "0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df",
-          "score": "positive",
-          "comment": "I had to change my pfp because of his",
-          "metadata": "{\"description\":\"Bro, I spent HOURS finding the perfect Dreamilio pfp - the one with the WoW Alliance background, Mog glasses, and that little black beanie. I was so happy with it, and then suddenly everyone started confusing me with Gucci.\\n\\nI even got an Ethos review where someone straight-up thought I was him. Hahaha, insane. Your pfp really does speak for you man - props, people recognize you instantly thanks to that cute little avatar.\\n\\nAnd let's not forget - dude just got promoted to Gigachad. Always active on the X timeline, always engaged. Absolute legend behavior.\"}",
-          "createdAt": 1752353729,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 8,
-          "downvotes": 1
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1752353729,
-        "author": {
-          "userkey": "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
-          "profileId": 14905,
-          "name": "guezit0",
-          "username": "Guezito1",
-          "avatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "description": null,
-          "score": 1428,
-          "scoreXpMultiplier": 1,
-          "primaryAddress": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731"
-        },
-        "subject": {
-          "userkey": "address:0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df",
-          "profileId": 3378,
-          "name": "gucci",
-          "username": "gucci_gcc",
-          "avatar": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
-          "description": null,
-          "score": 1647,
-          "scoreXpMultiplier": 1.25,
-          "primaryAddress": "0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df"
-        },
-        "authorUser": {
-          "id": 10792400,
-          "profileId": 14905,
-          "displayName": "guezit0",
-          "username": "Guezito1",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "description": null,
-          "score": 1428,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
-            "address:0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5",
-            "service:x.com:1120360579598831616",
-            "profileId:14905",
-            "service:discord:269284273457070081",
-            "service:telegram:636314012",
-            "service:farcaster:298275"
-          ],
-          "xpTotal": 26603,
-          "xpStreakDays": 51,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/Guezito1",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/Guezito1/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 28
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "233361413826160623",
-                "count": 9
-              },
-              "received": {
-                "amountWeiTotal": "30799999999999999",
-                "count": 3
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 7213,
-          "profileId": 3378,
-          "displayName": "gucci",
-          "username": "gucci_gcc",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
-          "description": null,
-          "score": 1647,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df",
-            "address:0xbc1fF39B2Ba84E6CaeC1daaf8441B199b29Bf9e5",
-            "service:x.com:1470800265695608844",
-            "profileId:3378",
-            "service:discord:930080564428566539",
-            "service:telegram:1436290029",
-            "service:farcaster:786075"
-          ],
-          "xpTotal": 305043,
-          "xpStreakDays": 61,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/gucci_gcc",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/gucci_gcc/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 106
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "41603564579714473",
-                "count": 4
-              },
-              "received": {
-                "amountWeiTotal": "73067768710475053",
-                "count": 7
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 5162591,
-            "blockIndex": 807,
-            "blockNumber": 32782191,
-            "contract": "review",
-            "createdAt": 1752353730,
-            "processed": true,
-            "txHash": "0xd1ed6db8e1b108e495cb8ee89eca20d15a7a9b78ffa5ed9d96982cac3385761a",
-            "updatedAt": 1752353731
-          }
-        ],
-        "llmQualityScore": 88,
-        "translation": {
-          "contentHash": "d2938d7b2cac0178fc57dd5eca40fdead131d29a55e31f2ad097a53f8f2dce5f",
-          "detectedLanguage": "en",
-          "translatedLanguage": "en",
-          "translatedContent": "I had to change my pfp because of him",
-          "translatedDescription": "Bro, I spent HOURS finding the perfect Dreamilio pfp - the one with the WoW Alliance background, Mog glasses, and that little black beanie. I was so happy with it, and then suddenly everyone started confusing me with Gucci.\n\nI even got an Ethos review where someone straight-up thought I was him. Hahaha, insane. Your pfp really does speak for you man - props, people recognize you instantly thanks to that cute little avatar.\n\nAnd let's not forget - dude just got promoted to Gigachad. Always active on the X timeline, always engaged. Absolute legend behavior."
-        },
-        "enriched": {
-          "authorName": "guezit0",
-          "subjectName": "gucci",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
-          "timeAgo": "14d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/282495",
-          "reviewId": 282495
         }
       }
     ]
