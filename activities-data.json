@@ -1,12 +1,12 @@
 {
   "success": true,
   "totalVouches": 29,
-  "totalReviews": 113,
+  "totalReviews": 114,
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-07-30T05:41:24.527Z",
-  "lastUpdated": "30/07/2025 07:41:24",
+  "generatedAt": "2025-07-30T05:51:21.963Z",
+  "lastUpdated": "30/07/2025 07:51:21",
   "data": {
     "vouches": [
       {
@@ -3469,6 +3469,173 @@
       {
         "type": "review",
         "data": {
+          "id": 330822,
+          "authorProfileId": 14543,
+          "author": "0xBb086DA4c9C4bB2cd6a0Da9E65c6fDF62d394e7A",
+          "subject": "0x83be849f0f51D23F17e49838f2811E3178226d6a",
+          "score": "positive",
+          "comment": "Great builders on Apechain",
+          "metadata": "{\"description\":\"Cos is a very talent builder on Apechain. I knew him from Blever project through Geezonape. It is such an amazing project. Also he is a sharp mind in terms of collecting the great project that he would like to collect/trade. Gobs is his very impressive trade of the year.\"}",
+          "createdAt": 1753854097,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 4,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1753854097,
+        "author": {
+          "userkey": "address:0xb2F9974B8514559b8aBe16431194482FCb305675",
+          "profileId": 14543,
+          "name": "Radtanapan | BIP-420 🐱",
+          "username": "radtanapan",
+          "avatar": "https://pbs.twimg.com/profile_images/1940808296392544259/9nv9zTEI.jpg",
+          "description": null,
+          "score": 1382,
+          "scoreXpMultiplier": 1,
+          "primaryAddress": "0xb2F9974B8514559b8aBe16431194482FCb305675"
+        },
+        "subject": {
+          "userkey": "address:0x64859743Dc110426538069Eb0C454bF19E7AB1EA",
+          "profileId": 3019,
+          "name": "cos",
+          "username": "Cos0x",
+          "avatar": "https://pbs.twimg.com/profile_images/1945176137962856448/u_3-0w6e.jpg",
+          "description": null,
+          "score": 1640,
+          "scoreXpMultiplier": 1.25,
+          "primaryAddress": "0x64859743Dc110426538069Eb0C454bF19E7AB1EA"
+        },
+        "authorUser": {
+          "id": 10005573,
+          "profileId": 14543,
+          "displayName": "Radtanapan | BIP-420 🐱",
+          "username": "radtanapan",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1940808296392544259/9nv9zTEI.jpg",
+          "description": null,
+          "score": 1382,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xb2F9974B8514559b8aBe16431194482FCb305675",
+            "address:0xBb086DA4c9C4bB2cd6a0Da9E65c6fDF62d394e7A",
+            "address:0xaF894921A9f6e24048BAb7FbEca4819bCE77c2b5",
+            "service:x.com:65609477",
+            "profileId:14543",
+            "service:discord:873593012872159242"
+          ],
+          "xpTotal": 4699,
+          "xpStreakDays": 18,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/radtanapan",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/radtanapan/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 6
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "52500893334343820",
+                "count": 5
+              },
+              "received": {
+                "amountWeiTotal": "155599999999999994",
+                "count": 6
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 51392,
+          "profileId": 3019,
+          "displayName": "cos",
+          "username": "Cos0x",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1945176137962856448/u_3-0w6e.jpg",
+          "description": null,
+          "score": 1640,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x64859743Dc110426538069Eb0C454bF19E7AB1EA",
+            "address:0x83be849f0f51D23F17e49838f2811E3178226d6a",
+            "service:x.com:1498945074436186112",
+            "profileId:3019",
+            "service:discord:238115081320136704",
+            "service:telegram:152624389"
+          ],
+          "xpTotal": 71519,
+          "xpStreakDays": 0,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/Cos0x",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/Cos0x/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 16
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "328220521431483124",
+                "count": 14
+              },
+              "received": {
+                "amountWeiTotal": "303223306768693462",
+                "count": 10
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 8201323,
+            "blockIndex": 464,
+            "blockNumber": 33532375,
+            "contract": "review",
+            "createdAt": 1753854098,
+            "processed": true,
+            "txHash": "0x40f469a6d939c12317c98523433707e80b72df36f08a748011e4eaeef9f2324f",
+            "updatedAt": 1753854098
+          }
+        ],
+        "llmQualityScore": 73,
+        "translation": {
+          "contentHash": "2a4a6b780c7589e9cdf564ae397070d9147d644b85117bbc06faf73270d9e27d",
+          "detectedLanguage": "en",
+          "translatedLanguage": "en",
+          "translatedContent": "Great builders on Apechain",
+          "translatedDescription": "Cos is a very talented builder on Apechain. I knew him from the Blever project through Geezonape. It is such an amazing project. Also, he has a sharp mind in terms of collecting great projects that he would like to collect/trade. Gobs is his most impressive trade of the year."
+        },
+        "enriched": {
+          "authorName": "Radtanapan | BIP-420 🐱",
+          "subjectName": "cos",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1940808296392544259/9nv9zTEI.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1945176137962856448/u_3-0w6e.jpg",
+          "timeAgo": "9m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/330822",
+          "reviewId": 330822
+        }
+      },
+      {
+        "type": "review",
+        "data": {
           "id": 325769,
           "authorProfileId": 3378,
           "author": "0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df",
@@ -6607,173 +6774,6 @@
           "scoreText": "Positive",
           "clickUrl": "https://app.ethos.network/activity/review/282690",
           "reviewId": 282690
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 282522,
-          "authorProfileId": 14905,
-          "author": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
-          "subject": "0x26dD4199269bec9457F84ADb029dB917A910c711",
-          "score": "positive",
-          "comment": "Absolute legend",
-          "metadata": "{\"description\":\"This man is the artist in Web3—no debate. When he dropped Abstractio on OpenSea? Bro, 100 ETH in volume hours after mint. That’s not just a win, that’s a statement.\\n\\nAnd the hype was real. People were waiting for this, and when it dropped? Zero disappointment. Everywhere I look, nothing but love for the art. And honestly? I’m right there with them—this shit is fire.\\n\\nOh, and now he’s officially a Gigachad? Man, we’re lucky to have him in the family. That title isn’t just handed out it’s earned.\"}",
-          "createdAt": 1752354247,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 8,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1752354247,
-        "author": {
-          "userkey": "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
-          "profileId": 14905,
-          "name": "guezit0",
-          "username": "Guezito1",
-          "avatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "description": null,
-          "score": 1429,
-          "scoreXpMultiplier": 1,
-          "primaryAddress": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731"
-        },
-        "subject": {
-          "userkey": "address:0xc6abEd71acF45f9239eec2A3C8F541282fD0D5aB",
-          "profileId": 3011,
-          "name": "Bunya🏀",
-          "username": "bunya_eth",
-          "avatar": "https://pbs.twimg.com/profile_images/1939056014784921601/X2tyzXQ4.jpg",
-          "description": null,
-          "score": 1546,
-          "scoreXpMultiplier": 1,
-          "primaryAddress": "0xc6abEd71acF45f9239eec2A3C8F541282fD0D5aB"
-        },
-        "authorUser": {
-          "id": 10792400,
-          "profileId": 14905,
-          "displayName": "guezit0",
-          "username": "Guezito1",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "description": null,
-          "score": 1429,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
-            "address:0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5",
-            "service:x.com:1120360579598831616",
-            "profileId:14905",
-            "service:discord:269284273457070081",
-            "service:telegram:636314012",
-            "service:farcaster:298275"
-          ],
-          "xpTotal": 26603,
-          "xpStreakDays": 54,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/Guezito1",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/Guezito1/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 28
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "233368822996249681",
-                "count": 9
-              },
-              "received": {
-                "amountWeiTotal": "30799999999999999",
-                "count": 3
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 3859,
-          "profileId": 3011,
-          "displayName": "Bunya🏀",
-          "username": "bunya_eth",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1939056014784921601/X2tyzXQ4.jpg",
-          "description": null,
-          "score": 1546,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xc6abEd71acF45f9239eec2A3C8F541282fD0D5aB",
-            "address:0x26dD4199269bec9457F84ADb029dB917A910c711",
-            "service:x.com:928663490117668869",
-            "profileId:3011",
-            "service:discord:549658911343378463"
-          ],
-          "xpTotal": 171945,
-          "xpStreakDays": 0,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/bunya_eth",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/bunya_eth/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 1,
-                "positive": 35
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "1207823529411764704",
-                "count": 1
-              },
-              "received": {
-                "amountWeiTotal": "83192156862745096",
-                "count": 4
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 5163035,
-            "blockIndex": 1569,
-            "blockNumber": 32782450,
-            "contract": "review",
-            "createdAt": 1752354249,
-            "processed": true,
-            "txHash": "0x306b9a8e845d6093ddd079b2f56b486b81678e8498c40064f6d9a28f0dd7734c",
-            "updatedAt": 1752354249
-          }
-        ],
-        "llmQualityScore": 73,
-        "translation": {
-          "contentHash": "7aa79a8482a30a27f2291785aaa62881ad1f40abd664c4c9c819d23ef959fa77",
-          "detectedLanguage": "en",
-          "translatedLanguage": "en",
-          "translatedContent": "Absolute legend",
-          "translatedDescription": "This man is *the* artist in Web3—no debate. When he dropped Abstractio on OpenSea? Bro, 100 ETH in volume hours after mint. That’s not just a win, that’s a statement.\n\nAnd the hype was real. People were waiting for this, and when it dropped? Zero disappointment. Everywhere I look, nothing but love for the art. And honestly? I’m right there with them—this shit is fire.\n\nOh, and now he’s officially a Gigachad? Man, we’re lucky to have him in the family. That title isn’t just handed out it’s earned."
-        },
-        "enriched": {
-          "authorName": "guezit0",
-          "subjectName": "Bunya🏀",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1939056014784921601/X2tyzXQ4.jpg",
-          "timeAgo": "17d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/282522",
-          "reviewId": 282522
         }
       }
     ]
