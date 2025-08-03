@@ -15,17 +15,17 @@ This repository contains a set of Node.js scripts designed to interact with the 
 ## Scripts Overview
 The scripts are numbered sequentially for logical execution order, but they can be run independently if dependencies are met (e.g., some rely on JSON outputs from previous scripts).
 
-1. **1-fetch-gigachads.js**: Fetches all users from the "Abstract Giga Chads" category, handles duplicates, recovers missing profile IDs, analyzes data, and saves to `gigachads-data.json`.
-   
-2. **2-analyze-and-rank.js**: Loads data from `gigachads-data.json`, analyzes user activities (reviews, vouches, attestations), calculates scores, ranks users, and saves enriched ranking data to `gigachads-ranking.json`.
+- **1-fetch-gigachads.js**: Fetches all users from the "Abstract Giga Chads" category, handles duplicates, recovers missing profile IDs, analyzes data, and saves to `gigachads-data.json`.
+ 
+- **2-analyze-and-rank.js**: Loads data from `gigachads-data.json`, analyzes user activities (reviews, vouches, attestations), calculates scores, ranks users, and saves enriched ranking data to `gigachads-ranking.json`.
 
-3. **3-invitations-gigachads.js**: Fetches invitation data from Ethos profiles, filters for Giga Chads with available invites, and generates `invitations-data.json` with the top 5 users.
+- **3-invitations-gigachads.js**: Fetches invitation data from Ethos profiles, filters for Giga Chads with available invites, and generates `invitations-data.json` with the top 5 users.
 
-4. **4-generate-activities.js**: Fetches recent activities (vouches and reviews) among Giga Chads from the top-ranked users, enriches with timestamps and URLs, and saves to `activities-data.json`.
+- **4-generate-activities.js**: Fetches recent activities (vouches and reviews) among Giga Chads from the top-ranked users, enriches with timestamps and URLs, and saves to `activities-data.json`.
 
-5. **5-generate-new-gigachads.js**: Identifies the most recent Giga Chads added, enriches with creation dates, invited-by info, and time-ago strings, saving to `new-gigachads-data.json`.
+- **5-generate-new-gigachads.js**: Identifies the most recent Giga Chads added, enriches with creation dates, invited-by info, and time-ago strings, saving to `new-gigachads-data.json`.
 
-6. **6-generate-rank-changes.js**: Analyzes recent activities to calculate daily point gains from vouches and reviews, ranks top gainers, and saves to `rank-changes-data.json`.
+- **6-generate-rank-changes.js**: Analyzes recent activities to calculate daily point gains from vouches and reviews, ranks top gainers, and saves to `rank-changes-data.json`.
 
 ## Prerequisites
 - Node.js (v14+ recommended).
