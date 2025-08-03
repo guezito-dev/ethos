@@ -1,12 +1,12 @@
 {
   "success": true,
   "totalVouches": 29,
-  "totalReviews": 116,
+  "totalReviews": 117,
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-08-03T17:11:25.555Z",
-  "lastUpdated": "03/08/2025 19:11:25",
+  "generatedAt": "2025-08-03T17:21:24.970Z",
+  "lastUpdated": "03/08/2025 19:21:24",
   "data": {
     "vouches": [
       {
@@ -3469,6 +3469,172 @@
       {
         "type": "review",
         "data": {
+          "id": 339408,
+          "authorProfileId": 14905,
+          "author": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
+          "subject": "0x07C46727630Eca760B5403919469cB96d112DA22",
+          "score": "positive",
+          "comment": "French Gigachad",
+          "metadata": "{\"description\":\"He is an active member of the Smol Talk community; I often see him stepping in to provide alphas during Spaces. It's always interesting to read his comments.\\n\\nHe is an active gigachad within the Abstract community, always there to help others—a true GIGACHAD.\"}",
+          "createdAt": 1754241083,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 3,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1754241083,
+        "author": {
+          "userkey": "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
+          "profileId": 14905,
+          "name": "guezit0",
+          "username": "Guezito1",
+          "avatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
+          "description": null,
+          "score": 1437,
+          "scoreXpMultiplier": 1,
+          "primaryAddress": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731"
+        },
+        "subject": {
+          "userkey": "address:0x07C46727630Eca760B5403919469cB96d112DA22",
+          "profileId": 18787,
+          "name": "Flockinho ⚪️⚫️",
+          "username": "TheFlockinho",
+          "avatar": "https://pbs.twimg.com/profile_images/1913328482865528833/4qDlBtbz.jpg",
+          "description": null,
+          "score": 1233,
+          "scoreXpMultiplier": 1,
+          "primaryAddress": "0x07C46727630Eca760B5403919469cB96d112DA22"
+        },
+        "authorUser": {
+          "id": 10792400,
+          "profileId": 14905,
+          "displayName": "guezit0",
+          "username": "Guezito1",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
+          "description": null,
+          "score": 1437,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
+            "address:0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5",
+            "service:x.com:1120360579598831616",
+            "profileId:14905",
+            "service:discord:269284273457070081",
+            "service:telegram:636314012",
+            "service:farcaster:298275"
+          ],
+          "xpTotal": 31087,
+          "xpStreakDays": 58,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/Guezito1",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/Guezito1/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 30
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "223331192257100800",
+                "count": 8
+              },
+              "received": {
+                "amountWeiTotal": "30799999999999999",
+                "count": 3
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 12959513,
+          "profileId": 18787,
+          "displayName": "Flockinho ⚪️⚫️",
+          "username": "TheFlockinho",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1913328482865528833/4qDlBtbz.jpg",
+          "description": null,
+          "score": 1233,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x07C46727630Eca760B5403919469cB96d112DA22",
+            "address:0x676E47A3b14aDE9aEd5Ee899E85aB025a74C79C0",
+            "service:x.com:1028705554053701632",
+            "profileId:18787"
+          ],
+          "xpTotal": 4,
+          "xpStreakDays": 0,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/TheFlockinho",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/TheFlockinho/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 1
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "0",
+                "count": 0
+              },
+              "received": {
+                "amountWeiTotal": "0",
+                "count": 0
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 9118392,
+            "blockIndex": 515,
+            "blockNumber": 33725868,
+            "contract": "review",
+            "createdAt": 1754241084,
+            "processed": true,
+            "txHash": "0x17ca8bf4d861c667be6ee96a448344f92d54dc2fafa0b88abf919e234f713ab6",
+            "updatedAt": 1754241084
+          }
+        ],
+        "llmQualityScore": 73,
+        "translation": {
+          "contentHash": "6174c10fede8149b1af8e11e04cdee9a0df6074dfdde50bec931c0e1c21d18b5",
+          "detectedLanguage": "en",
+          "translatedLanguage": "en",
+          "translatedContent": "French Gigachad",
+          "translatedDescription": "He is an active member of the Smol Talk community; I often see him stepping in to provide alphas during Spaces. It's always interesting to read his comments.\n\nHe is an active gigachad within the Abstract community, always there to help others—a true GIGACHAD."
+        },
+        "enriched": {
+          "authorName": "guezit0",
+          "subjectName": "Flockinho ⚪️⚫️",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1913328482865528833/4qDlBtbz.jpg",
+          "timeAgo": "10m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/339408",
+          "reviewId": 339408
+        }
+      },
+      {
+        "type": "review",
+        "data": {
           "id": 339174,
           "authorProfileId": 17591,
           "author": "0x0349A4D2b2672a62471Dc4fD4Ad1c86d3737e0B8",
@@ -3648,7 +3814,7 @@
           }
         },
         "votes": {
-          "upvotes": 5,
+          "upvotes": 6,
           "downvotes": 0
         },
         "replySummary": {
@@ -3829,7 +3995,7 @@
           "username": "TheFlockinho",
           "avatar": "https://pbs.twimg.com/profile_images/1913328482865528833/4qDlBtbz.jpg",
           "description": null,
-          "score": 1219,
+          "score": 1233,
           "scoreXpMultiplier": 1,
           "primaryAddress": "0x07C46727630Eca760B5403919469cB96d112DA22"
         },
@@ -3851,7 +4017,7 @@
           "username": "TheFlockinho",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1913328482865528833/4qDlBtbz.jpg",
           "description": null,
-          "score": 1219,
+          "score": 1233,
           "status": "ACTIVE",
           "userkeys": [
             "address:0x07C46727630Eca760B5403919469cB96d112DA22",
@@ -3870,7 +4036,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 0
+                "positive": 1
               }
             },
             "vouch": {
@@ -6610,172 +6776,6 @@
           "scoreText": "Positive",
           "clickUrl": "https://app.ethos.network/activity/review/286013",
           "reviewId": 286013
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 283883,
-          "authorProfileId": 19246,
-          "author": "0xc5c1e47208a5f2191B645084C896347229c5B306",
-          "subject": "0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6",
-          "score": "positive",
-          "comment": "Abstract DCA & Streamer guy",
-          "metadata": "{\"description\":\"been talking with AL on his stream and seeing his pengu dca make me feel like I should have done it along with him since day 1\\n\\nThe streaming that I get to watch while experiencing an earthquake for the first time in my life\"}",
-          "createdAt": 1752395135,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 13,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 1,
-          "participated": true
-        },
-        "timestamp": 1752395135,
-        "author": {
-          "userkey": "address:0x607d2381aFecbD80c4AD5CCE8059205C2a297966",
-          "profileId": 19246,
-          "name": "sillybilly 🐧✳️",
-          "username": "sillyybillyyyyy",
-          "avatar": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
-          "description": null,
-          "score": 1426,
-          "scoreXpMultiplier": 1,
-          "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
-        },
-        "subject": {
-          "userkey": "address:0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6",
-          "profileId": 14074,
-          "name": "AL 🐧 ✳️",
-          "username": "thepeengwin",
-          "avatar": "https://pbs.twimg.com/profile_images/1928200077492850688/vQu2sYkB.jpg",
-          "description": null,
-          "score": 1467,
-          "scoreXpMultiplier": 1,
-          "primaryAddress": "0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6"
-        },
-        "authorUser": {
-          "id": 13164918,
-          "profileId": 19246,
-          "displayName": "sillybilly 🐧✳️",
-          "username": "sillyybillyyyyy",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
-          "description": null,
-          "score": 1426,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0x607d2381aFecbD80c4AD5CCE8059205C2a297966",
-            "address:0xc5c1e47208a5f2191B645084C896347229c5B306",
-            "service:x.com:1482402554177015810",
-            "profileId:19246"
-          ],
-          "xpTotal": 12364,
-          "xpStreakDays": 2,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/sillyybillyyyyy",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/sillyybillyyyyy/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 19
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "83545518273420714",
-                "count": 8
-              },
-              "received": {
-                "amountWeiTotal": "93199999999999982",
-                "count": 9
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 9105943,
-          "profileId": 14074,
-          "displayName": "AL 🐧 ✳️",
-          "username": "thepeengwin",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1928200077492850688/vQu2sYkB.jpg",
-          "description": null,
-          "score": 1467,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6",
-            "address:0xA96E173551f07aF35F2bc4cBCD8D3a21E8DA39BC",
-            "service:x.com:1532490954548121600",
-            "profileId:14074",
-            "service:discord:396784398453964801",
-            "service:telegram:5653686646",
-            "service:farcaster:16852"
-          ],
-          "xpTotal": 10092,
-          "xpStreakDays": 6,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/thepeengwin",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/thepeengwin/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 20
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "121883718959185469",
-                "count": 12
-              },
-              "received": {
-                "amountWeiTotal": "61999999999999992",
-                "count": 6
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 5207788,
-            "blockIndex": 389,
-            "blockNumber": 32802894,
-            "contract": "review",
-            "createdAt": 1752395135,
-            "processed": true,
-            "txHash": "0x42a3c0ee2b825de42bfdb5254c76e1797c525c448d59e26a86b195900b4cc7cd",
-            "updatedAt": 1752395136
-          }
-        ],
-        "llmQualityScore": 84,
-        "translation": {
-          "contentHash": "6ad057d93fb0e40f3b7952b2b913e95682f0459c3b5053c1aca8396dfc7eb639",
-          "detectedLanguage": "en",
-          "translatedLanguage": "en",
-          "translatedContent": "Abstract DCA & Streamer guy",
-          "translatedDescription": "Been talking with AL on his stream and seeing his pengu DCA makes me feel like I should have done it along with him since day 1.\n\nThe streaming that I get to watch while experiencing an earthquake for the first time in my life."
-        },
-        "enriched": {
-          "authorName": "sillybilly 🐧✳️",
-          "subjectName": "AL 🐧 ✳️",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1928200077492850688/vQu2sYkB.jpg",
-          "timeAgo": "21d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/283883",
-          "reviewId": 283883
         }
       }
     ]
