@@ -17,7 +17,7 @@ The scripts are numbered sequentially for logical execution order, but they can 
 
 - **1-fetch-gigachads.js**: Fetches all users from the "Abstract Giga Chads" category, handles duplicates, recovers missing profile IDs, analyzes data, and saves to `gigachads-data.json`.
  
-- **2-analyze-and-rank.js**: Loads data from `gigachads-data.json`, analyzes user activities (reviews, vouches, attestations), calculates scores, ranks users, and saves enriched ranking data to `gigachads-ranking.json`.
+- **2-analyze-and-rank.js**: Loads data from `gigachads-data.json`, analyzes user activities (reviews, vouches), calculates scores, ranks users, and saves enriched ranking data to `gigachads-ranking.json`.
 
 - **3-invitations-gigachads.js**: Fetches invitation data from Ethos profiles, filters for Giga Chads with available invites, and generates `invitations-data.json` with the top 5 users.
 
