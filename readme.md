@@ -61,9 +61,6 @@ Example: `node 1-fetch-gigachads.js`
 
 These JSON files are designed for easy integration into web apps (e.g., displaying rankings or activities on a site).
 
-## Contributing
-Pull requests are welcome! For major changes, open an issue first.
-
 ## License
 MIT License. See [LICENSE](LICENSE) for details.
 
