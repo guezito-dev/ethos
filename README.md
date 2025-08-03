@@ -1,4 +1,6 @@
-# Ethos Giga Chads Analyzer
+<img src="https://img.shields.io/badge/Ethos-Network-blue.svg" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg" /> <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+
+## Overview
 
 This repository contains a set of Node.js scripts designed to interact with the Ethos.network API. It fetches data on users from the "Abstract Giga Chads" category (category ID 26), analyzes their activities, ranks them based on interactions like reviews and vouches, and generates JSON outputs for web applications or further processing. The scripts handle data cleaning, duplicate removal, and enrichment for features like invitations, recent activities, new users, and daily rank changes.
 
