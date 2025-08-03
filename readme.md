@@ -32,8 +32,8 @@ The scripts are numbered sequentially for logical execution order, but they can 
 ## Installation
 1. Clone the repository:
 
-git clone https://github.com/guezito-dev/Ethos.git
-cd Ethos
+```git clone https://github.com/guezito-dev/Ethos.git```
+```cd Ethos```
 
 
 2. No `npm install` is needed since there are no external packages.
@@ -41,9 +41,7 @@ cd Ethos
 ## Usage
 Run each script individually using Node.js. They output JSON files in the current directory and log progress to the console.
 
-Example:
-
-node 1-fetch-gigachads.js
+Example: ```node 1-fetch-gigachads.js```
 
 
 - Scripts like `2-analyze-and-rank.js` depend on outputs from previous ones (e.g., `gigachads-data.json`).
