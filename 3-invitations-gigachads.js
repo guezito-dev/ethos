@@ -152,7 +152,7 @@ async function generateInvitationsData() {
                     username: username,
                     avatarUrl: avatarUrl,
                     invitesAvailable: inviteCount,
-                    inviteText: `${inviteCount} invite${inviteCount > 1 ? 's' : ''}`,
+                    inviteText: `${inviteCount} invitation${inviteCount > 1 ? 's' : ''}`,
                     xUrl: `https://x.com/${username}`
                 };
             })

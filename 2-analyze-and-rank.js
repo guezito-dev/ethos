@@ -2,25 +2,25 @@ const fs = require('fs');
 const path = require('path');
 
 async function analyzeAndRankGigachads() {
-    console.log('🏆 ANALYSE ET CLASSEMENT DES ABSTRACT GIGA CHADS\n');
+    console.log('🏆 ANALYSIS AND RANKING OF ABSTRACT GIGA CHADS\n');
 
     try {
         const dataPath = path.join(__dirname, 'gigachads-data.json');
 
         if (!fs.existsSync(dataPath)) {
-            console.error('❌ Fichier gigachads-data.json introuvable !');
-            console.log('👉 Lancez d\'abord: node 1-fetch-gigachads.js');
+            console.error('❌ File gigachads-data.json not found!');
+            console.log('👉 Run first: node 1-fetch-gigachads.js');
             return;
         }
 
         const rawData = fs.readFileSync(dataPath, 'utf8');
         const gigachadsData = JSON.parse(rawData);
         
-        console.log(`📁 Données chargées: ${gigachadsData.totalCount} Abstract Giga Chads`);
+        console.log(`📁 Data loaded: ${gigachadsData.totalCount} Abstract Giga Chads`);
 
         const activeUsers = gigachadsData.users.filter(u => u.profileId !== null);
-        console.log(`🆔 Utilisateurs actifs (avec profileId): ${activeUsers.length}`);
-        console.log(`❌ Exclus (sans profileId): ${gigachadsData.totalCount - activeUsers.length}`);
+        console.log(`🆔 Active users (with profileId): ${activeUsers.length}`);
+        console.log(`❌ Excluded (without profileId): ${gigachadsData.totalCount - activeUsers.length}`);
 
         const gigachadProfileIds = new Set(activeUsers.map(u => u.profileId));
         const profileIdToUser = new Map(activeUsers.map(u => [u.profileId, u]));
@@ -46,7 +46,7 @@ async function analyzeAndRankGigachads() {
             });
         });
 
-        console.log('\n🔍 Analyse des activités des utilisateurs actifs...');
+        console.log('\n🔍 Analyzing active users\' activities...');
 
         let analyzedCount = 0;
         const startTime = Date.now();
@@ -57,7 +57,7 @@ async function analyzeAndRankGigachads() {
             if (analyzedCount % 10 === 0) {
                 const elapsed = (Date.now() - startTime) / 1000;
                 const estimated = (elapsed / analyzedCount) * activeUsers.length;
-                console.log(`📊 Analyse ${analyzedCount}/${activeUsers.length} - ETA: ${Math.round(estimated - elapsed)}s`);
+                console.log(`📊 Analysis ${analyzedCount}/${activeUsers.length} - ETA: ${Math.round(estimated - elapsed)}s`);
             }
 
             try {
@@ -134,13 +134,13 @@ async function analyzeAndRankGigachads() {
                     });
                 }
             } catch (error) {
-                console.log(`   ❌ Erreur pour ${user.username}: ${error.message}`);
+                console.log(`   ❌ Error for ${user.username}: ${error.message}`);
             }
 
             await new Promise(resolve => setTimeout(resolve, 200));
         }
 
-        console.log('\n🧮 Calcul des scores...');
+        console.log('\n🧮 Calculating scores...');
 
         userScores.forEach((score, userId) => {
             const totalScore =
@@ -155,10 +155,10 @@ async function analyzeAndRankGigachads() {
         const ranking = Array.from(userScores.values())
             .sort((a, b) => b.totalScore - a.totalScore);
 
-        console.log('\n🏆 CLASSEMENT ABSTRACT GIGA CHADS PAR POINTS 🏆');
+        console.log('\n🏆 ABSTRACT GIGA CHADS RANKING BY POINTS 🏆');
 
-        console.log('Rank | Nom                 | Reviews | Vouches | Points | Profil Ethos                                          | Profile X');
-        console.log('     |                     | Reç|Don | Reç|Don |  Total |                                                       |');
+        console.log('Rank | Name                 | Reviews | Vouches | Points | Ethos Profile                                          | X Profile');
+        console.log('     |                     | Rec|Giv | Rec|Giv |  Total |                                                       |');
         console.log('-----|---------------------|--------|--------|--------|-------------------------------------------------------|---------------------------');
 
         ranking.forEach((userScore, index) => {
@@ -180,11 +180,11 @@ async function analyzeAndRankGigachads() {
             sum + u.reviewsReceived + u.reviewsGiven + u.vouchesReceived + u.vouchesGiven, 0
         );
 
-        console.log('\n📊 STATISTIQUES FINALES:');
+        console.log('\n📊 FINAL STATISTICS:');
         console.log(`👥 Total Abstract Giga Chads: ${gigachadsData.totalCount}`);
-        console.log(`🆔 Utilisateurs actifs (avec profileId): ${activeUsers.length}`);
-        console.log(`⚡ Avec activité entre Giga Chads: ${usersWithActivity}`);
-        console.log(`🔄 Total interactions internes: ${totalInteractions}`);
+        console.log(`🆔 Active users (with profileId): ${activeUsers.length}`);
+        console.log(`⚡ With activity between Giga Chads: ${usersWithActivity}`);
+        console.log(`🔄 Total internal interactions: ${totalInteractions}`);
 
         const webData = {
             metadata: {
@@ -232,11 +232,11 @@ async function analyzeAndRankGigachads() {
         const webDataPath = path.join(__dirname, 'gigachads-ranking.json');
         fs.writeFileSync(webDataPath, JSON.stringify(webData, null, 2));
 
-        console.log(`\n💾 Données sauvegardées: gigachads-ranking.json`);
-        console.log(`🌐 Prêt pour ton site web avec liens Ethos + X !`);
+        console.log(`\n💾 Data saved: gigachads-ranking.json`);
+        console.log(`🌐 Ready for your website with Ethos + X links!`);
 
     } catch (error) {
-        console.error('❌ Erreur:', error.message);
+        console.error('❌ Error:', error.message);
         process.exit(1);
     }
 }

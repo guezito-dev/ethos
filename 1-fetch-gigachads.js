@@ -1,50 +1,49 @@
-
 const fs = require('fs');
 const path = require('path');
 
 async function fetchAllGigachads() {
-  console.log('🎯 RÉCUPÉRATION DES ABSTRACT GIGA CHADS\n');
+  console.log('🎯 FETCHING ABSTRACT GIGA CHADS\n');
   
   try {
     
-    console.log('👥 Récupération de tous les Abstract Giga Chads...');
+    console.log('👥 Fetching all Abstract Giga Chads...');
     
     const response = await fetch('https://api.ethos.network/api/v2/categories/26/users?limit=1000', {
       headers: { "Accept": "*/*" }
     });
     
     if (!response.ok) {
-      throw new Error(`Erreur API: ${response.status}`);
+      throw new Error(`API Error: ${response.status}`);
     }
     
     const data = await response.json();
     let allGigachads = data.users || [];
     
-    console.log(`✅ Total: ${allGigachads.length} Abstract Giga Chads récupérés !`);
+    console.log(`✅ Total: ${allGigachads.length} Abstract Giga Chads fetched!`);
     
     
-    console.log('\n🕵️ VÉRIFICATION DE SÉCURITÉ DES DOUBLONS...');
+    console.log('\n🕵️ SECURITY CHECK FOR DUPLICATES...');
     const auditResult = auditDuplicates(allGigachads);
     
     let cleanupResult = { removedCount: 0 }; 
     
     if (auditResult.hasDuplicates) {
-      console.log('⚠️ Doublons détectés dans la réponse API - nettoyage...');
+      console.log('⚠️ Duplicates detected in API response - cleaning...');
       cleanupResult = cleanupDuplicates(allGigachads, auditResult);
       allGigachads = cleanupResult.cleanedUsers;
-      console.log(`🧹 ${cleanupResult.removedCount} doublons supprimés`);
+      console.log(`🧹 ${cleanupResult.removedCount} duplicates removed`);
     } else {
-      console.log('✅ Aucun doublon détecté - Données parfaitement propres !');
+      console.log('✅ No duplicates detected - Data perfectly clean!');
     }
     
     
-    console.log('\n🔍 VÉRIFICATION DES PROFILE IDS MANQUANTS...');
+    console.log('\n🔍 CHECKING FOR MISSING PROFILE IDS...');
     const usersWithMissingProfileIds = allGigachads.filter(user => user.profileId === null);
-    console.log(`   • Utilisateurs sans profileId: ${usersWithMissingProfileIds.length}/${allGigachads.length}`);
+    console.log(`   • Users without profileId: ${usersWithMissingProfileIds.length}/${allGigachads.length}`);
     
     let recoveredCount = 0;
     if (usersWithMissingProfileIds.length > 0) {
-      console.log('🔄 Tentative de récupération des profileIds...');
+      console.log('🔄 Attempting to recover profileIds...');
       const { updatedUsers, foundCount } = await checkMissingProfileIds(usersWithMissingProfileIds);
       recoveredCount = foundCount;
       
@@ -52,14 +51,14 @@ async function fetchAllGigachads() {
         
         const usersWithProfileIds = allGigachads.filter(user => user.profileId !== null);
         allGigachads = [...usersWithProfileIds, ...updatedUsers];
-        console.log(`✅ ${recoveredCount} profileIds récupérés !`);
+        console.log(`✅ ${recoveredCount} profileIds recovered!`);
       } else {
-        console.log('⚠️ Aucun profileId supplémentaire trouvé');
+        console.log('⚠️ No additional profileId found');
       }
     }
     
     
-    console.log('\n📊 ANALYSE DES DONNÉES...');
+    console.log('\n📊 DATA ANALYSIS...');
     const stats = analyzeGigachadsData(allGigachads);
     displayStats(stats);
     
@@ -98,24 +97,24 @@ async function fetchAllGigachads() {
     
     fs.writeFileSync(filepath, JSON.stringify(gigachadsData, null, 2));
     
-    console.log(`\n💾 DONNÉES SAUVEGARDÉES AVEC SUCCÈS !`);
-    console.log(`📁 Fichier: ${filename}`);
-    console.log(`📏 Taille: ${(fs.statSync(filepath).size / 1024).toFixed(2)} KB`);
+    console.log(`\n💾 DATA SAVED SUCCESSFULLY!`);
+    console.log(`📁 File: ${filename}`);
+    console.log(`📏 Size: ${(fs.statSync(filepath).size / 1024).toFixed(2)} KB`);
     
     
-    console.log('\n🎉 RÉSUMÉ FINAL:');
+    console.log('\n🎉 FINAL SUMMARY:');
     console.log('═══════════════════════════════════════');
-    console.log(`✅ Utilisateurs récupérés: ${allGigachads.length}`);
-    console.log(`🔄 ProfileIds récupérés: ${recoveredCount}`);
-    console.log(`🧹 Doublons supprimés: ${cleanupResult.removedCount}`);
-    console.log(`🧹 Méthode: Appel unique avec limite élevée`);
-    console.log(`⏱️ Terminé: ${new Date().toLocaleString()}`);
+    console.log(`✅ Users fetched: ${allGigachads.length}`);
+    console.log(`🔄 ProfileIds recovered: ${recoveredCount}`);
+    console.log(`🧹 Duplicates removed: ${cleanupResult.removedCount}`);
+    console.log(`🧹 Method: Single call with high limit`);
+    console.log(`⏱️ Completed: ${new Date().toLocaleString('en-US')}`);
     console.log('═══════════════════════════════════════');
     
     return gigachadsData;
     
   } catch (error) {
-    console.error('❌ ERREUR LORS DE LA RÉCUPÉRATION:', error.message);
+    console.error('❌ ERROR DURING FETCH:', error.message);
     console.error('🔍 Stack trace:', error.stack);
     process.exit(1);
   }
@@ -228,13 +227,13 @@ function cleanupDuplicates(users, auditResult) {
   
   const cleanedUsers = users.filter((user, index) => !toRemove.has(index));
   
-  console.log(`🧹 Doublons supprimés: ${toRemove.size}`);
+  console.log(`🧹 Duplicates removed: ${toRemove.size}`);
   if (toRemove.size > 0) {
-    console.log(`   • Par ID: ${auditResult.duplicates.byId.length}`);
-    console.log(`   • Par ProfileId: ${auditResult.duplicates.byProfileId.length}`);
-    console.log(`   • Par Username: ${auditResult.duplicates.byUsername.length}`);
-    console.log(`   • Par Address: ${auditResult.duplicates.byAddress.length}`);
-    console.log(`   • Par DisplayName: ${auditResult.duplicates.byDisplayName.length}`);
+    console.log(`   • By ID: ${auditResult.duplicates.byId.length}`);
+    console.log(`   • By ProfileId: ${auditResult.duplicates.byProfileId.length}`);
+    console.log(`   • By Username: ${auditResult.duplicates.byUsername.length}`);
+    console.log(`   • By Address: ${auditResult.duplicates.byAddress.length}`);
+    console.log(`   • By DisplayName: ${auditResult.duplicates.byDisplayName.length}`);
   }
   
   return { 
@@ -244,7 +243,7 @@ function cleanupDuplicates(users, auditResult) {
 }
 
 /**
- * 📊 ANALYSER LES DONNÉES
+ * 📊 ANALYZE DATA
  */
 function analyzeGigachadsData(users) {
   const stats = {
@@ -259,9 +258,15 @@ function analyzeGigachadsData(users) {
     withAddress: users.filter(u => u.primaryAddress).length,
     averageScore: 0,
     scoreDistribution: {
-      high: 0,    
-      medium: 0,  
-      low: 0      
+      untrusted: 0,    // 1 - 799
+      questionable: 0, // 800 - 1199
+      neutral: 0,      // 1200 - 1599
+      reputableI: 0,   // 1600 - 1799
+      reputableII: 0,  // 1800 - 1999
+      exemplaryI: 0,   // 2000 - 2199
+      exemplaryII: 0,  // 2200 - 2399
+      reveredI: 0,     // 2400 - 2599
+      reveredII: 0     // 2600 +
     }
   };
   
@@ -271,9 +276,15 @@ function analyzeGigachadsData(users) {
     stats.averageScore = usersWithScore.reduce((sum, u) => sum + u.score, 0) / usersWithScore.length;
     
     usersWithScore.forEach(u => {
-      if (u.score > 80) stats.scoreDistribution.high++;
-      else if (u.score >= 20) stats.scoreDistribution.medium++;
-      else stats.scoreDistribution.low++;
+      if (u.score >= 1 && u.score <= 799) stats.scoreDistribution.untrusted++;
+      else if (u.score >= 800 && u.score <= 1199) stats.scoreDistribution.questionable++;
+      else if (u.score >= 1200 && u.score <= 1599) stats.scoreDistribution.neutral++;
+      else if (u.score >= 1600 && u.score <= 1799) stats.scoreDistribution.reputableI++;
+      else if (u.score >= 1800 && u.score <= 1999) stats.scoreDistribution.reputableII++;
+      else if (u.score >= 2000 && u.score <= 2199) stats.scoreDistribution.exemplaryI++;
+      else if (u.score >= 2200 && u.score <= 2399) stats.scoreDistribution.exemplaryII++;
+      else if (u.score >= 2400 && u.score <= 2599) stats.scoreDistribution.reveredI++;
+      else if (u.score >= 2600) stats.scoreDistribution.reveredII++;
     });
   }
   
@@ -281,34 +292,40 @@ function analyzeGigachadsData(users) {
 }
 
 /**
- * 📈 AFFICHER LES STATISTIQUES
+ * 📈 DISPLAY STATISTICS
  */
 function displayStats(stats) {
-  console.log(`📊 Statistiques complètes:`);
-  console.log(`   • Total utilisateurs: ${stats.total}`);
-  console.log(`   • Avec ProfileId: ${stats.withProfileId} (${(stats.withProfileId/stats.total*100).toFixed(1)}%)`);
-  console.log(`   • Sans ProfileId: ${stats.withoutProfileId} (${(stats.withoutProfileId/stats.total*100).toFixed(1)}%)`);
-  console.log(`   • Avec Username: ${stats.withUsername} (${(stats.withUsername/stats.total*100).toFixed(1)}%)`);
-  console.log(`   • Avec DisplayName: ${stats.withDisplayName} (${(stats.withDisplayName/stats.total*100).toFixed(1)}%)`);
-  console.log(`   • Avec Description: ${stats.withDescription} (${(stats.withDescription/stats.total*100).toFixed(1)}%)`);
-  console.log(`   • Avec Avatar: ${stats.withAvatar} (${(stats.withAvatar/stats.total*100).toFixed(1)}%)`);
-  console.log(`   • Avec Score: ${stats.withScore} (${(stats.withScore/stats.total*100).toFixed(1)}%)`);
-  console.log(`   • Avec Address: ${stats.withAddress} (${(stats.withAddress/stats.total*100).toFixed(1)}%)`);
+  console.log(`📊 Complete statistics:`);
+  console.log(`   • Total users: ${stats.total}`);
+  console.log(`   • With ProfileId: ${stats.withProfileId} (${(stats.withProfileId/stats.total*100).toFixed(1)}%)`);
+  console.log(`   • Without ProfileId: ${stats.withoutProfileId} (${(stats.withoutProfileId/stats.total*100).toFixed(1)}%)`);
+  console.log(`   • With Username: ${stats.withUsername} (${(stats.withUsername/stats.total*100).toFixed(1)}%)`);
+  console.log(`   • With DisplayName: ${stats.withDisplayName} (${(stats.withDisplayName/stats.total*100).toFixed(1)}%)`);
+  console.log(`   • With Description: ${stats.withDescription} (${(stats.withDescription/stats.total*100).toFixed(1)}%)`);
+  console.log(`   • With Avatar: ${stats.withAvatar} (${(stats.withAvatar/stats.total*100).toFixed(1)}%)`);
+  console.log(`   • With Score: ${stats.withScore} (${(stats.withScore/stats.total*100).toFixed(1)}%)`);
+  console.log(`   • With Address: ${stats.withAddress} (${(stats.withAddress/stats.total*100).toFixed(1)}%)`);
   
   if (stats.withScore > 0) {
-    console.log(`   • Score moyen: ${stats.averageScore.toFixed(2)}`);
-    console.log(`   • Distribution des scores:`);
-    console.log(`     - Élevé (>80): ${stats.scoreDistribution.high}`);
-    console.log(`     - Moyen (20-80): ${stats.scoreDistribution.medium}`);
-    console.log(`     - Bas (<20): ${stats.scoreDistribution.low}`);
+    console.log(`   • Average score: ${stats.averageScore.toFixed(2)}`);
+    console.log(`   • Score distribution:`);
+    console.log(`     - Untrusted (1 - 799): ${stats.scoreDistribution.untrusted}`);
+    console.log(`     - Questionable (800 - 1199): ${stats.scoreDistribution.questionable}`);
+    console.log(`     - Neutral (1200 - 1599): ${stats.scoreDistribution.neutral}`);
+    console.log(`     - Reputable I (1600 - 1799): ${stats.scoreDistribution.reputableI}`);
+    console.log(`     - Reputable II (1800 - 1999): ${stats.scoreDistribution.reputableII}`);
+    console.log(`     - Exemplary I (2000 - 2199): ${stats.scoreDistribution.exemplaryI}`);
+    console.log(`     - Exemplary II (2200 - 2399): ${stats.scoreDistribution.exemplaryII}`);
+    console.log(`     - Revered I (2400 - 2599): ${stats.scoreDistribution.reveredI}`);
+    console.log(`     - Revered II (2600 + ): ${stats.scoreDistribution.reveredII}`);
   }
 }
 
 /**
- * 🔄 VÉRIFIER LES PROFILEIDS MANQUANTS
+ * 🔄 CHECK MISSING PROFILE IDS
  */
 async function checkMissingProfileIds(usersWithMissingProfileIds) {
-  console.log('🔄 Vérification des profileIds via l\'API /users/by/x...');
+  console.log('🔄 Checking profileIds via API /users/by/x...');
   
   const batchSize = 10;
   const updatedUsers = [];
@@ -326,7 +343,7 @@ async function checkMissingProfileIds(usersWithMissingProfileIds) {
     }
     
     try {
-      console.log(`   📡 Lot ${Math.floor(i/batchSize) + 1}/${Math.ceil(usersWithMissingProfileIds.length/batchSize)} (${usernames.length} usernames)`);
+      console.log(`   📡 Batch ${Math.floor(i/batchSize) + 1}/${Math.ceil(usersWithMissingProfileIds.length/batchSize)} (${usernames.length} usernames)`);
       
       const response = await fetch('https://api.ethos.network/api/v2/users/by/x', {
         method: 'POST',
@@ -340,7 +357,7 @@ async function checkMissingProfileIds(usersWithMissingProfileIds) {
       });
       
       if (!response.ok) {
-        console.warn(`⚠️ Erreur API pour le lot ${Math.floor(i/batchSize) + 1}: ${response.status}`);
+        console.warn(`⚠️ API error for batch ${Math.floor(i/batchSize) + 1}: ${response.status}`);
         updatedUsers.push(...batch);
         continue;
       }
@@ -358,7 +375,7 @@ async function checkMissingProfileIds(usersWithMissingProfileIds) {
         );
         
         if (ethosUser && ethosUser.profileId) {
-          console.log(`   ✅ ProfileId trouvé pour ${originalUser.username}: ${ethosUser.profileId}`);
+          console.log(`   ✅ ProfileId found for ${originalUser.username}: ${ethosUser.profileId}`);
           
           updatedUsers.push({
             ...originalUser,
@@ -378,27 +395,27 @@ async function checkMissingProfileIds(usersWithMissingProfileIds) {
       await new Promise(resolve => setTimeout(resolve, 200));
       
     } catch (error) {
-      console.warn(`⚠️ Erreur lors de la vérification du lot ${Math.floor(i/batchSize) + 1}:`, error.message);
+      console.warn(`⚠️ Error during batch verification ${Math.floor(i/batchSize) + 1}:`, error.message);
       updatedUsers.push(...batch);
     }
   }
   
-  console.log(`🎉 ProfileIds trouvés: ${foundProfiles}/${usersWithMissingProfileIds.length}`);
+  console.log(`🎉 ProfileIds found: ${foundProfiles}/${usersWithMissingProfileIds.length}`);
   
   return { updatedUsers, foundCount: foundProfiles };
 }
 
 
-console.log('🚀 DÉMARRAGE DU SCRIPT DE RÉCUPÉRATION...');
-console.log('⏱️ ', new Date().toLocaleString());
+console.log('🚀 STARTING FETCH SCRIPT...');
+console.log('⏱️ ', new Date().toLocaleString('en-US'));
 console.log('');
 
 fetchAllGigachads()
   .then(data => {
-    console.log('\n🎉 SCRIPT TERMINÉ AVEC SUCCÈS !');
-    console.log(`📊 ${data.metadata.totalCount} utilisateurs récupérés`);
+    console.log('\n🎉 SCRIPT COMPLETED SUCCESSFULLY!');
+    console.log(`📊 ${data.metadata.totalCount} users fetched`);
   })
   .catch(error => {
-    console.error('\n❌ ERREUR FATALE:', error.message);
+    console.error('\n❌ FATAL ERROR:', error.message);
     process.exit(1);
   });
