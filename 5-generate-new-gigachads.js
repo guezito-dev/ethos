@@ -13,7 +13,7 @@ async function generateNewGigachadsData() {
     debug('🔄 Starting new gigachads data generation...');
     
     try {
-        // Charger les données Gigachads
+        
         const gigachadsResponse = await fetch('https://raw.githubusercontent.com/guezito-dev/Ethos/main/gigachads-data.json');
         if (!gigachadsResponse.ok) {
             throw new Error(`HTTP error! status: ${gigachadsResponse.status}`);
@@ -38,7 +38,7 @@ async function generateNewGigachadsData() {
         
         const profileIds = recentGigachads.map(g => g.profileId);
         
-        // Fetch profiles data from API
+        
         const profilesResponse = await fetch('https://api.ethos.network/api/v1/profiles', {
             method: 'POST',
             headers: {
@@ -62,7 +62,7 @@ async function generateNewGigachadsData() {
             throw new Error('Invalid profiles data structure');
         }
         
-        // 🔥 CROISER LES DONNÉES AVEC invitedBy
+        
         const gigachadsWithRealDates = recentGigachads.map(gigachad => {
             const profileData = profilesData.data.values.find(p => p.id === gigachad.profileId);
             if (profileData && profileData.createdAt) {
@@ -70,7 +70,7 @@ async function generateNewGigachadsData() {
                 
                 return {
                     ...gigachad,
-                    // ✅ RÉCUPÉRER invitedBy DEPUIS L'API
+                    
                     invitedBy: profileData.invitedBy || null,
                     realCreatedAt,
                     profileData: {
@@ -84,7 +84,7 @@ async function generateNewGigachadsData() {
             return null;
         }).filter(Boolean);
         
-        // Trier par date de création (plus récent en premier)
+        
         const sortedGigachads = gigachadsWithRealDates
             .sort((a, b) => b.realCreatedAt - a.realCreatedAt)
             .slice(0, 10);
@@ -95,13 +95,13 @@ async function generateNewGigachadsData() {
             throw new Error('No Gigachads with valid dates found');
         }
         
-        // Enrichir les données
+        
         const enrichedGigachads = sortedGigachads.map(gigachad => {
             const displayName = gigachad.displayName || gigachad.username || 'Unknown';
             const avatarUrl = gigachad.avatarUrl || 'https://via.placeholder.com/35';
             const username = gigachad.username || displayName;
             
-            // Calculer le temps écoulé
+           
             const now = Date.now();
             const diffInMs = now - gigachad.realCreatedAt;
             const diffInDays = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
@@ -126,7 +126,7 @@ async function generateNewGigachadsData() {
                 username: gigachad.username,
                 displayName: gigachad.displayName,
                 avatarUrl: gigachad.avatarUrl,
-                invitedBy: gigachad.invitedBy, // ✅ MAINTENANT DISPONIBLE
+                invitedBy: gigachad.invitedBy, 
                 score: gigachad.score,
                 realCreatedAt: gigachad.realCreatedAt,
                 timeAgo: timeAgo,
@@ -136,14 +136,14 @@ async function generateNewGigachadsData() {
             };
         });
         
-        // ✅ DEBUG POUR VÉRIFIER invitedBy
+        
         debug('🔍 Sample enriched gigachad:', {
             username: enrichedGigachads[0]?.username,
             invitedBy: enrichedGigachads[0]?.invitedBy,
             timeAgo: enrichedGigachads[0]?.timeAgo
         });
         
-        // Générer le JSON
+        
         const jsonOutput = {
             success: true,
             totalProcessed: recentGigachads.length,
@@ -154,7 +154,7 @@ async function generateNewGigachadsData() {
             data: enrichedGigachads
         };
         
-        // Sauvegarder le fichier
+        
         fs.writeFileSync('new-gigachads-data.json', JSON.stringify(jsonOutput, null, 2));
         
         debug('✅ New gigachads data generated successfully!');
@@ -164,7 +164,7 @@ async function generateNewGigachadsData() {
             finalResults: enrichedGigachads.length
         });
         
-        // ✅ VÉRIFIER LE FICHIER GÉNÉRÉ
+        
         const savedData = JSON.parse(fs.readFileSync('new-gigachads-data.json', 'utf8'));
         debug('✅ Saved data sample:', {
             username: savedData.data[0]?.username,
@@ -175,7 +175,7 @@ async function generateNewGigachadsData() {
     } catch (error) {
         debug('❌ Error generating new gigachads data:', error);
         
-        // Générer un JSON d'erreur
+        
         const errorJson = {
             success: false,
             error: error.message,
@@ -187,7 +187,7 @@ async function generateNewGigachadsData() {
     }
 }
 
-// Exécuter si appelé directement
+
 if (require.main === module) {
     generateNewGigachadsData();
 }

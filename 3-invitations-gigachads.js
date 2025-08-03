@@ -106,7 +106,7 @@ async function generateInvitationsData() {
         
         debug('📊 Gigachads found:', gigachadProfileIds.size);
         
-        // Filtrer et déduplicuier
+        
         const seenProfileIds = new Set();
         const seenUsernames = new Set();
         
@@ -129,11 +129,10 @@ async function generateInvitationsData() {
                 return true;
             })
             .sort((a, b) => b.invitesAvailable - a.invitesAvailable)
-            .slice(0, 5); // Top 5
+            .slice(0, 5); 
         
         debug('✅ Unique Gigachads with invites found:', gigachadsWithInvites.length);
         
-        // Créer la structure JSON
         const jsonData = {
             lastUpdated: new Date().toISOString(),
             totalGigachads: gigachadProfileIds.size,
@@ -159,7 +158,7 @@ async function generateInvitationsData() {
             })
         };
         
-        // Sauvegarder dans un fichier JSON
+        
         const fileName = 'invitations-data.json';
         fs.writeFileSync(fileName, JSON.stringify(jsonData, null, 2));
         
@@ -175,7 +174,7 @@ async function generateInvitationsData() {
     }
 }
 
-// Exécuter le script
+
 if (require.main === module) {
     generateInvitationsData()
         .then(data => {

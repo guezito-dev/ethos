@@ -25,7 +25,7 @@ async function analyzeAndRankGigachads() {
         const gigachadProfileIds = new Set(activeUsers.map(u => u.profileId));
         const profileIdToUser = new Map(activeUsers.map(u => [u.profileId, u]));
         
-        // Initialiser les scores avec listes d'avatars
+        
         const userScores = new Map();
 
         activeUsers.forEach(user => {
@@ -241,5 +241,5 @@ async function analyzeAndRankGigachads() {
     }
 }
 
-// 🚀 Lancer l'analyse
+
 analyzeAndRankGigachads().catch(console.error);

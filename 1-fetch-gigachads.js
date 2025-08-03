@@ -1,4 +1,4 @@
-// 1-fetch-gigachads.js
+
 const fs = require('fs');
 const path = require('path');
 
@@ -6,7 +6,7 @@ async function fetchAllGigachads() {
   console.log('🎯 RÉCUPÉRATION DES ABSTRACT GIGA CHADS\n');
   
   try {
-    // 1. 🚀 APPEL UNIQUE AVEC LIMITE ÉLEVÉE
+    
     console.log('👥 Récupération de tous les Abstract Giga Chads...');
     
     const response = await fetch('https://api.ethos.network/api/v2/categories/26/users?limit=1000', {
@@ -22,11 +22,11 @@ async function fetchAllGigachads() {
     
     console.log(`✅ Total: ${allGigachads.length} Abstract Giga Chads récupérés !`);
     
-    // 2. 🔍 VÉRIFICATION DE SÉCURITÉ DES DOUBLONS
+    
     console.log('\n🕵️ VÉRIFICATION DE SÉCURITÉ DES DOUBLONS...');
     const auditResult = auditDuplicates(allGigachads);
     
-    let cleanupResult = { removedCount: 0 }; // 🔧 DÉCLARATION MANQUANTE
+    let cleanupResult = { removedCount: 0 }; 
     
     if (auditResult.hasDuplicates) {
       console.log('⚠️ Doublons détectés dans la réponse API - nettoyage...');
@@ -37,7 +37,7 @@ async function fetchAllGigachads() {
       console.log('✅ Aucun doublon détecté - Données parfaitement propres !');
     }
     
-    // 3. Vérifier les profileIds manquants
+    
     console.log('\n🔍 VÉRIFICATION DES PROFILE IDS MANQUANTS...');
     const usersWithMissingProfileIds = allGigachads.filter(user => user.profileId === null);
     console.log(`   • Utilisateurs sans profileId: ${usersWithMissingProfileIds.length}/${allGigachads.length}`);
@@ -49,7 +49,7 @@ async function fetchAllGigachads() {
       recoveredCount = foundCount;
       
       if (recoveredCount > 0) {
-        // Fusionner les utilisateurs mis à jour avec les autres
+        
         const usersWithProfileIds = allGigachads.filter(user => user.profileId !== null);
         allGigachads = [...usersWithProfileIds, ...updatedUsers];
         console.log(`✅ ${recoveredCount} profileIds récupérés !`);
@@ -58,12 +58,12 @@ async function fetchAllGigachads() {
       }
     }
     
-    // 4. Analyser les données
+    
     console.log('\n📊 ANALYSE DES DONNÉES...');
     const stats = analyzeGigachadsData(allGigachads);
     displayStats(stats);
     
-    // 5. Préparer les données pour le fichier
+    
     const gigachadsData = {
       metadata: {
         totalCount: allGigachads.length,
@@ -71,7 +71,7 @@ async function fetchAllGigachads() {
         fetchMethod: 'single-call-high-limit',
         recoveredProfilesCount: recoveredCount,
         duplicatesFound: auditResult.hasDuplicates ? 'yes' : 'no',
-        duplicatesRemoved: cleanupResult.removedCount, // 🔧 MAINTENANT DÉFINI
+        duplicatesRemoved: cleanupResult.removedCount, 
         apiUrl: 'https://api.ethos.network/api/v2/categories/26/users?limit=1000'
       },
       statistics: stats,
@@ -85,14 +85,14 @@ async function fetchAllGigachads() {
         score: user.score,
         primaryAddress: user.primaryAddress,
         addedAt: user.addedAt,
-        // Champs supplémentaires si disponibles
+        
         ...(user.socialLinks && { socialLinks: user.socialLinks }),
         ...(user.verified && { verified: user.verified }),
         ...(user.badges && { badges: user.badges })
       }))
     };
     
-    // 6. Sauvegarder dans un fichier JSON
+    
     const filename = 'gigachads-data.json';
     const filepath = path.join(__dirname, filename);
     
@@ -102,7 +102,7 @@ async function fetchAllGigachads() {
     console.log(`📁 Fichier: ${filename}`);
     console.log(`📏 Taille: ${(fs.statSync(filepath).size / 1024).toFixed(2)} KB`);
     
-    // 7. Résumé final
+    
     console.log('\n🎉 RÉSUMÉ FINAL:');
     console.log('═══════════════════════════════════════');
     console.log(`✅ Utilisateurs récupérés: ${allGigachads.length}`);
@@ -121,9 +121,7 @@ async function fetchAllGigachads() {
   }
 }
 
-/**
- * 🔍 AUDIT DES DOUBLONS
- */
+
 function auditDuplicates(users) {
   const idsMap = new Map();
   const profileIdsMap = new Map();
@@ -140,7 +138,7 @@ function auditDuplicates(users) {
   };
   
   users.forEach((user, index) => {
-    // Vérifier doublons par ID
+    
     if (user.id) {
       if (idsMap.has(user.id)) {
         duplicates.byId.push({
@@ -153,7 +151,7 @@ function auditDuplicates(users) {
       }
     }
     
-    // Vérifier doublons par profileId
+    
     if (user.profileId) {
       if (profileIdsMap.has(user.profileId)) {
         duplicates.byProfileId.push({
@@ -166,7 +164,7 @@ function auditDuplicates(users) {
       }
     }
     
-    // Vérifier doublons par username
+    
     if (user.username) {
       const lowerUsername = user.username.toLowerCase();
       if (usernamesMap.has(lowerUsername)) {
@@ -180,7 +178,7 @@ function auditDuplicates(users) {
       }
     }
     
-    // Vérifier doublons par address
+    
     if (user.primaryAddress) {
       const lowerAddress = user.primaryAddress.toLowerCase();
       if (addressesMap.has(lowerAddress)) {
@@ -194,7 +192,7 @@ function auditDuplicates(users) {
       }
     }
     
-    // Vérifier doublons par displayName
+   
     if (user.displayName) {
       const lowerDisplayName = user.displayName.toLowerCase();
       if (displayNamesMap.has(lowerDisplayName)) {
@@ -214,23 +212,20 @@ function auditDuplicates(users) {
   return { hasDuplicates, duplicates };
 }
 
-/**
- * 🧹 NETTOYAGE DES DOUBLONS
- */
 function cleanupDuplicates(users, auditResult) {
   const toRemove = new Set();
   
-  // Marquer les doublons pour suppression (garder le premier)
+ 
   Object.values(auditResult.duplicates).forEach(duplicateArray => {
     duplicateArray.forEach(duplicate => {
       if (duplicate.indexes && duplicate.indexes.length > 1) {
-        // Garder le premier, supprimer les autres
+        
         duplicate.indexes.slice(1).forEach(index => toRemove.add(index));
       }
     });
   });
   
-  // Filtrer les utilisateurs
+  
   const cleanedUsers = users.filter((user, index) => !toRemove.has(index));
   
   console.log(`🧹 Doublons supprimés: ${toRemove.size}`);
@@ -264,13 +259,13 @@ function analyzeGigachadsData(users) {
     withAddress: users.filter(u => u.primaryAddress).length,
     averageScore: 0,
     scoreDistribution: {
-      high: 0,    // > 80
-      medium: 0,  // 20-80
-      low: 0      // < 20
+      high: 0,    
+      medium: 0,  
+      low: 0      
     }
   };
   
-  // Calculer score moyen et distribution
+  
   const usersWithScore = users.filter(u => u.score !== null && u.score !== undefined);
   if (usersWithScore.length > 0) {
     stats.averageScore = usersWithScore.reduce((sum, u) => sum + u.score, 0) / usersWithScore.length;
@@ -379,7 +374,7 @@ async function checkMissingProfileIds(usersWithMissingProfileIds) {
         }
       }
       
-      // Pause entre les lots
+      
       await new Promise(resolve => setTimeout(resolve, 200));
       
     } catch (error) {
@@ -393,7 +388,7 @@ async function checkMissingProfileIds(usersWithMissingProfileIds) {
   return { updatedUsers, foundCount: foundProfiles };
 }
 
-// 🚀 LANCEMENT DU SCRIPT
+
 console.log('🚀 DÉMARRAGE DU SCRIPT DE RÉCUPÉRATION...');
 console.log('⏱️ ', new Date().toLocaleString());
 console.log('');

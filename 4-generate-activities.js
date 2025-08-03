@@ -99,7 +99,7 @@ async function generateActivitiesData() {
     debug('🔄 Starting activities data generation (vouches + reviews)...');
     
     try {
-        // Charger les données Gigachads
+        
         const gigachadsResponse = await fetch('https://raw.githubusercontent.com/guezito-dev/Ethos/main/gigachads-ranking.json');
         if (!gigachadsResponse.ok) {
             throw new Error('Failed to fetch gigachads data');
@@ -119,10 +119,10 @@ async function generateActivitiesData() {
         const processedActivities = new Set();
         const gigachadProfileIds = new Set(users.map(u => u.profileId));
         
-        // Traiter les premiers 15 utilisateurs pour tester
+        
         const limitedUsers = users.slice(0, 15);
         
-        // Traiter par batch de 5
+        
         const batchSize = 5;
         for (let i = 0; i < limitedUsers.length; i += batchSize) {
             const batch = limitedUsers.slice(i, i + batchSize);
@@ -147,7 +147,7 @@ async function generateActivitiesData() {
                         const authorProfileId = activity.author?.profileId;
                         const subjectProfileId = activity.subject?.profileId;
                         
-                        // Vérifier que les deux sont des gigachads
+                        
                         if (!authorProfileId || !subjectProfileId) return;
                         if (!gigachadProfileIds.has(authorProfileId)) return;
                         if (!gigachadProfileIds.has(subjectProfileId)) return;
@@ -161,7 +161,7 @@ async function generateActivitiesData() {
                         
                         processedActivities.add(uniqueId);
                         
-                        // 🎯 TRAITEMENT DES VOUCHES
+                        
                         if (activity.type === 'vouch') {
                             const authorName = activity.author?.name || activity.author?.username || 'Unknown';
                             const subjectName = activity.subject?.name || activity.subject?.username || 'Unknown';
@@ -180,7 +180,7 @@ async function generateActivitiesData() {
                                 clickUrl = `https://app.ethos.network/profile/x/${subjectUsername}`;
                             }
                             
-                            // Ajouter les données enrichies
+                           
                             activity.enriched = {
                                 authorName,
                                 subjectName,
@@ -195,7 +195,7 @@ async function generateActivitiesData() {
                             userVouches.push(activity);
                         }
                         
-                        // 🎯 TRAITEMENT DES REVIEWS
+                        
                         else if (activity.type === 'review') {
                             const authorName = activity.author?.name || activity.author?.username || 'Unknown';
                             const subjectName = activity.subject?.name || activity.subject?.username || 'Unknown';
@@ -217,7 +217,7 @@ async function generateActivitiesData() {
                                 clickUrl = `https://app.ethos.network/profile/x/${subjectUsername}`;
                             }
                             
-                            // Ajouter les données enrichies
+                            
                             activity.enriched = {
                                 authorName,
                                 subjectName,
@@ -255,7 +255,7 @@ async function generateActivitiesData() {
                 }
             });
             
-            // Petite pause entre les batches
+          
             if (i + batchSize < limitedUsers.length) {
                 debug(`⏳ Pausing between batches...`);
                 await new Promise(resolve => setTimeout(resolve, 500));
@@ -264,7 +264,7 @@ async function generateActivitiesData() {
         
         debug(`📊 Total found: ${allVouches.length} vouches, ${allReviews.length} reviews`);
         
-        // Trier par timestamp (plus récent en premier)
+        
         allVouches.sort((a, b) => {
             const timestampA = a.timestamp || a.createdAt || 0;
             const timestampB = b.timestamp || b.createdAt || 0;
@@ -277,13 +277,13 @@ async function generateActivitiesData() {
             return timestampB - timestampA;
         });
         
-        // Prendre les 20 plus récents de chaque type
+        
         const recentVouches = allVouches.slice(0, 20);
         const recentReviews = allReviews.slice(0, 20);
         
         debug(`✅ Final results: ${recentVouches.length} vouches, ${recentReviews.length} reviews`);
         
-        // Générer le JSON combiné
+        
         const jsonOutput = {
             success: true,
             totalVouches: allVouches.length,
@@ -299,7 +299,7 @@ async function generateActivitiesData() {
             }
         };
         
-        // Sauvegarder le fichier
+       
         fs.writeFileSync('activities-data.json', JSON.stringify(jsonOutput, null, 2));
         
         debug('✅ Activities data generated successfully!');
@@ -308,7 +308,7 @@ async function generateActivitiesData() {
     } catch (error) {
         debug('❌ Error generating activities data:', error);
         
-        // Générer un JSON d'erreur
+        
         const errorJson = {
             success: false,
             error: error.message,
@@ -323,7 +323,7 @@ async function generateActivitiesData() {
     }
 }
 
-// Exécuter si appelé directement
+
 if (require.main === module) {
     generateActivitiesData();
 }
