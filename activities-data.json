@@ -5,8 +5,8 @@
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-08-06T18:51:29.763Z",
-  "lastUpdated": "06/08/2025 20:51:29",
+  "generatedAt": "2025-08-06T19:31:32.584Z",
+  "lastUpdated": "06/08/2025 21:31:32",
   "data": {
     "vouches": [
       {
@@ -3469,6 +3469,169 @@
       {
         "type": "review",
         "data": {
+          "id": 346622,
+          "authorProfileId": 5642,
+          "author": "0x36FA3AA384dD8Bcbb65DECa6E6ddE381F0e4392B",
+          "subject": "0xc820233ccBCB9a094f09fd4073364562C8D51cC0",
+          "score": "positive",
+          "comment": "Zorin = an old, true friend",
+          "metadata": "{\"description\":\"I feel both grateful and genuinely happy seeing my OG friends succeed, keep showing up for others, and help whenever and however they can. Every day, he supports and uplifts the space, always finding ways to push things forward.\"}",
+          "createdAt": 1754508549,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 1,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1754508549,
+        "author": {
+          "userkey": "address:0x8FdA0Ae3F9D91e95f60A631eAE417615c6EAE130",
+          "profileId": 5642,
+          "name": "NancyNik 🤝🌊",
+          "username": "Bellerophontis2",
+          "avatar": "https://pbs.twimg.com/profile_images/1935401530271649792/IwvFx9VR.jpg",
+          "description": null,
+          "score": 1384,
+          "scoreXpMultiplier": 1,
+          "primaryAddress": "0x8FdA0Ae3F9D91e95f60A631eAE417615c6EAE130"
+        },
+        "subject": {
+          "userkey": "address:0xc820233ccBCB9a094f09fd4073364562C8D51cC0",
+          "profileId": 4026,
+          "name": "Zorin",
+          "username": "Zorin_NFT",
+          "avatar": "https://pbs.twimg.com/profile_images/1872479879251312640/QhMmpxH1.jpg",
+          "description": null,
+          "score": 1555,
+          "scoreXpMultiplier": 1,
+          "primaryAddress": "0xc820233ccBCB9a094f09fd4073364562C8D51cC0"
+        },
+        "authorUser": {
+          "id": 592012,
+          "profileId": 5642,
+          "displayName": "NancyNik 🤝🌊",
+          "username": "Bellerophontis2",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1935401530271649792/IwvFx9VR.jpg",
+          "description": null,
+          "score": 1384,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x8FdA0Ae3F9D91e95f60A631eAE417615c6EAE130",
+            "address:0x36FA3AA384dD8Bcbb65DECa6E6ddE381F0e4392B",
+            "service:x.com:1519413779854991360",
+            "profileId:5642"
+          ],
+          "xpTotal": 18192,
+          "xpStreakDays": 0,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/Bellerophontis2",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/Bellerophontis2/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 20
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "0",
+                "count": 0
+              },
+              "received": {
+                "amountWeiTotal": "0",
+                "count": 0
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 2993,
+          "profileId": 4026,
+          "displayName": "Zorin",
+          "username": "Zorin_NFT",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1872479879251312640/QhMmpxH1.jpg",
+          "description": null,
+          "score": 1555,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xc820233ccBCB9a094f09fd4073364562C8D51cC0",
+            "address:0x15EeEEC5E86D90a4Dff91ED352774CE665668c9e",
+            "service:x.com:1404408987592892416",
+            "profileId:4026"
+          ],
+          "xpTotal": 49641,
+          "xpStreakDays": 0,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/Zorin_NFT",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/Zorin_NFT/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 1,
+                "neutral": 0,
+                "positive": 93
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "30634037002006160",
+                "count": 3
+              },
+              "received": {
+                "amountWeiTotal": "10000000000000000",
+                "count": 1
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 9680835,
+            "blockIndex": 89,
+            "blockNumber": 33859601,
+            "contract": "review",
+            "createdAt": 1754508550,
+            "processed": true,
+            "txHash": "0x342615864417dfefb975fa05477fb2ed00bf04011a0317d1adf6a10de3f13be8",
+            "updatedAt": 1754508550
+          }
+        ],
+        "llmQualityScore": 84,
+        "translation": {
+          "contentHash": "522c35673d7ca4787b43eb7b49b1b39d035c590d84c5aac798dcbb6756072f8d",
+          "detectedLanguage": "en",
+          "translatedLanguage": "en",
+          "translatedContent": "Zorin = an old, true friend",
+          "translatedDescription": "I feel both grateful and genuinely happy seeing my OG friends succeed, keep showing up for others, and help whenever and however they can. Every day, he supports and uplifts the space, always finding ways to push things forward."
+        },
+        "enriched": {
+          "authorName": "NancyNik 🤝🌊",
+          "subjectName": "Zorin",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1935401530271649792/IwvFx9VR.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1872479879251312640/QhMmpxH1.jpg",
+          "timeAgo": "2m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/346622",
+          "reviewId": 346622
+        }
+      },
+      {
+        "type": "review",
+        "data": {
           "id": 339408,
           "authorProfileId": 14905,
           "author": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
@@ -6612,170 +6775,6 @@
           "scoreText": "Positive",
           "clickUrl": "https://app.ethos.network/activity/review/287827",
           "reviewId": 287827
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 286013,
-          "authorProfileId": 19246,
-          "author": "0xc5c1e47208a5f2191B645084C896347229c5B306",
-          "subject": "0x26dD4199269bec9457F84ADb029dB917A910c711",
-          "score": "positive",
-          "comment": "Abstractio builder",
-          "metadata": "{\"description\":\"Knew Bunya during the pre-launch of Abstractio and we got promoted to Gigachad in the same batch during the Abstractio checker launch.\\n\\nWhen I expected that our promotion might be too late to be included in the list of Abstractio, Bunya updated us that all newly promoted Chads are eligible. It reflects the quality and care as a founder toward the community, which made me truly admire Bunya\"}",
-          "createdAt": 1752438859,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 8,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1752438859,
-        "author": {
-          "userkey": "address:0x607d2381aFecbD80c4AD5CCE8059205C2a297966",
-          "profileId": 19246,
-          "name": "sillybilly 🐧✳️",
-          "username": "sillyybillyyyyy",
-          "avatar": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
-          "description": null,
-          "score": 1431,
-          "scoreXpMultiplier": 1,
-          "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
-        },
-        "subject": {
-          "userkey": "address:0xc6abEd71acF45f9239eec2A3C8F541282fD0D5aB",
-          "profileId": 3011,
-          "name": "Bunya🏀",
-          "username": "bunya_eth",
-          "avatar": "https://pbs.twimg.com/profile_images/1939056014784921601/X2tyzXQ4.jpg",
-          "description": null,
-          "score": 1552,
-          "scoreXpMultiplier": 1,
-          "primaryAddress": "0xc6abEd71acF45f9239eec2A3C8F541282fD0D5aB"
-        },
-        "authorUser": {
-          "id": 13164918,
-          "profileId": 19246,
-          "displayName": "sillybilly 🐧✳️",
-          "username": "sillyybillyyyyy",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
-          "description": null,
-          "score": 1431,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0x607d2381aFecbD80c4AD5CCE8059205C2a297966",
-            "address:0xc5c1e47208a5f2191B645084C896347229c5B306",
-            "service:x.com:1482402554177015810",
-            "profileId:19246"
-          ],
-          "xpTotal": 12364,
-          "xpStreakDays": 5,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/sillyybillyyyyy",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/sillyybillyyyyy/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 1,
-                "positive": 19
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "83545518273420714",
-                "count": 8
-              },
-              "received": {
-                "amountWeiTotal": "93199999999999982",
-                "count": 9
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 3859,
-          "profileId": 3011,
-          "displayName": "Bunya🏀",
-          "username": "bunya_eth",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1939056014784921601/X2tyzXQ4.jpg",
-          "description": null,
-          "score": 1552,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xc6abEd71acF45f9239eec2A3C8F541282fD0D5aB",
-            "address:0x26dD4199269bec9457F84ADb029dB917A910c711",
-            "service:x.com:928663490117668869",
-            "profileId:3011",
-            "service:discord:549658911343378463"
-          ],
-          "xpTotal": 177084,
-          "xpStreakDays": 0,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/bunya_eth",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/bunya_eth/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 1,
-                "positive": 36
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "1207823529411764704",
-                "count": 1
-              },
-              "received": {
-                "amountWeiTotal": "83192156862745096",
-                "count": 4
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 5258033,
-            "blockIndex": 57,
-            "blockNumber": 32824756,
-            "contract": "review",
-            "createdAt": 1752438860,
-            "processed": true,
-            "txHash": "0xd4c4f20c7214d1a4040b25c1c3cf66ee8d40b49baf7070369623d3386ca7af1c",
-            "updatedAt": 1752438860
-          }
-        ],
-        "llmQualityScore": 84,
-        "translation": {
-          "contentHash": "0628725b5ba9bbf619d3015edc5f76522e3eeaa22605698860b7f4c0021e87d1",
-          "detectedLanguage": "en",
-          "translatedLanguage": "en",
-          "translatedContent": "Abstractio builder",
-          "translatedDescription": "I knew Bunya during the pre-launch of Abstractio, and we were both promoted to Gigachad in the same batch during the Abstractio checker launch.\n\nWhen I was worried that our promotion might be too late to be included in the Abstractio list, Bunya updated us to say that all newly promoted Chads were eligible. This reflects the quality and care that Bunya, as a founder, has for the community, which made me truly admire him."
-        },
-        "enriched": {
-          "authorName": "sillybilly 🐧✳️",
-          "subjectName": "Bunya🏀",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1939056014784921601/X2tyzXQ4.jpg",
-          "timeAgo": "23d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/286013",
-          "reviewId": 286013
         }
       }
     ]
