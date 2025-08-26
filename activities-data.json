@@ -5,8 +5,8 @@
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-08-26T12:11:29.284Z",
-  "lastUpdated": "26/08/2025 14:11:29",
+  "generatedAt": "2025-08-26T12:21:29.405Z",
+  "lastUpdated": "26/08/2025 14:21:29",
   "data": {
     "vouches": [
       {
@@ -3444,6 +3444,172 @@
       {
         "type": "review",
         "data": {
+          "id": 398879,
+          "authorProfileId": 20823,
+          "author": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
+          "subject": "0x24eC6763785D1df1a7d40775E38a5d17C979D3CD",
+          "score": "positive",
+          "comment": "Abstract Gigachad X Streamer!",
+          "metadata": "{\"description\":\"Really great streamer on Abs. As Luca mentioned on OG interview that streaming is a great feature on chain & Lorenzo is streaming on daily bases. Time to time im joining his streams. Keep streaming, keep generating good content. Good luck!\"}",
+          "createdAt": 1756210877,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 0,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1756210877,
+        "author": {
+          "userkey": "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
+          "profileId": 20823,
+          "name": "Pavil ⚡️💵",
+          "username": "basedPavel",
+          "avatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
+          "description": null,
+          "score": 1421,
+          "primaryAddress": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4"
+        },
+        "subject": {
+          "userkey": "address:0x9eD946Ab6e0b951E7EE2273F0608FCa70dC6B2D2",
+          "profileId": 15702,
+          "name": "lorenzo",
+          "username": "lorenzo_onx",
+          "avatar": "https://pbs.twimg.com/profile_images/1927116816792338432/SJeVSkn2.jpg",
+          "description": null,
+          "score": 1500,
+          "primaryAddress": "0x9eD946Ab6e0b951E7EE2273F0608FCa70dC6B2D2"
+        },
+        "authorUser": {
+          "id": 13738191,
+          "profileId": 20823,
+          "displayName": "Pavil ⚡️💵",
+          "username": "basedPavel",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
+          "description": null,
+          "score": 1421,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
+            "address:0xc9F4067a38878A4CdC2cdd525F090Aa8BA0aC18a",
+            "service:x.com:1491753203620327437",
+            "profileId:20823",
+            "service:discord:748807182115536937"
+          ],
+          "xpTotal": 9673,
+          "xpStreakDays": 55,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/basedPavel",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/basedPavel/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 19
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "54367716032127074",
+                "count": 5
+              },
+              "received": {
+                "amountWeiTotal": "51599999999999997",
+                "count": 4
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 11484716,
+          "profileId": 15702,
+          "displayName": "lorenzo",
+          "username": "lorenzo_onx",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1927116816792338432/SJeVSkn2.jpg",
+          "description": null,
+          "score": 1500,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x9eD946Ab6e0b951E7EE2273F0608FCa70dC6B2D2",
+            "address:0x24eC6763785D1df1a7d40775E38a5d17C979D3CD",
+            "service:x.com:742793084803682304",
+            "profileId:15702",
+            "service:discord:213988453468209152",
+            "service:telegram:5430979445",
+            "service:farcaster:1117746"
+          ],
+          "xpTotal": 16540,
+          "xpStreakDays": 49,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/lorenzo_onx",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/lorenzo_onx/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 1,
+                "neutral": 0,
+                "positive": 54
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "0",
+                "count": 0
+              },
+              "received": {
+                "amountWeiTotal": "0",
+                "count": 0
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 16434570,
+            "blockIndex": 3258,
+            "blockNumber": 34710765,
+            "contract": "review",
+            "createdAt": 1756210878,
+            "processed": true,
+            "txHash": "0xd798ec093ddd7a2f18b06691cee4cdd9841200989860a20afe29afe4f902f021",
+            "updatedAt": 1756210878
+          }
+        ],
+        "llmQualityScore": 73,
+        "translation": {
+          "contentHash": "1dc2a1362ecb2826ca809fa93b31e50bb946151edce35d9ddf7878fc7edf63b4",
+          "detectedLanguage": "en",
+          "translatedLanguage": "en",
+          "translatedContent": "Abstract Gigachad X Streamer!",
+          "translatedDescription": "Really great streamer on Abs. As Luca mentioned in the OG interview, streaming is a great on-chain feature & Lorenzo is streaming on a daily basis. I join his streams from time to time. Keep streaming, keep generating good content. Good luck!"
+        },
+        "isSpam": false,
+        "enriched": {
+          "authorName": "Pavil ⚡️💵",
+          "subjectName": "lorenzo",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1927116816792338432/SJeVSkn2.jpg",
+          "timeAgo": "10s ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/398879",
+          "reviewId": 398879
+        }
+      },
+      {
+        "type": "review",
+        "data": {
           "id": 398860,
           "authorProfileId": 20823,
           "author": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
@@ -3459,7 +3625,7 @@
           }
         },
         "votes": {
-          "upvotes": 0,
+          "upvotes": 2,
           "downvotes": 0
         },
         "replySummary": {
@@ -3599,7 +3765,7 @@
           "subjectName": "gucci",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
-          "timeAgo": "3m ago",
+          "timeAgo": "13m ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -3765,7 +3931,7 @@
           "subjectName": "MrP",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1953943721491271681/d2owd47R.jpg",
-          "timeAgo": "24m ago",
+          "timeAgo": "34m ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -3929,7 +4095,7 @@
           "subjectName": "tut™",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1914340160562409472/QQw-Qsry.jpg",
-          "timeAgo": "35m ago",
+          "timeAgo": "45m ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -4092,7 +4258,7 @@
           "subjectName": "𝗗𝗨𝗗𝗘🎧 (builders arc)",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1893219811926102017/_IvFDhi4.jpg",
-          "timeAgo": "42m ago",
+          "timeAgo": "52m ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -4255,7 +4421,7 @@
           "subjectName": "MAXIMUS",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1880286958246633472/iBZy8-ED.jpg",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -6546,168 +6712,6 @@
           "scoreText": "Positive",
           "clickUrl": "https://app.ethos.network/activity/review/375701",
           "reviewId": 375701
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 375675,
-          "authorProfileId": 19246,
-          "author": "0xc5c1e47208a5f2191B645084C896347229c5B306",
-          "subject": "0x1d5a19b4E2c95B07dC7B9380aFfF85e477d5AEfc",
-          "score": "positive",
-          "comment": "Iconic creative pudgy",
-          "metadata": "{\"description\":\"been knowing Feral way before Abstract with how he utilized pudgy penguin IP to his work that really stands out from others until he joined AP Collective team\\n\\nAfter I knew he's a part of Fugz NFT as a creative lead, I would say that Fugz really got a gem and truly happy for Feral\"}",
-          "createdAt": 1755412957,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 7,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1755412957,
-        "author": {
-          "userkey": "address:0x607d2381aFecbD80c4AD5CCE8059205C2a297966",
-          "profileId": 19246,
-          "name": "sillybilly 🐧✳️",
-          "username": "sillyybillyyyyy",
-          "avatar": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
-          "description": null,
-          "score": 1493,
-          "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
-        },
-        "subject": {
-          "userkey": "address:0x41a8306Daf90E9125E550364D6E7DFBA2f7566B9",
-          "profileId": 4254,
-          "name": "Feral",
-          "username": "FeralOnChain",
-          "avatar": "https://pbs.twimg.com/profile_images/1869498671408074752/TS4TuQdC.jpg",
-          "description": null,
-          "score": 1455,
-          "primaryAddress": "0x41a8306Daf90E9125E550364D6E7DFBA2f7566B9"
-        },
-        "authorUser": {
-          "id": 13164918,
-          "profileId": 19246,
-          "displayName": "sillybilly 🐧✳️",
-          "username": "sillyybillyyyyy",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
-          "description": null,
-          "score": 1493,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0x607d2381aFecbD80c4AD5CCE8059205C2a297966",
-            "address:0xc5c1e47208a5f2191B645084C896347229c5B306",
-            "service:x.com:1482402554177015810",
-            "profileId:19246"
-          ],
-          "xpTotal": 22302,
-          "xpStreakDays": 4,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/sillyybillyyyyy",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/sillyybillyyyyy/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 27
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "104489770856366209",
-                "count": 10
-              },
-              "received": {
-                "amountWeiTotal": "113999999999999971",
-                "count": 11
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 20529,
-          "profileId": 4254,
-          "displayName": "Feral",
-          "username": "FeralOnChain",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1869498671408074752/TS4TuQdC.jpg",
-          "description": null,
-          "score": 1455,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0x41a8306Daf90E9125E550364D6E7DFBA2f7566B9",
-            "address:0x1d5a19b4E2c95B07dC7B9380aFfF85e477d5AEfc",
-            "service:x.com:1664964830237712384",
-            "profileId:4254"
-          ],
-          "xpTotal": 153485,
-          "xpStreakDays": 0,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/FeralOnChain",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/FeralOnChain/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 25
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "0",
-                "count": 0
-              },
-              "received": {
-                "amountWeiTotal": "10000000000000000",
-                "count": 1
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 14142482,
-            "blockIndex": 62,
-            "blockNumber": 34311805,
-            "contract": "review",
-            "createdAt": 1755412957,
-            "processed": true,
-            "txHash": "0x3fb7680d1bed4156c8c6a4994144e464cf75d759bc2d31cd3488d097a47dc9dc",
-            "updatedAt": 1755412958
-          }
-        ],
-        "llmQualityScore": 84,
-        "translation": {
-          "contentHash": "16a5c69645e1028caf7608e18183989ba6dd38190df640025c490840339fe4d0",
-          "detectedLanguage": "en",
-          "translatedLanguage": "en",
-          "translatedContent": "Iconic creative pudgy",
-          "translatedDescription": "I've known Feral since long before Abstract, recognizing how he utilized the Pudgy Penguin IP in his work, which really stood out from others, until he joined the AP Collective team.\n\nAfter learning he's a part of Fugz NFT as a creative lead, I'd say that Fugz really got a gem, and I'm truly happy for Feral."
-        },
-        "isSpam": false,
-        "enriched": {
-          "authorName": "sillybilly 🐧✳️",
-          "subjectName": "Feral",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1869498671408074752/TS4TuQdC.jpg",
-          "timeAgo": "9d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/375675",
-          "reviewId": 375675
         }
       }
     ]
