@@ -1,12 +1,12 @@
 {
   "success": true,
   "totalVouches": 27,
-  "totalReviews": 123,
+  "totalReviews": 124,
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-09-07T16:11:26.749Z",
-  "lastUpdated": "07/09/2025 18:11:26",
+  "generatedAt": "2025-09-07T16:51:24.186Z",
+  "lastUpdated": "07/09/2025 18:51:24",
   "data": {
     "vouches": [
       {
@@ -3426,6 +3426,169 @@
       {
         "type": "review",
         "data": {
+          "id": 430674,
+          "authorProfileId": 20823,
+          "author": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
+          "subject": "0x3ec98ED36F87980A9F4331Fce5957a55d5a1a6DF",
+          "score": "positive",
+          "comment": "Security Pudgy King",
+          "metadata": "{\"description\":\"Legendary peng who cares always about everyone in huddle about their safety! Super happy that when i joined huddle it's been opportunity to complete classes from Beau. His advices, examples super mega helpful! \\nMuch appreciate you man for what you are doing!\"}",
+          "createdAt": 1757263459,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 1,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1757263459,
+        "author": {
+          "userkey": "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
+          "profileId": 20823,
+          "name": "Pavil ⚡️💵",
+          "username": "basedPavel",
+          "avatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
+          "description": null,
+          "score": 1452,
+          "primaryAddress": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4"
+        },
+        "subject": {
+          "userkey": "address:0x3ec98ED36F87980A9F4331Fce5957a55d5a1a6DF",
+          "profileId": 1168,
+          "name": "Beau",
+          "username": "beausecurity",
+          "avatar": "https://pbs.twimg.com/profile_images/1931203087319945217/v2nx_MJY.jpg",
+          "description": null,
+          "score": 1650,
+          "primaryAddress": "0x3ec98ED36F87980A9F4331Fce5957a55d5a1a6DF"
+        },
+        "authorUser": {
+          "id": 13738191,
+          "profileId": 20823,
+          "displayName": "Pavil ⚡️💵",
+          "username": "basedPavel",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
+          "description": null,
+          "score": 1452,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
+            "address:0xc9F4067a38878A4CdC2cdd525F090Aa8BA0aC18a",
+            "service:x.com:1491753203620327437",
+            "profileId:20823",
+            "service:discord:748807182115536937"
+          ],
+          "xpTotal": 55905,
+          "xpStreakDays": 67,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/basedPavel",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/basedPavel/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 27
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "84458176257931713",
+                "count": 6
+              },
+              "received": {
+                "amountWeiTotal": "73439999999999992",
+                "count": 6
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 16600,
+          "profileId": 1168,
+          "displayName": "Beau",
+          "username": "beausecurity",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1931203087319945217/v2nx_MJY.jpg",
+          "description": null,
+          "score": 1650,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x3ec98ED36F87980A9F4331Fce5957a55d5a1a6DF",
+            "address:0xe4F1169676929f52cd763732cDA98E38b5500Bae",
+            "service:x.com:1425647349783617539",
+            "profileId:1168"
+          ],
+          "xpTotal": 130872,
+          "xpStreakDays": 0,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/beausecurity",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/beausecurity/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 3,
+                "positive": 62
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "112405166274047637",
+                "count": 10
+              },
+              "received": {
+                "amountWeiTotal": "114437116771975474",
+                "count": 6
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 20167454,
+            "blockIndex": 582,
+            "blockNumber": 35237056,
+            "contract": "review",
+            "createdAt": 1757263459,
+            "processed": true,
+            "txHash": "0xe49835929cae660ffd9f24e0f5330db8dc88f6fd02a0af894cc93c7a08cbb6fe",
+            "updatedAt": 1757263461
+          }
+        ],
+        "llmQualityScore": 84,
+        "translation": {
+          "contentHash": "c631dea36512083ace7f469967aa8c26f57af90a62b78f14ac878164780a232b",
+          "detectedLanguage": "unknown",
+          "translatedLanguage": "en",
+          "translatedContent": "Security Pudgy King",
+          "translatedDescription": "Legendary peng who always cares about everyone in the huddle and their safety! Super happy that when I joined the huddle, it's been an opportunity to complete classes from Beau. His advice and examples were super mega helpful! Much appreciate you, man, for what you are doing!"
+        },
+        "isSpam": false,
+        "enriched": {
+          "authorName": "Pavil ⚡️💵",
+          "subjectName": "Beau",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1931203087319945217/v2nx_MJY.jpg",
+          "timeAgo": "7m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/430674",
+          "reviewId": 430674
+        }
+      },
+      {
+        "type": "review",
+        "data": {
           "id": 426720,
           "authorProfileId": 10840,
           "author": "0x3876B948ed44d0094fF23a22f5aC674212523e92",
@@ -6544,169 +6707,6 @@
           "scoreText": "Positive",
           "clickUrl": "https://app.ethos.network/activity/review/400821",
           "reviewId": 400821
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 399086,
-          "authorProfileId": 6202,
-          "author": "0xE85811DeaA383a4cA79Ea002b369A16a14F8b1DC",
-          "subject": "0xc9F4067a38878A4CdC2cdd525F090Aa8BA0aC18a",
-          "score": "positive",
-          "comment": "Giga chad",
-          "metadata": "{\"description\":\"Great genuine guy and an amazing pengu artist. His murals are one of its kind\\n\\nAlways active and supportive. I wish there are more pavils in this space\\n\\nKeep it up fam!\"}",
-          "createdAt": 1756218489,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 10,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1756218489,
-        "author": {
-          "userkey": "address:0x0c17F58C469Da5781486DC3CF8E3f19E2F50eedB",
-          "profileId": 6202,
-          "name": "𝗗𝗨𝗗𝗘🎧 (builders arc)",
-          "username": "DUDEisonchain",
-          "avatar": "https://pbs.twimg.com/profile_images/1893219811926102017/_IvFDhi4.jpg",
-          "description": null,
-          "score": 1398,
-          "primaryAddress": "0x0c17F58C469Da5781486DC3CF8E3f19E2F50eedB"
-        },
-        "subject": {
-          "userkey": "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
-          "profileId": 20823,
-          "name": "Pavil ⚡️💵",
-          "username": "basedPavel",
-          "avatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "description": null,
-          "score": 1452,
-          "primaryAddress": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4"
-        },
-        "authorUser": {
-          "id": 1107264,
-          "profileId": 6202,
-          "displayName": "𝗗𝗨𝗗𝗘🎧 (builders arc)",
-          "username": "DUDEisonchain",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1893219811926102017/_IvFDhi4.jpg",
-          "description": null,
-          "score": 1398,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0x0c17F58C469Da5781486DC3CF8E3f19E2F50eedB",
-            "address:0xE85811DeaA383a4cA79Ea002b369A16a14F8b1DC",
-            "service:x.com:1432641840025583618",
-            "profileId:6202"
-          ],
-          "xpTotal": 113905,
-          "xpStreakDays": 0,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/DUDEisonchain",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/DUDEisonchain/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 1,
-                "positive": 27
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "0",
-                "count": 0
-              },
-              "received": {
-                "amountWeiTotal": "0",
-                "count": 0
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 13738191,
-          "profileId": 20823,
-          "displayName": "Pavil ⚡️💵",
-          "username": "basedPavel",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "description": null,
-          "score": 1452,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
-            "address:0xc9F4067a38878A4CdC2cdd525F090Aa8BA0aC18a",
-            "service:x.com:1491753203620327437",
-            "profileId:20823",
-            "service:discord:748807182115536937"
-          ],
-          "xpTotal": 55905,
-          "xpStreakDays": 67,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/basedPavel",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/basedPavel/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 27
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "84458176257931713",
-                "count": 6
-              },
-              "received": {
-                "amountWeiTotal": "73439999999999992",
-                "count": 6
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 16458767,
-            "blockIndex": 546,
-            "blockNumber": 34714571,
-            "contract": "review",
-            "createdAt": 1756218489,
-            "processed": true,
-            "txHash": "0xcf43afb441961f9dc460f9e41887c897c0c84e55c3fafd52ef927abdaad5f6c2",
-            "updatedAt": 1756218490
-          }
-        ],
-        "llmQualityScore": 68,
-        "translation": {
-          "contentHash": "556ccf5cc49cca5d677bee24b153c631e085e07170873e2e2ddb47e56c9b6562",
-          "detectedLanguage": "en",
-          "translatedLanguage": "en",
-          "translatedContent": "Giga chad",
-          "translatedDescription": "Great genuine guy and an amazing pengu artist. His murals are one of its kind\n\nAlways active and supportive. I wish there are more pavils in this space\n\nKeep it up fam!"
-        },
-        "isSpam": false,
-        "enriched": {
-          "authorName": "𝗗𝗨𝗗𝗘🎧 (builders arc)",
-          "subjectName": "Pavil ⚡️💵",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1893219811926102017/_IvFDhi4.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "timeAgo": "12d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/399086",
-          "reviewId": 399086
         }
       }
     ]
