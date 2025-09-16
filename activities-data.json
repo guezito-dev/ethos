@@ -1,12 +1,12 @@
 {
   "success": true,
   "totalVouches": 18,
-  "totalReviews": 116,
+  "totalReviews": 117,
   "recentVouches": 18,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-09-16T00:11:24.338Z",
-  "lastUpdated": "16/09/2025 02:11:24",
+  "generatedAt": "2025-09-16T00:21:26.307Z",
+  "lastUpdated": "16/09/2025 02:21:26",
   "data": {
     "vouches": [
       {
@@ -432,7 +432,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 35
+                "positive": 36
               }
             },
             "vouch": {
@@ -3098,6 +3098,170 @@
       {
         "type": "review",
         "data": {
+          "id": 454685,
+          "authorProfileId": 17515,
+          "author": "0x466b86b8D12ce1AF9915183D4dC0c4ddB0a27ac8",
+          "subject": "0xc9F4067a38878A4CdC2cdd525F090Aa8BA0aC18a",
+          "score": "positive",
+          "comment": "Great artist",
+          "metadata": "{\"description\":\"Pavil is a great artist.  He often uses spray paint to create beautiful images of Pudgy Penguin related themes.\"}",
+          "createdAt": 1757981677,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 9,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1757981677,
+        "author": {
+          "userkey": "address:0xE1F3ef504b0C24aA4F790D26d6EA451b40a0c863",
+          "profileId": 17515,
+          "name": "Rubiks_Gus",
+          "username": "Rubiks_Gus",
+          "avatar": "https://pbs.twimg.com/profile_images/1895139176384712704/MO5aFVfH.jpg",
+          "description": null,
+          "score": 1372,
+          "primaryAddress": "0xE1F3ef504b0C24aA4F790D26d6EA451b40a0c863"
+        },
+        "subject": {
+          "userkey": "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
+          "profileId": 20823,
+          "name": "Pavil ⚡️💵",
+          "username": "basedPavel",
+          "avatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
+          "description": null,
+          "score": 1494,
+          "primaryAddress": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4"
+        },
+        "authorUser": {
+          "id": 12111706,
+          "profileId": 17515,
+          "displayName": "Rubiks_Gus",
+          "username": "Rubiks_Gus",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1895139176384712704/MO5aFVfH.jpg",
+          "description": null,
+          "score": 1372,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xE1F3ef504b0C24aA4F790D26d6EA451b40a0c863",
+            "address:0x466b86b8D12ce1AF9915183D4dC0c4ddB0a27ac8",
+            "service:x.com:1480320591395753984",
+            "profileId:17515",
+            "service:discord:545378299115864075"
+          ],
+          "xpTotal": 28,
+          "xpStreakDays": 0,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/Rubiks_Gus",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/Rubiks_Gus/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 20
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "0",
+                "count": 0
+              },
+              "received": {
+                "amountWeiTotal": "0",
+                "count": 0
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 13738191,
+          "profileId": 20823,
+          "displayName": "Pavil ⚡️💵",
+          "username": "basedPavel",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
+          "description": null,
+          "score": 1494,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
+            "address:0xc9F4067a38878A4CdC2cdd525F090Aa8BA0aC18a",
+            "service:x.com:1491753203620327437",
+            "profileId:20823",
+            "service:discord:748807182115536937"
+          ],
+          "xpTotal": 56724,
+          "xpStreakDays": 75,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/basedPavel",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/basedPavel/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 36
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "84636966757768939",
+                "count": 6
+              },
+              "received": {
+                "amountWeiTotal": "94239999999999985",
+                "count": 8
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 23145252,
+            "blockIndex": 272,
+            "blockNumber": 35596165,
+            "contract": "review",
+            "createdAt": 1757981677,
+            "processed": true,
+            "txHash": "0x6a02c453adcc57314cff89d2352331adda4b9ff1defbc79e6b066c6095c655bf",
+            "updatedAt": 1757981678
+          }
+        ],
+        "llmQualityScore": 23,
+        "translation": {
+          "contentHash": "bc434562d26219cd400670aed41c916067c8902c2e08e42e74f03a34445ce164",
+          "detectedLanguage": "en",
+          "translatedLanguage": "en",
+          "translatedContent": "Great artist",
+          "translatedDescription": "Pavil is a great artist.  He often uses spray paint to create beautiful images of Pudgy Penguin related themes."
+        },
+        "isSpam": false,
+        "enriched": {
+          "authorName": "Rubiks_Gus",
+          "subjectName": "Pavil ⚡️💵",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1895139176384712704/MO5aFVfH.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
+          "timeAgo": "6m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/454685",
+          "reviewId": 454685
+        }
+      },
+      {
+        "type": "review",
+        "data": {
           "id": 452287,
           "authorProfileId": 20823,
           "author": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
@@ -3168,7 +3332,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 35
+                "positive": 36
               }
             },
             "vouch": {
@@ -3376,7 +3540,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 35
+                "positive": 36
               }
             },
             "vouch": {
@@ -3498,7 +3662,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 35
+                "positive": 36
               }
             },
             "vouch": {
@@ -3661,7 +3825,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 35
+                "positive": 36
               }
             },
             "vouch": {
@@ -3824,7 +3988,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 35
+                "positive": 36
               }
             },
             "vouch": {
@@ -3987,7 +4151,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 35
+                "positive": 36
               }
             },
             "vouch": {
@@ -4191,7 +4355,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 35
+                "positive": 36
               }
             },
             "vouch": {
@@ -4313,7 +4477,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 35
+                "positive": 36
               }
             },
             "vouch": {
@@ -4846,7 +5010,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 35
+                "positive": 36
               }
             },
             "vouch": {
@@ -4968,7 +5132,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 35
+                "positive": 36
               }
             },
             "vouch": {
@@ -5132,7 +5296,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 35
+                "positive": 36
               }
             },
             "vouch": {
@@ -5295,7 +5459,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 35
+                "positive": 36
               }
             },
             "vouch": {
@@ -6212,171 +6376,6 @@
           "scoreText": "Positive",
           "clickUrl": "https://app.ethos.network/activity/review/402956",
           "reviewId": 402956
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 402866,
-          "authorProfileId": 17532,
-          "author": "0x73Cd95dd1063Caa7899FcB24FC3E44DA74AC8dFC",
-          "subject": "0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5",
-          "score": "positive",
-          "comment": "An outstanding Giga chad",
-          "metadata": "{\"description\":\"He creates high quality contents, brings absolute values and opportunities to Abstract. W dev, his Notion site really helps curate everything that's going on in Abstract eco.\"}",
-          "createdAt": 1756386877,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 7,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1756386877,
-        "author": {
-          "userkey": "address:0x73Cd95dd1063Caa7899FcB24FC3E44DA74AC8dFC",
-          "profileId": 17532,
-          "name": "ALIRU✳️",
-          "username": "aliruinweb",
-          "avatar": "https://pbs.twimg.com/profile_images/1928182740752510978/cB8lcR2a.jpg",
-          "description": null,
-          "score": 1251,
-          "primaryAddress": "0x73Cd95dd1063Caa7899FcB24FC3E44DA74AC8dFC"
-        },
-        "subject": {
-          "userkey": "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
-          "profileId": 14905,
-          "name": "guezit0",
-          "username": "Guezito1",
-          "avatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "description": null,
-          "score": 1499,
-          "primaryAddress": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731"
-        },
-        "authorUser": {
-          "id": 12118068,
-          "profileId": 17532,
-          "displayName": "ALIRU✳️",
-          "username": "aliruinweb",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1928182740752510978/cB8lcR2a.jpg",
-          "description": null,
-          "score": 1251,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0x73Cd95dd1063Caa7899FcB24FC3E44DA74AC8dFC",
-            "address:0xB04573013edd7342eCCcc96a4924e56Ad6dfFA10",
-            "service:x.com:1661881599741370370",
-            "profileId:17532"
-          ],
-          "xpTotal": 979,
-          "xpStreakDays": 0,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/aliruinweb",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/aliruinweb/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 3
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "0",
-                "count": 0
-              },
-              "received": {
-                "amountWeiTotal": "0",
-                "count": 0
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 10792400,
-          "profileId": 14905,
-          "displayName": "guezit0",
-          "username": "Guezito1",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "description": null,
-          "score": 1499,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
-            "address:0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5",
-            "service:x.com:1120360579598831616",
-            "profileId:14905",
-            "service:discord:269284273457070081",
-            "service:telegram:636314012",
-            "service:farcaster:298275"
-          ],
-          "xpTotal": 189320,
-          "xpStreakDays": 101,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/Guezito1",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/Guezito1/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 31
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "313948758669741736",
-                "count": 11
-              },
-              "received": {
-                "amountWeiTotal": "93199999999999982",
-                "count": 9
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 16994239,
-            "blockIndex": 535,
-            "blockNumber": 34798765,
-            "contract": "review",
-            "createdAt": 1756386877,
-            "processed": true,
-            "txHash": "0xf99d1c4cb429ee00d95a3897e0a1c1e221598a3fbb6aba2201c365775a8c76c2",
-            "updatedAt": 1756386878
-          }
-        ],
-        "llmQualityScore": 73,
-        "translation": {
-          "contentHash": "38e35fa8cad753d5bc5462f8a182e0b508f8d09170e0c8d4f47d942083ab047d",
-          "detectedLanguage": "en",
-          "translatedLanguage": "en",
-          "translatedContent": "An outstanding Giga chad",
-          "translatedDescription": "He creates high quality contents, brings absolute values and opportunities to Abstract. W dev, his Notion site really helps curate everything that's going on in Abstract eco."
-        },
-        "isSpam": false,
-        "enriched": {
-          "authorName": "ALIRU✳️",
-          "subjectName": "guezit0",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1928182740752510978/cB8lcR2a.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "timeAgo": "18d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/402866",
-          "reviewId": 402866
         }
       }
     ]
