@@ -1,14 +1,185 @@
 {
   "success": true,
-  "totalVouches": 37,
+  "totalVouches": 38,
   "totalReviews": 194,
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-10-24T19:01:45.603Z",
-  "lastUpdated": "24/10/2025 21:01:45",
+  "generatedAt": "2025-10-24T20:01:40.808Z",
+  "lastUpdated": "24/10/2025 22:01:40",
   "data": {
     "vouches": [
+      {
+        "type": "vouch",
+        "data": {
+          "id": 48774,
+          "authorProfileId": 20593,
+          "authorAddress": "0x6DB8D2A5eCea86679d01Fc8D5cfda8B209cdF4cd",
+          "subjectProfileId": 18228,
+          "subjectAddress": null,
+          "attestationHash": null,
+          "attestationDetails": null,
+          "deposited": "10000000000000000",
+          "staked": "10600000000000000",
+          "balance": "10000000000000000",
+          "withdrawn": "0",
+          "comment": "A streamer who raises the bar in Abstract",
+          "metadata": "{\"description\":\"GMB is one of those rare creators whose content is both genuinely useful and truly entertaining. He knows Moody Madness like his own stadium: breaks down the mechanics, shows shortcuts live, hosts his own events (Moody Mondays, tournaments), and keeps a steady streaming cadence.\\nI genuinely like what he’s doing this work commands respect and admiration, with a clear focus on quality and community support.\"}",
+          "archived": false,
+          "unhealthy": false,
+          "activityCheckpoints": {
+            "vouchedAt": 1761334575,
+            "unvouchedAt": 0,
+            "unhealthyAt": 0
+          },
+          "mutualId": null
+        },
+        "votes": {
+          "upvotes": 0,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1761334575,
+        "author": {
+          "userkey": "address:0x5BE7d678472307Ab7a0268384909aFD621d806d2",
+          "profileId": 20593,
+          "name": "wagnet ✳️",
+          "username": "wagnet__",
+          "avatar": "https://pbs.twimg.com/profile_images/1942300418840698880/VxR1-6Lm.jpg",
+          "description": null,
+          "score": 1454,
+          "primaryAddress": "0x5BE7d678472307Ab7a0268384909aFD621d806d2"
+        },
+        "subject": {
+          "userkey": "address:0xcD9aA0F51ae128575af8b62e14c5B2E2Baf8a153",
+          "profileId": 18228,
+          "name": "GMB ❇️",
+          "username": "GMB_AOB",
+          "avatar": "https://pbs.twimg.com/profile_images/1979507080730955776/xmexyoYx.jpg",
+          "description": null,
+          "score": 1452,
+          "primaryAddress": "0xcD9aA0F51ae128575af8b62e14c5B2E2Baf8a153"
+        },
+        "authorUser": {
+          "id": 13616548,
+          "profileId": 20593,
+          "displayName": "wagnet ✳️",
+          "username": "wagnet__",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1942300418840698880/VxR1-6Lm.jpg",
+          "description": null,
+          "score": 1454,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x5BE7d678472307Ab7a0268384909aFD621d806d2",
+            "address:0x6DB8D2A5eCea86679d01Fc8D5cfda8B209cdF4cd",
+            "service:x.com:1896088145034428419",
+            "profileId:20593",
+            "service:discord:576377907891535884"
+          ],
+          "xpTotal": 32491,
+          "xpStreakDays": 1,
+          "xpRemovedDueToAbuse": false,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/wagnet__",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/wagnet__/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 16
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "156865962966271460",
+                "count": 15
+              },
+              "received": {
+                "amountWeiTotal": "115039999999999974",
+                "count": 11
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 12457398,
+          "profileId": 18228,
+          "displayName": "GMB ❇️",
+          "username": "GMB_AOB",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1979507080730955776/xmexyoYx.jpg",
+          "description": null,
+          "score": 1452,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xcD9aA0F51ae128575af8b62e14c5B2E2Baf8a153",
+            "address:0x02e07d06607bEdc1cc7641AC8686D701b6392B57",
+            "service:x.com:2279989982",
+            "profileId:18228"
+          ],
+          "xpTotal": 16441,
+          "xpStreakDays": 3,
+          "xpRemovedDueToAbuse": false,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/GMB_AOB",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/GMB_AOB/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 1,
+                "positive": 34
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "10229884766279991",
+                "count": 1
+              },
+              "received": {
+                "amountWeiTotal": "20400000000000000",
+                "count": 2
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 37636706,
+            "blockIndex": 273,
+            "blockNumber": 37272614,
+            "contract": "vouch",
+            "createdAt": 1761334575,
+            "processed": true,
+            "txHash": "0xee15ed396f6eb663ac9b9378914bfc40239cde98020b95523caa72846f8650b3",
+            "updatedAt": 1761334576
+          }
+        ],
+        "llmQualityScore": 96,
+        "translation": {
+          "contentHash": "1548d949f890d6f855f5409adae9dadcfc88e748ff73fdef99c05457956e5ce1",
+          "detectedLanguage": "en",
+          "translatedLanguage": "en",
+          "translatedContent": "A streamer who raises the bar in Abstract",
+          "translatedDescription": "GMB is one of those rare creators whose content is both genuinely useful and truly entertaining. He knows Moody Madness like his own stadium: breaks down the mechanics, shows shortcuts live, hosts his own events (Moody Mondays, tournaments), and keeps a steady streaming cadence.\nI genuinely like what he’s doing this work commands respect and admiration, with a clear focus on quality and community support."
+        },
+        "isSpam": false,
+        "enriched": {
+          "authorName": "wagnet ✳️",
+          "subjectName": "GMB ❇️",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1942300418840698880/VxR1-6Lm.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1979507080730955776/xmexyoYx.jpg",
+          "timeAgo": "25m ago",
+          "stakeAmount": "0.010",
+          "clickUrl": "https://app.ethos.network/activity/vouch/48774",
+          "vouchId": 48774
+        }
+      },
       {
         "type": "vouch",
         "data": {
@@ -271,8 +442,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "146865962966271460",
-                "count": 14
+                "amountWeiTotal": "156865962966271460",
+                "count": 15
               },
               "received": {
                 "amountWeiTotal": "115039999999999974",
@@ -1188,8 +1359,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "146865962966271460",
-                "count": 14
+                "amountWeiTotal": "156865962966271460",
+                "count": 15
               },
               "received": {
                 "amountWeiTotal": "115039999999999974",
@@ -1531,8 +1702,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "146865962966271460",
-                "count": 14
+                "amountWeiTotal": "156865962966271460",
+                "count": 15
               },
               "received": {
                 "amountWeiTotal": "115039999999999974",
@@ -1660,8 +1831,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "146865962966271460",
-                "count": 14
+                "amountWeiTotal": "156865962966271460",
+                "count": 15
               },
               "received": {
                 "amountWeiTotal": "115039999999999974",
@@ -1833,8 +2004,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "146865962966271460",
-                "count": 14
+                "amountWeiTotal": "156865962966271460",
+                "count": 15
               },
               "received": {
                 "amountWeiTotal": "115039999999999974",
@@ -3299,180 +3470,6 @@
           "clickUrl": "https://app.ethos.network/activity/vouch/43836",
           "vouchId": 43836
         }
-      },
-      {
-        "type": "vouch",
-        "data": {
-          "id": 43810,
-          "authorProfileId": 20823,
-          "authorAddress": "0xc9F4067a38878A4CdC2cdd525F090Aa8BA0aC18a",
-          "subjectProfileId": 3378,
-          "subjectAddress": null,
-          "attestationHash": null,
-          "attestationDetails": null,
-          "deposited": "10000000000000000",
-          "staked": "10600000000000000",
-          "balance": "10090377892006105",
-          "withdrawn": "0",
-          "comment": "Abstract Gigachad Gucci",
-          "metadata": "{\"description\":\"Met him in Abstract when he joined in the beginning of 25' Appreciate him for sharing alpha which he has & which can be so helpful\"}",
-          "archived": false,
-          "unhealthy": false,
-          "activityCheckpoints": {
-            "vouchedAt": 1758721543,
-            "unvouchedAt": 0,
-            "unhealthyAt": 0
-          },
-          "mutualId": 43836
-        },
-        "votes": {
-          "upvotes": 0,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1758721543,
-        "author": {
-          "userkey": "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
-          "profileId": 20823,
-          "name": "Pavil ⚡️💵",
-          "username": "basedPavel",
-          "avatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "description": null,
-          "score": 1704,
-          "primaryAddress": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4"
-        },
-        "subject": {
-          "userkey": "address:0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df",
-          "profileId": 3378,
-          "name": "gucci",
-          "username": "gucci_gcc",
-          "avatar": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
-          "description": null,
-          "score": 1735,
-          "primaryAddress": "0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df"
-        },
-        "authorUser": {
-          "id": 13738191,
-          "profileId": 20823,
-          "displayName": "Pavil ⚡️💵",
-          "username": "basedPavel",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "description": null,
-          "score": 1704,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
-            "address:0xc9F4067a38878A4CdC2cdd525F090Aa8BA0aC18a",
-            "service:x.com:1491753203620327437",
-            "profileId:20823",
-            "service:discord:748807182115536937"
-          ],
-          "xpTotal": 183138,
-          "xpStreakDays": 114,
-          "xpRemovedDueToAbuse": false,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/basedPavel",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/basedPavel/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 66
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "397642430898523797",
-                "count": 37
-              },
-              "received": {
-                "amountWeiTotal": "387848263173934433",
-                "count": 35
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 7213,
-          "profileId": 3378,
-          "displayName": "gucci",
-          "username": "gucci_gcc",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
-          "description": null,
-          "score": 1735,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df",
-            "address:0xbc1fF39B2Ba84E6CaeC1daaf8441B199b29Bf9e5",
-            "service:x.com:1470800265695608844",
-            "profileId:3378",
-            "service:discord:930080564428566539",
-            "service:telegram:1436290029",
-            "service:farcaster:786075"
-          ],
-          "xpTotal": 349103,
-          "xpStreakDays": 28,
-          "xpRemovedDueToAbuse": false,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/gucci_gcc",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/gucci_gcc/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 134
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "72299840055053233",
-                "count": 7
-              },
-              "received": {
-                "amountWeiTotal": "104619846020533787",
-                "count": 10
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 28363821,
-            "blockIndex": 65,
-            "blockNumber": 35966098,
-            "contract": "vouch",
-            "createdAt": 1758721544,
-            "processed": true,
-            "txHash": "0x7ea750dda1255c33981b733dee6179f5f8de1386afbffcb09f343845ab268dec",
-            "updatedAt": 1758721545
-          }
-        ],
-        "llmQualityScore": 84,
-        "translation": {
-          "contentHash": "7b53003cfa44b36f0c3dcd99c4e3775bcebeac841a3f4e14441950a09390addb",
-          "detectedLanguage": "en",
-          "translatedLanguage": "en",
-          "translatedContent": "Abstract Gigachad Gucci",
-          "translatedDescription": "Met him in Abstract when he joined in the beginning of 25' Appreciate him for sharing alpha which he has & which can be so helpful"
-        },
-        "isSpam": false,
-        "enriched": {
-          "authorName": "Pavil ⚡️💵",
-          "subjectName": "gucci",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
-          "timeAgo": "1mo ago",
-          "stakeAmount": "0.010",
-          "clickUrl": "https://app.ethos.network/activity/vouch/43810",
-          "vouchId": 43810
-        }
       }
     ],
     "reviews": [
@@ -3633,7 +3630,7 @@
           "subjectName": "Untamed Adam 🐺",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1967690579766120448/zHbGkt1x.jpg",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -3798,7 +3795,7 @@
           "subjectName": "Shiv",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1979146806396121089/LJDv0oMm.jpg",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -3963,7 +3960,7 @@
           "subjectName": "Sinet",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1875925416751378432/D1oRP6Wr.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1920980479395700736/-fk0cgXD.jpg",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -4130,7 +4127,7 @@
           "subjectName": "gucci",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1875925416751378432/D1oRP6Wr.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -4296,7 +4293,7 @@
           "subjectName": "PapaSmooth ✳️",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1967690579766120448/zHbGkt1x.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
-          "timeAgo": "14h ago",
+          "timeAgo": "15h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
