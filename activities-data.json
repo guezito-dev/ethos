@@ -1,14 +1,186 @@
 {
   "success": true,
-  "totalVouches": 52,
-  "totalReviews": 195,
+  "totalVouches": 53,
+  "totalReviews": 198,
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-10-28T20:01:42.329Z",
-  "lastUpdated": "28/10/2025 21:01:42",
+  "generatedAt": "2025-10-28T21:01:40.471Z",
+  "lastUpdated": "28/10/2025 22:01:40",
   "data": {
     "vouches": [
+      {
+        "type": "vouch",
+        "data": {
+          "id": 49532,
+          "authorProfileId": 29873,
+          "authorAddress": "0xc5D20b24c40a4d8489aF847eFd2eFd12EDF5b158",
+          "subjectProfileId": 18940,
+          "subjectAddress": null,
+          "attestationHash": null,
+          "attestationDetails": null,
+          "deposited": "10000000000000000",
+          "staked": "10600000000000000",
+          "balance": "10000000000000000",
+          "withdrawn": "0",
+          "comment": "gigachad SEMB",
+          "metadata": "{\"description\":\"Met Semb in the Abstract Discord among the Gigachads. He’s a well-known Pudgy enthusiast and one of the most loyal supporters of the Abstract. Always active and bullposting, consistently building connections within the community. Even during volatile times, he keeps the spirit strong and rallies others around him\"}",
+          "archived": false,
+          "unhealthy": false,
+          "activityCheckpoints": {
+            "vouchedAt": 1761684505,
+            "unvouchedAt": 0,
+            "unhealthyAt": 0
+          },
+          "mutualId": null
+        },
+        "votes": {
+          "upvotes": 0,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1761684505,
+        "author": {
+          "userkey": "address:0xc5D20b24c40a4d8489aF847eFd2eFd12EDF5b158",
+          "profileId": 29873,
+          "name": "leeland アブス ✳️",
+          "username": "leeland_sol",
+          "avatar": "https://pbs.twimg.com/profile_images/1878584788614823936/2eHzb4xq.jpg",
+          "description": null,
+          "score": 1443,
+          "primaryAddress": "0xc5D20b24c40a4d8489aF847eFd2eFd12EDF5b158"
+        },
+        "subject": {
+          "userkey": "address:0x37968EE9E071b4ae3Eb5ce4542EAf82A73dbB0f4",
+          "profileId": 18940,
+          "name": "💎SEMB💎",
+          "username": "SEMB_crypto",
+          "avatar": "https://pbs.twimg.com/profile_images/1908966009437822976/CqbZ2CGk.jpg",
+          "description": null,
+          "score": 1356,
+          "primaryAddress": "0x37968EE9E071b4ae3Eb5ce4542EAf82A73dbB0f4"
+        },
+        "authorUser": {
+          "id": 18814924,
+          "profileId": 29873,
+          "displayName": "leeland アブス ✳️",
+          "username": "leeland_sol",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1878584788614823936/2eHzb4xq.jpg",
+          "description": null,
+          "score": 1443,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xc5D20b24c40a4d8489aF847eFd2eFd12EDF5b158",
+            "address:0xcF0a6afa01fbb040Cb56646F74f5C0E4023939A4",
+            "service:x.com:1155180194199683072",
+            "profileId:29873",
+            "service:discord:732319891259916333",
+            "service:farcaster:420429"
+          ],
+          "xpTotal": 30604,
+          "xpStreakDays": 2,
+          "xpRemovedDueToAbuse": false,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/leeland_sol",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/leeland_sol/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 14
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "183205572930479409",
+                "count": 17
+              },
+              "received": {
+                "amountWeiTotal": "83839999999999985",
+                "count": 8
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 13109200,
+          "profileId": 18940,
+          "displayName": "💎SEMB💎",
+          "username": "SEMB_crypto",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1908966009437822976/CqbZ2CGk.jpg",
+          "description": null,
+          "score": 1356,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x37968EE9E071b4ae3Eb5ce4542EAf82A73dbB0f4",
+            "address:0x70Ec1731888C5Ae530359c3068d77eE590507359",
+            "service:x.com:1151831385205813248",
+            "profileId:18940"
+          ],
+          "xpTotal": 4297,
+          "xpStreakDays": 0,
+          "xpRemovedDueToAbuse": false,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/SEMB_crypto",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/SEMB_crypto/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 9
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "10783357357298449",
+                "count": 1
+              },
+              "received": {
+                "amountWeiTotal": "20400000000000000",
+                "count": 2
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 40169306,
+            "blockIndex": 443,
+            "blockNumber": 37447579,
+            "contract": "vouch",
+            "createdAt": 1761684505,
+            "processed": true,
+            "txHash": "0x0f77cc52d7a40e11d76f9f4f50e9f6b0a9c80cdede4b7a5fd069dd3d29805d68",
+            "updatedAt": 1761684506
+          }
+        ],
+        "llmQualityScore": 84,
+        "translation": {
+          "contentHash": "49209ef388b7c1c94d10c40d1b33dfb6d2ad410b0803f5c872b45039054c99b2",
+          "detectedLanguage": "en",
+          "translatedLanguage": "en",
+          "translatedContent": "gigachad SEMB",
+          "translatedDescription": "Met Semb in the Abstract Discord among the Gigachads. He’s a well-known Pudgy enthusiast and one of the most loyal supporters of the Abstract. Always active and bullposting, consistently building connections within the community. Even during volatile times, he keeps the spirit strong and rallies others around him"
+        },
+        "isSpam": false,
+        "enriched": {
+          "authorName": "leeland アブス ✳️",
+          "subjectName": "💎SEMB💎",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1878584788614823936/2eHzb4xq.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1908966009437822976/CqbZ2CGk.jpg",
+          "timeAgo": "13m ago",
+          "stakeAmount": "0.010",
+          "clickUrl": "https://app.ethos.network/activity/vouch/49532",
+          "vouchId": 49532
+        }
+      },
       {
         "type": "vouch",
         "data": {
@@ -50,7 +222,7 @@
           "username": "SEMB_crypto",
           "avatar": "https://pbs.twimg.com/profile_images/1908966009437822976/CqbZ2CGk.jpg",
           "description": null,
-          "score": 1347,
+          "score": 1356,
           "primaryAddress": "0x37968EE9E071b4ae3Eb5ce4542EAf82A73dbB0f4"
         },
         "subject": {
@@ -70,7 +242,7 @@
           "username": "SEMB_crypto",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1908966009437822976/CqbZ2CGk.jpg",
           "description": null,
-          "score": 1347,
+          "score": 1356,
           "status": "ACTIVE",
           "userkeys": [
             "address:0x37968EE9E071b4ae3Eb5ce4542EAf82A73dbB0f4",
@@ -99,8 +271,8 @@
                 "count": 1
               },
               "received": {
-                "amountWeiTotal": "10000000000000000",
-                "count": 1
+                "amountWeiTotal": "20400000000000000",
+                "count": 2
               }
             }
           }
@@ -140,7 +312,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "835738986456914770",
+                "amountWeiTotal": "836138986456914770",
                 "count": 30
               },
               "received": {
@@ -176,7 +348,7 @@
           "subjectName": "guezit0",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1908966009437822976/CqbZ2CGk.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
-          "timeAgo": "22h ago",
+          "timeAgo": "23h ago",
           "stakeAmount": "0.010",
           "clickUrl": "https://app.ethos.network/activity/vouch/49160",
           "vouchId": 49160
@@ -271,7 +443,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "835738986456914770",
+                "amountWeiTotal": "836138986456914770",
                 "count": 30
               },
               "received": {
@@ -351,7 +523,7 @@
           "subjectName": "val_",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1883274485932908544/0o1YgpAu.jpg",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "stakeAmount": "0.010",
           "clickUrl": "https://app.ethos.network/activity/vouch/49147",
           "vouchId": 49147
@@ -408,7 +580,7 @@
           "username": "TheFlockinho",
           "avatar": "https://pbs.twimg.com/profile_images/1913328482865528833/4qDlBtbz.jpg",
           "description": null,
-          "score": 1314,
+          "score": 1315,
           "primaryAddress": "0x07C46727630Eca760B5403919469cB96d112DA22"
         },
         "authorUser": {
@@ -446,7 +618,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "835738986456914770",
+                "amountWeiTotal": "836138986456914770",
                 "count": 30
               },
               "received": {
@@ -463,7 +635,7 @@
           "username": "TheFlockinho",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1913328482865528833/4qDlBtbz.jpg",
           "description": null,
-          "score": 1314,
+          "score": 1315,
           "status": "ACTIVE",
           "userkeys": [
             "address:0x07C46727630Eca760B5403919469cB96d112DA22",
@@ -524,7 +696,7 @@
           "subjectName": "Flockinho ⚪️⚫️",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1913328482865528833/4qDlBtbz.jpg",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "stakeAmount": "0.010",
           "clickUrl": "https://app.ethos.network/activity/vouch/49146",
           "vouchId": 49146
@@ -581,7 +753,7 @@
           "username": "PapaPacmoon",
           "avatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "primaryAddress": "0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117"
         },
         "authorUser": {
@@ -619,7 +791,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "835738986456914770",
+                "amountWeiTotal": "836138986456914770",
                 "count": 30
               },
               "received": {
@@ -636,7 +808,7 @@
           "username": "PapaPacmoon",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "status": "ACTIVE",
           "userkeys": [
             "address:0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117",
@@ -658,7 +830,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 17
+                "positive": 18
               }
             },
             "vouch": {
@@ -699,7 +871,7 @@
           "subjectName": "PapaSmooth ✳️",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "stakeAmount": "0.010",
           "clickUrl": "https://app.ethos.network/activity/vouch/49145",
           "vouchId": 49145
@@ -756,7 +928,7 @@
           "username": "The_Pandymonium",
           "avatar": "https://pbs.twimg.com/profile_images/1899427095605809152/cTrr8xhr.jpg",
           "description": null,
-          "score": 1328,
+          "score": 1329,
           "primaryAddress": "0x0349A4D2b2672a62471Dc4fD4Ad1c86d3737e0B8"
         },
         "authorUser": {
@@ -794,7 +966,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "835738986456914770",
+                "amountWeiTotal": "836138986456914770",
                 "count": 30
               },
               "received": {
@@ -811,7 +983,7 @@
           "username": "The_Pandymonium",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1899427095605809152/cTrr8xhr.jpg",
           "description": null,
-          "score": 1328,
+          "score": 1329,
           "status": "ACTIVE",
           "userkeys": [
             "address:0x0349A4D2b2672a62471Dc4fD4Ad1c86d3737e0B8",
@@ -872,7 +1044,7 @@
           "subjectName": "PandyBear",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1899427095605809152/cTrr8xhr.jpg",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "stakeAmount": "0.010",
           "clickUrl": "https://app.ethos.network/activity/vouch/49144",
           "vouchId": 49144
@@ -967,7 +1139,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "835738986456914770",
+                "amountWeiTotal": "836138986456914770",
                 "count": 30
               },
               "received": {
@@ -1046,7 +1218,7 @@
           "subjectName": "envok",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1929494982412337153/k0VALDqJ.jpg",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "stakeAmount": "0.010",
           "clickUrl": "https://app.ethos.network/activity/vouch/49142",
           "vouchId": 49142
@@ -1141,7 +1313,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "835738986456914770",
+                "amountWeiTotal": "836138986456914770",
                 "count": 30
               },
               "received": {
@@ -1221,7 +1393,7 @@
           "subjectName": "L0K0",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1979205948804616192/kY3G7AHD.jpg",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "stakeAmount": "0.010",
           "clickUrl": "https://app.ethos.network/activity/vouch/49141",
           "vouchId": 49141
@@ -1316,7 +1488,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "835738986456914770",
+                "amountWeiTotal": "836138986456914770",
                 "count": 30
               },
               "received": {
@@ -1394,7 +1566,7 @@
           "subjectName": "Deko",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1938378775588167680/Xl0f6cVg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1977891314046832640/iOCRwPJa.png",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "stakeAmount": "0.010",
           "clickUrl": "https://app.ethos.network/activity/vouch/49139",
           "vouchId": 49139
@@ -1489,7 +1661,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "835738986456914770",
+                "amountWeiTotal": "836138986456914770",
                 "count": 30
               },
               "received": {
@@ -1663,7 +1835,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "835738986456914770",
+                "amountWeiTotal": "836138986456914770",
                 "count": 30
               },
               "received": {
@@ -1762,7 +1934,7 @@
           "attestationDetails": null,
           "deposited": "10000000000000000",
           "staked": "10200000000000000",
-          "balance": "10000000000000000",
+          "balance": "10400000000000000",
           "withdrawn": "0",
           "comment": "Gigachad",
           "metadata": "{\"description\":\"J'ai rencontré SEMB au sein de la communauté Abstract, car nous sommes tous deux Gigachad, il est très impliqué sur le discord, mais aussi sur X où il post régulierement. \\n\\nIl met son argent là où est sa bouche, son post pinned fais justement reférence à ça. Je le respecte pour ça et je lui fais confiance.\"}",
@@ -1801,7 +1973,7 @@
           "username": "SEMB_crypto",
           "avatar": "https://pbs.twimg.com/profile_images/1908966009437822976/CqbZ2CGk.jpg",
           "description": null,
-          "score": 1347,
+          "score": 1356,
           "primaryAddress": "0x37968EE9E071b4ae3Eb5ce4542EAf82A73dbB0f4"
         },
         "authorUser": {
@@ -1839,7 +2011,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "835738986456914770",
+                "amountWeiTotal": "836138986456914770",
                 "count": 30
               },
               "received": {
@@ -1856,7 +2028,7 @@
           "username": "SEMB_crypto",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1908966009437822976/CqbZ2CGk.jpg",
           "description": null,
-          "score": 1347,
+          "score": 1356,
           "status": "ACTIVE",
           "userkeys": [
             "address:0x37968EE9E071b4ae3Eb5ce4542EAf82A73dbB0f4",
@@ -1885,8 +2057,8 @@
                 "count": 1
               },
               "received": {
-                "amountWeiTotal": "10000000000000000",
-                "count": 1
+                "amountWeiTotal": "20400000000000000",
+                "count": 2
               }
             }
           }
@@ -2012,7 +2184,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "835738986456914770",
+                "amountWeiTotal": "836138986456914770",
                 "count": 30
               },
               "received": {
@@ -2186,7 +2358,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "835738986456914770",
+                "amountWeiTotal": "836138986456914770",
                 "count": 30
               },
               "received": {
@@ -2361,7 +2533,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "835738986456914770",
+                "amountWeiTotal": "836138986456914770",
                 "count": 30
               },
               "received": {
@@ -2535,7 +2707,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "835738986456914770",
+                "amountWeiTotal": "836138986456914770",
                 "count": 30
               },
               "received": {
@@ -2709,7 +2881,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "835738986456914770",
+                "amountWeiTotal": "836138986456914770",
                 "count": 30
               },
               "received": {
@@ -3193,7 +3365,7 @@
           "username": "GMB_AOB",
           "avatar": "https://pbs.twimg.com/profile_images/1979507080730955776/xmexyoYx.jpg",
           "description": null,
-          "score": 1456,
+          "score": 1459,
           "primaryAddress": "0xcD9aA0F51ae128575af8b62e14c5B2E2Baf8a153"
         },
         "authorUser": {
@@ -3246,7 +3418,7 @@
           "username": "GMB_AOB",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1979507080730955776/xmexyoYx.jpg",
           "description": null,
-          "score": 1456,
+          "score": 1459,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xcD9aA0F51ae128575af8b62e14c5B2E2Baf8a153",
@@ -3255,7 +3427,7 @@
             "profileId:18228"
           ],
           "xpTotal": 16668,
-          "xpStreakDays": 1,
+          "xpStreakDays": 2,
           "xpRemovedDueToAbuse": false,
           "links": {
             "profile": "https://app.ethos.network/profile/x/GMB_AOB",
@@ -3266,7 +3438,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 1,
-                "positive": 35
+                "positive": 36
               }
             },
             "vouch": {
@@ -3312,31 +3484,25 @@
           "clickUrl": "https://app.ethos.network/activity/vouch/48774",
           "vouchId": 48774
         }
-      },
+      }
+    ],
+    "reviews": [
       {
-        "type": "vouch",
+        "type": "review",
         "data": {
-          "id": 48227,
-          "authorProfileId": 37410,
-          "authorAddress": "0xBA68C4D261220C8A22dC3A382911fd825Af9B050",
-          "subjectProfileId": 29873,
-          "subjectAddress": null,
-          "attestationHash": null,
-          "attestationDetails": null,
-          "deposited": "10000000000000000",
-          "staked": "10600000000000000",
-          "balance": "10060773480662983",
-          "withdrawn": "0",
-          "comment": "REAL GIGA",
-          "metadata": "{\"description\":\"\"}",
+          "id": 540895,
+          "authorProfileId": 18399,
+          "author": "0x50641a31170bdC620f1c90f00C9d8f8e6E095BD6",
+          "subject": "0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df",
+          "score": "positive",
+          "comment": "GiGaCCI",
+          "metadata": "{\"description\":\"Gucci_GCC est super actif sur Abstract et ça se voit.\\nIl participe à tous les événements et jeux de la chaîne, et partage souvent ses résultats et analyses.\\nIl fait aussi attention à la sécurité et aime montrer des outils utiles pour protéger ses actifs.\\nSa présence sur la chaîne commence vraiment à peser, et il influence de plus en plus la communauté.\\nSuivre Gucci_GCC, c’est toujours avoir une bonne idée de ce qui se passe sur Abstract.\"}",
+          "createdAt": 1761685183,
           "archived": false,
-          "unhealthy": false,
-          "activityCheckpoints": {
-            "vouchedAt": 1760981167,
-            "unvouchedAt": 0,
-            "unhealthyAt": 0
-          },
-          "mutualId": 47899
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
         },
         "votes": {
           "upvotes": 0,
@@ -3346,150 +3512,651 @@
           "count": 0,
           "participated": false
         },
-        "timestamp": 1760981167,
+        "timestamp": 1761685183,
         "author": {
-          "userkey": "address:0xBA68C4D261220C8A22dC3A382911fd825Af9B050",
-          "profileId": 37410,
-          "name": "Lily Forest ✳️",
-          "username": "LNurmukhametova",
-          "avatar": "https://pbs.twimg.com/profile_images/1932661186689937408/osSpTQqE.jpg",
+          "userkey": "address:0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117",
+          "profileId": 18399,
+          "name": "PapaSmooth ✳️",
+          "username": "PapaPacmoon",
+          "avatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1315,
-          "primaryAddress": "0xBA68C4D261220C8A22dC3A382911fd825Af9B050"
+          "score": 1369,
+          "primaryAddress": "0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117"
         },
         "subject": {
-          "userkey": "address:0xc5D20b24c40a4d8489aF847eFd2eFd12EDF5b158",
-          "profileId": 29873,
-          "name": "leeland アブス ✳️",
-          "username": "leeland_sol",
-          "avatar": "https://pbs.twimg.com/profile_images/1878584788614823936/2eHzb4xq.jpg",
+          "userkey": "address:0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df",
+          "profileId": 3378,
+          "name": "gucci",
+          "username": "gucci_gcc",
+          "avatar": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
           "description": null,
-          "score": 1443,
-          "primaryAddress": "0xc5D20b24c40a4d8489aF847eFd2eFd12EDF5b158"
+          "score": 1740,
+          "primaryAddress": "0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df"
         },
         "authorUser": {
-          "id": 22279958,
-          "profileId": 37410,
-          "displayName": "Lily Forest ✳️",
-          "username": "LNurmukhametova",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1932661186689937408/osSpTQqE.jpg",
+          "id": 12600116,
+          "profileId": 18399,
+          "displayName": "PapaSmooth ✳️",
+          "username": "PapaPacmoon",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1315,
+          "score": 1369,
           "status": "ACTIVE",
           "userkeys": [
-            "address:0xBA68C4D261220C8A22dC3A382911fd825Af9B050",
-            "address:0x889471081DBd3813D5b67380ACBFc39424E6BC06",
-            "service:x.com:1394605291",
-            "profileId:37410",
-            "service:discord:1220043273859760175",
-            "service:telegram:1015705058",
-            "service:farcaster:505698"
+            "address:0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117",
+            "address:0x50641a31170bdC620f1c90f00C9d8f8e6E095BD6",
+            "service:x.com:1813528359743238144",
+            "profileId:18399",
+            "service:discord:1207025956129349725",
+            "service:telegram:6573961365"
           ],
-          "xpTotal": 1459,
-          "xpStreakDays": 4,
+          "xpTotal": 676,
+          "xpStreakDays": 16,
           "xpRemovedDueToAbuse": false,
           "links": {
-            "profile": "https://app.ethos.network/profile/x/LNurmukhametova",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/LNurmukhametova/score"
+            "profile": "https://app.ethos.network/profile/x/PapaPacmoon",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/PapaPacmoon/score"
           },
           "stats": {
             "review": {
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 7
+                "positive": 18
               }
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "10060773480662983",
-                "count": 1
+                "amountWeiTotal": "0",
+                "count": 0
               },
               "received": {
-                "amountWeiTotal": "11000000000000000",
-                "count": 1
+                "amountWeiTotal": "21400000000000000",
+                "count": 2
               }
             }
           }
         },
         "subjectUser": {
-          "id": 18814924,
-          "profileId": 29873,
-          "displayName": "leeland アブス ✳️",
-          "username": "leeland_sol",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1878584788614823936/2eHzb4xq.jpg",
+          "id": 7213,
+          "profileId": 3378,
+          "displayName": "gucci",
+          "username": "gucci_gcc",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
           "description": null,
-          "score": 1443,
+          "score": 1740,
           "status": "ACTIVE",
           "userkeys": [
-            "address:0xc5D20b24c40a4d8489aF847eFd2eFd12EDF5b158",
-            "address:0xcF0a6afa01fbb040Cb56646F74f5C0E4023939A4",
-            "service:x.com:1155180194199683072",
-            "profileId:29873",
-            "service:discord:732319891259916333",
-            "service:farcaster:420429"
+            "address:0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df",
+            "address:0xbc1fF39B2Ba84E6CaeC1daaf8441B199b29Bf9e5",
+            "service:x.com:1470800265695608844",
+            "profileId:3378",
+            "service:discord:930080564428566539",
+            "service:telegram:1436290029",
+            "service:farcaster:786075"
           ],
-          "xpTotal": 30604,
-          "xpStreakDays": 1,
+          "xpTotal": 356440,
+          "xpStreakDays": 4,
           "xpRemovedDueToAbuse": false,
           "links": {
-            "profile": "https://app.ethos.network/profile/x/leeland_sol",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/leeland_sol/score"
+            "profile": "https://app.ethos.network/profile/x/gucci_gcc",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/gucci_gcc/score"
           },
           "stats": {
             "review": {
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 14
+                "positive": 136
               }
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "173205572930479409",
-                "count": 16
+                "amountWeiTotal": "72561323969358527",
+                "count": 7
               },
               "received": {
-                "amountWeiTotal": "83839999999999985",
-                "count": 8
+                "amountWeiTotal": "104619846020533787",
+                "count": 10
               }
             }
           }
         },
         "events": [
           {
-            "id": 36326382,
-            "blockIndex": 510,
-            "blockNumber": 37095910,
-            "contract": "vouch",
-            "createdAt": 1760981167,
+            "id": 40175576,
+            "blockIndex": 1074,
+            "blockNumber": 37447918,
+            "contract": "review",
+            "createdAt": 1761685184,
             "processed": true,
-            "txHash": "0xb816b2a2fa56a1a772eb5cfdea73300f382fa287cdf2f45be4aca38a78612985",
-            "updatedAt": 1760981168
+            "txHash": "0xdff7fa17521b3a70d37020e94b6df1c50e16e7ff85864816bc5464cb4c8f31c0",
+            "updatedAt": 1761685184
           }
         ],
-        "llmQualityScore": 11,
+        "llmQualityScore": 84,
         "translation": {
-          "contentHash": "be184580b59277a22fa9077f7e49a20e4fe9ab796758c0c5259d01949b5d9596",
-          "detectedLanguage": "unknown",
+          "contentHash": "a08bdac2df5e585291d32b87bf9c383db6a6344eb199820b90d24893102e861f",
+          "detectedLanguage": "fr",
           "translatedLanguage": "en",
-          "translatedContent": "REAL GIGA",
-          "translatedDescription": ""
+          "translatedContent": "GiGaCCI",
+          "translatedDescription": "Gucci_GCC is super active on Abstract, and it shows. He participates in all the channel's events and games, and often shares his results and analyses. He also pays attention to security and likes to show useful tools for protecting your assets. His presence on the channel is really starting to carry weight, and he is increasingly influencing the community. Following Gucci_GCC always gives you a good idea of what's happening on Abstract."
         },
         "isSpam": false,
         "enriched": {
-          "authorName": "Lily Forest ✳️",
-          "subjectName": "leeland アブス ✳️",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1932661186689937408/osSpTQqE.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1878584788614823936/2eHzb4xq.jpg",
-          "timeAgo": "8d ago",
-          "stakeAmount": "0.010",
-          "clickUrl": "https://app.ethos.network/activity/vouch/48227",
-          "vouchId": 48227
+          "authorName": "PapaSmooth ✳️",
+          "subjectName": "gucci",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
+          "timeAgo": "1m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/540895",
+          "reviewId": 540895
         }
-      }
-    ],
-    "reviews": [
+      },
+      {
+        "type": "review",
+        "data": {
+          "id": 540884,
+          "authorProfileId": 18399,
+          "author": "0x50641a31170bdC620f1c90f00C9d8f8e6E095BD6",
+          "subject": "0x463a107b5D3065A67B34FE51eAE3d2Bbb79B4295",
+          "score": "positive",
+          "comment": "Brosssski",
+          "metadata": "{\"description\":\"Broski a longtemps œuvré pour décrocher son titre de Gigachad, qu'il a acquis grâce à sa persévérance et son engagement sur la chaîne Abstract. En tant que l'un des premiers streamers à succès, il s'est rapidement imposé comme un pilier de la communauté.\\n\\nSa passion pour le jeu se manifeste dans ses sessions de Captain and Co, où il partage ses stratégies et ses analyses avec enthousiasme. Il est également un $PENGU believer convaincu, publiant régulièrement des bullposts pour exprimer sa forte conviction envers ce token.\\n\\nAu-delà de ses activités en ligne, Brotski est reconnu pour son influence significative sur la chaîne, jouant un rôle clé dans le développement et la croissance de la communauté Abstract.\"}",
+          "createdAt": 1761684725,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 0,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1761684725,
+        "author": {
+          "userkey": "address:0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117",
+          "profileId": 18399,
+          "name": "PapaSmooth ✳️",
+          "username": "PapaPacmoon",
+          "avatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
+          "description": null,
+          "score": 1369,
+          "primaryAddress": "0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117"
+        },
+        "subject": {
+          "userkey": "address:0xe5208805F2Ea28096B836B83731000f68b4808CB",
+          "profileId": 15960,
+          "name": "broski",
+          "username": "artem_borovskij",
+          "avatar": "https://pbs.twimg.com/profile_images/1887505905958223872/xhsvNJP0.jpg",
+          "description": null,
+          "score": 1440,
+          "primaryAddress": "0xe5208805F2Ea28096B836B83731000f68b4808CB"
+        },
+        "authorUser": {
+          "id": 12600116,
+          "profileId": 18399,
+          "displayName": "PapaSmooth ✳️",
+          "username": "PapaPacmoon",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
+          "description": null,
+          "score": 1369,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117",
+            "address:0x50641a31170bdC620f1c90f00C9d8f8e6E095BD6",
+            "service:x.com:1813528359743238144",
+            "profileId:18399",
+            "service:discord:1207025956129349725",
+            "service:telegram:6573961365"
+          ],
+          "xpTotal": 676,
+          "xpStreakDays": 16,
+          "xpRemovedDueToAbuse": false,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/PapaPacmoon",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/PapaPacmoon/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 18
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "0",
+                "count": 0
+              },
+              "received": {
+                "amountWeiTotal": "21400000000000000",
+                "count": 2
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 11522323,
+          "profileId": 15960,
+          "displayName": "broski",
+          "username": "artem_borovskij",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1887505905958223872/xhsvNJP0.jpg",
+          "description": null,
+          "score": 1440,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xe5208805F2Ea28096B836B83731000f68b4808CB",
+            "address:0x463a107b5D3065A67B34FE51eAE3d2Bbb79B4295",
+            "service:x.com:1476318780846395402",
+            "profileId:15960",
+            "service:discord:607181688115822593",
+            "service:telegram:428941734",
+            "service:farcaster:1177853"
+          ],
+          "xpTotal": 17497,
+          "xpStreakDays": 3,
+          "xpRemovedDueToAbuse": false,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/artem_borovskij",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/artem_borovskij/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 32
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "10519784920357078",
+                "count": 1
+              },
+              "received": {
+                "amountWeiTotal": "10000000000000000",
+                "count": 1
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 40171155,
+            "blockIndex": 960,
+            "blockNumber": 37447689,
+            "contract": "review",
+            "createdAt": 1761684726,
+            "processed": true,
+            "txHash": "0x6133df57f656347ef0e3cc42888b1bdbd1f17d31eabf0d16d97d8f2fabe2ed4f",
+            "updatedAt": 1761684726
+          }
+        ],
+        "llmQualityScore": 73,
+        "translation": {
+          "contentHash": "b34c12dfb349b73efa5f6eb3bfd2c4fb3cf81fd3538268f79ebfdf759a07fc81",
+          "detectedLanguage": "fr",
+          "translatedLanguage": "en",
+          "translatedContent": "Brosssski",
+          "translatedDescription": "Broski has long worked to earn his Gigachad title, which he acquired through his perseverance and commitment to the Abstract channel. As one of the first successful streamers, he quickly established himself as a pillar of the community.\n\nHis passion for the game is evident in his Captain and Co sessions, where he enthusiastically shares his strategies and analyses. He is also a staunch $PENGU believer, regularly posting bullposts to express his strong conviction towards this token.\n\nBeyond his online activities, Brotski is recognized for his significant influence on the channel, playing a key role in the development and growth of the Abstract community."
+        },
+        "isSpam": false,
+        "enriched": {
+          "authorName": "PapaSmooth ✳️",
+          "subjectName": "broski",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1887505905958223872/xhsvNJP0.jpg",
+          "timeAgo": "9m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/540884",
+          "reviewId": 540884
+        }
+      },
+      {
+        "type": "review",
+        "data": {
+          "id": 540864,
+          "authorProfileId": 18399,
+          "author": "0x50641a31170bdC620f1c90f00C9d8f8e6E095BD6",
+          "subject": "0x69645612E0Cc0d781F4aB5710F9aA84dC0fcdF8A",
+          "score": "positive",
+          "comment": "GiGa AnGeL",
+          "metadata": "{\"description\":\"Eleni est sans doute, avec Marianne, l’une des femmes les plus influentes des Giga Abstract.\\nElle partage régulièrement ses idées et opinions avec sa communauté, offrant des analyses pertinentes sur les projets et tendances de la chaîne.\\n\\nCe qui la distingue, c’est la touche personnelle qu’elle apporte à ses contenus, en partageant également ses passions IRL, comme le sport, ce qui rend ses échanges authentiques et proches de sa communauté.\"}",
+          "createdAt": 1761683975,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 2,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1761683975,
+        "author": {
+          "userkey": "address:0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117",
+          "profileId": 18399,
+          "name": "PapaSmooth ✳️",
+          "username": "PapaPacmoon",
+          "avatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
+          "description": null,
+          "score": 1369,
+          "primaryAddress": "0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117"
+        },
+        "subject": {
+          "userkey": "address:0xE4888BF702294F01fedE3993bFeBc8f638e0c6Ef",
+          "profileId": 15274,
+          "name": "Eleni",
+          "username": "eleniweb3",
+          "avatar": "https://pbs.twimg.com/profile_images/1977477241366859778/OKU2IAHJ.jpg",
+          "description": null,
+          "score": 1442,
+          "primaryAddress": "0xE4888BF702294F01fedE3993bFeBc8f638e0c6Ef"
+        },
+        "authorUser": {
+          "id": 12600116,
+          "profileId": 18399,
+          "displayName": "PapaSmooth ✳️",
+          "username": "PapaPacmoon",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
+          "description": null,
+          "score": 1369,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117",
+            "address:0x50641a31170bdC620f1c90f00C9d8f8e6E095BD6",
+            "service:x.com:1813528359743238144",
+            "profileId:18399",
+            "service:discord:1207025956129349725",
+            "service:telegram:6573961365"
+          ],
+          "xpTotal": 676,
+          "xpStreakDays": 16,
+          "xpRemovedDueToAbuse": false,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/PapaPacmoon",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/PapaPacmoon/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 18
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "0",
+                "count": 0
+              },
+              "received": {
+                "amountWeiTotal": "21400000000000000",
+                "count": 2
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 11215040,
+          "profileId": 15274,
+          "displayName": "Eleni",
+          "username": "eleniweb3",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1977477241366859778/OKU2IAHJ.jpg",
+          "description": null,
+          "score": 1442,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xE4888BF702294F01fedE3993bFeBc8f638e0c6Ef",
+            "address:0x69645612E0Cc0d781F4aB5710F9aA84dC0fcdF8A",
+            "service:x.com:4190074763",
+            "profileId:15274"
+          ],
+          "xpTotal": 264,
+          "xpStreakDays": 0,
+          "xpRemovedDueToAbuse": false,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/eleniweb3",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/eleniweb3/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 24
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "0",
+                "count": 0
+              },
+              "received": {
+                "amountWeiTotal": "0",
+                "count": 0
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 40165309,
+            "blockIndex": 464,
+            "blockNumber": 37447314,
+            "contract": "review",
+            "createdAt": 1761683976,
+            "processed": true,
+            "txHash": "0xe5f72acbb1194017b1f97feaaed6e75d69798f6ecd0e6f95acb8e3c6591e1579",
+            "updatedAt": 1761683976
+          }
+        ],
+        "llmQualityScore": 73,
+        "translation": {
+          "contentHash": "1ef71fc5d8bf9527982bd87c682ed42c2fd970f66f80b208bc6f1e877a52af6b",
+          "detectedLanguage": "fr",
+          "translatedLanguage": "en",
+          "translatedContent": "GiGa AnGeL",
+          "translatedDescription": "Eleni is undoubtedly, along with Marianne, one of the most influential women in Giga Abstract.\nShe regularly shares her ideas and opinions with her community, offering relevant analyses of the chain's projects and trends.\n\nWhat sets her apart is the personal touch she brings to her content, also sharing her IRL passions, such as sports, which makes her interactions authentic and close to her community."
+        },
+        "isSpam": false,
+        "enriched": {
+          "authorName": "PapaSmooth ✳️",
+          "subjectName": "Eleni",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1977477241366859778/OKU2IAHJ.jpg",
+          "timeAgo": "22m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/540864",
+          "reviewId": 540864
+        }
+      },
+      {
+        "type": "review",
+        "data": {
+          "id": 540823,
+          "authorProfileId": 18399,
+          "author": "0x50641a31170bdC620f1c90f00C9d8f8e6E095BD6",
+          "subject": "0xcD9aA0F51ae128575af8b62e14c5B2E2Baf8a153",
+          "score": "positive",
+          "comment": "GMB Chad",
+          "metadata": "{\"description\":\"GMB est un gigachad solidement implanté sur la chain, ambassadeur AOB et Moody, et bénéficie d’une notoriété grandissante sur Abstract.\\nTrès suivi lors de ses streams, il exerce une influence réelle sur la communauté, partageant ses analyses et insights avec clarté et passion.\\n\\nSes contenus sont toujours pertinents et instructifs, allant des conseils de trading à l’analyse des projets NFT et DeFi.\\nPersonnellement, j’apprécie le suivre régulièrement\"}",
+          "createdAt": 1761681777,
+          "archived": false,
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
+        },
+        "votes": {
+          "upvotes": 3,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1761681777,
+        "author": {
+          "userkey": "address:0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117",
+          "profileId": 18399,
+          "name": "PapaSmooth ✳️",
+          "username": "PapaPacmoon",
+          "avatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
+          "description": null,
+          "score": 1369,
+          "primaryAddress": "0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117"
+        },
+        "subject": {
+          "userkey": "address:0xcD9aA0F51ae128575af8b62e14c5B2E2Baf8a153",
+          "profileId": 18228,
+          "name": "GMB ❇️",
+          "username": "GMB_AOB",
+          "avatar": "https://pbs.twimg.com/profile_images/1979507080730955776/xmexyoYx.jpg",
+          "description": null,
+          "score": 1459,
+          "primaryAddress": "0xcD9aA0F51ae128575af8b62e14c5B2E2Baf8a153"
+        },
+        "authorUser": {
+          "id": 12600116,
+          "profileId": 18399,
+          "displayName": "PapaSmooth ✳️",
+          "username": "PapaPacmoon",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
+          "description": null,
+          "score": 1369,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117",
+            "address:0x50641a31170bdC620f1c90f00C9d8f8e6E095BD6",
+            "service:x.com:1813528359743238144",
+            "profileId:18399",
+            "service:discord:1207025956129349725",
+            "service:telegram:6573961365"
+          ],
+          "xpTotal": 676,
+          "xpStreakDays": 16,
+          "xpRemovedDueToAbuse": false,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/PapaPacmoon",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/PapaPacmoon/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 18
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "0",
+                "count": 0
+              },
+              "received": {
+                "amountWeiTotal": "21400000000000000",
+                "count": 2
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 12457398,
+          "profileId": 18228,
+          "displayName": "GMB ❇️",
+          "username": "GMB_AOB",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1979507080730955776/xmexyoYx.jpg",
+          "description": null,
+          "score": 1459,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xcD9aA0F51ae128575af8b62e14c5B2E2Baf8a153",
+            "address:0x02e07d06607bEdc1cc7641AC8686D701b6392B57",
+            "service:x.com:2279989982",
+            "profileId:18228"
+          ],
+          "xpTotal": 16668,
+          "xpStreakDays": 2,
+          "xpRemovedDueToAbuse": false,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/GMB_AOB",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/GMB_AOB/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 1,
+                "positive": 36
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "10262505572294914",
+                "count": 1
+              },
+              "received": {
+                "amountWeiTotal": "20400000000000000",
+                "count": 2
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 40147165,
+            "blockIndex": 439,
+            "blockNumber": 37446215,
+            "contract": "review",
+            "createdAt": 1761681777,
+            "processed": true,
+            "txHash": "0x10146fddd961fb82ba700f9d897e4085e93521f1c3a70561e82b935158f7734c",
+            "updatedAt": 1761681778
+          }
+        ],
+        "llmQualityScore": 79,
+        "translation": {
+          "contentHash": "40b3b8995267ba916d6ce9b8656d757bf106cb9ac1d97fdd0029b6eac857c55d",
+          "detectedLanguage": "fr",
+          "translatedLanguage": "en",
+          "translatedContent": "GMB Chad",
+          "translatedDescription": "GMB is a gigachad firmly established on the chain, an AOB and Moody ambassador, and enjoys growing recognition on Abstract.\nWidely followed during his streams, he exerts a real influence on the community, sharing his analyses and insights with clarity and passion.\n\nHis content is always relevant and informative, ranging from trading advice to analysis of NFT and DeFi projects.\nPersonally, I enjoy following him regularly."
+        },
+        "isSpam": false,
+        "enriched": {
+          "authorName": "PapaSmooth ✳️",
+          "subjectName": "GMB ❇️",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1979507080730955776/xmexyoYx.jpg",
+          "timeAgo": "58m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/540823",
+          "reviewId": 540823
+        }
+      },
       {
         "type": "review",
         "data": {
@@ -3649,7 +4316,7 @@
           "subjectName": "MIC",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1973364764530319360/yzkN1fys.jpg",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -3675,11 +4342,11 @@
           }
         },
         "votes": {
-          "upvotes": 2,
+          "upvotes": 3,
           "downvotes": 0
         },
         "replySummary": {
-          "count": 0,
+          "count": 1,
           "participated": false
         },
         "timestamp": 1761651091,
@@ -3700,7 +4367,7 @@
           "username": "PapaPacmoon",
           "avatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "primaryAddress": "0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117"
         },
         "authorUser": {
@@ -3752,7 +4419,7 @@
           "username": "PapaPacmoon",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "status": "ACTIVE",
           "userkeys": [
             "address:0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117",
@@ -3774,7 +4441,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 17
+                "positive": 18
               }
             },
             "vouch": {
@@ -3815,7 +4482,7 @@
           "subjectName": "PapaSmooth ✳️",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1875925416751378432/D1oRP6Wr.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -3845,7 +4512,7 @@
           "downvotes": 1
         },
         "replySummary": {
-          "count": 0,
+          "count": 1,
           "participated": false
         },
         "timestamp": 1761600765,
@@ -3856,7 +4523,7 @@
           "username": "SEMB_crypto",
           "avatar": "https://pbs.twimg.com/profile_images/1908966009437822976/CqbZ2CGk.jpg",
           "description": null,
-          "score": 1347,
+          "score": 1356,
           "primaryAddress": "0x37968EE9E071b4ae3Eb5ce4542EAf82A73dbB0f4"
         },
         "subject": {
@@ -3866,7 +4533,7 @@
           "username": "PapaPacmoon",
           "avatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "primaryAddress": "0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117"
         },
         "authorUser": {
@@ -3876,7 +4543,7 @@
           "username": "SEMB_crypto",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1908966009437822976/CqbZ2CGk.jpg",
           "description": null,
-          "score": 1347,
+          "score": 1356,
           "status": "ACTIVE",
           "userkeys": [
             "address:0x37968EE9E071b4ae3Eb5ce4542EAf82A73dbB0f4",
@@ -3905,8 +4572,8 @@
                 "count": 1
               },
               "received": {
-                "amountWeiTotal": "10000000000000000",
-                "count": 1
+                "amountWeiTotal": "20400000000000000",
+                "count": 2
               }
             }
           }
@@ -3918,7 +4585,7 @@
           "username": "PapaPacmoon",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "status": "ACTIVE",
           "userkeys": [
             "address:0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117",
@@ -3940,7 +4607,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 17
+                "positive": 18
               }
             },
             "vouch": {
@@ -3981,7 +4648,7 @@
           "subjectName": "PapaSmooth ✳️",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1908966009437822976/CqbZ2CGk.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
-          "timeAgo": "22h ago",
+          "timeAgo": "23h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -4022,7 +4689,7 @@
           "username": "PapaPacmoon",
           "avatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "primaryAddress": "0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117"
         },
         "subject": {
@@ -4042,7 +4709,7 @@
           "username": "PapaPacmoon",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "status": "ACTIVE",
           "userkeys": [
             "address:0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117",
@@ -4064,7 +4731,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 17
+                "positive": 18
               }
             },
             "vouch": {
@@ -4147,7 +4814,7 @@
           "subjectName": "ika",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1877381528394555392/J2_z5sbm.jpg",
-          "timeAgo": "22h ago",
+          "timeAgo": "23h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -4198,7 +4865,7 @@
           "username": "basedPavel",
           "avatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
           "description": null,
-          "score": 1716,
+          "score": 1717,
           "primaryAddress": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4"
         },
         "authorUser": {
@@ -4250,7 +4917,7 @@
           "username": "basedPavel",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
           "description": null,
-          "score": 1716,
+          "score": 1717,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
@@ -4532,7 +5199,7 @@
           "username": "basedPavel",
           "avatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
           "description": null,
-          "score": 1716,
+          "score": 1717,
           "primaryAddress": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4"
         },
         "authorUser": {
@@ -4584,7 +5251,7 @@
           "username": "basedPavel",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
           "description": null,
-          "score": 1716,
+          "score": 1717,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
@@ -4864,7 +5531,7 @@
           "username": "PapaPacmoon",
           "avatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "primaryAddress": "0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117"
         },
         "subject": {
@@ -4874,7 +5541,7 @@
           "username": "basedPavel",
           "avatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
           "description": null,
-          "score": 1716,
+          "score": 1717,
           "primaryAddress": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4"
         },
         "authorUser": {
@@ -4884,7 +5551,7 @@
           "username": "PapaPacmoon",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "status": "ACTIVE",
           "userkeys": [
             "address:0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117",
@@ -4906,7 +5573,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 17
+                "positive": 18
               }
             },
             "vouch": {
@@ -4928,7 +5595,7 @@
           "username": "basedPavel",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
           "description": null,
-          "score": 1716,
+          "score": 1717,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
@@ -5289,7 +5956,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "835738986456914770",
+                "amountWeiTotal": "836138986456914770",
                 "count": 30
               },
               "received": {
@@ -5376,7 +6043,7 @@
           "username": "PapaPacmoon",
           "avatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "primaryAddress": "0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117"
         },
         "authorUser": {
@@ -5430,7 +6097,7 @@
           "username": "PapaPacmoon",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "status": "ACTIVE",
           "userkeys": [
             "address:0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117",
@@ -5452,7 +6119,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 17
+                "positive": 18
               }
             },
             "vouch": {
@@ -5534,7 +6201,7 @@
           "username": "PapaPacmoon",
           "avatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "primaryAddress": "0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117"
         },
         "subject": {
@@ -5554,7 +6221,7 @@
           "username": "PapaPacmoon",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "status": "ACTIVE",
           "userkeys": [
             "address:0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117",
@@ -5576,7 +6243,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 17
+                "positive": 18
               }
             },
             "vouch": {
@@ -5700,7 +6367,7 @@
           "username": "PapaPacmoon",
           "avatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "primaryAddress": "0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117"
         },
         "subject": {
@@ -5720,7 +6387,7 @@
           "username": "PapaPacmoon",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "status": "ACTIVE",
           "userkeys": [
             "address:0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117",
@@ -5742,7 +6409,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 17
+                "positive": 18
               }
             },
             "vouch": {
@@ -5866,7 +6533,7 @@
           "username": "PapaPacmoon",
           "avatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "primaryAddress": "0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117"
         },
         "subject": {
@@ -5886,7 +6553,7 @@
           "username": "PapaPacmoon",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "description": null,
-          "score": 1368,
+          "score": 1369,
           "status": "ACTIVE",
           "userkeys": [
             "address:0x8D72e3D90f4B6A0708Ae5a95eAeB778f3b1e3117",
@@ -5908,7 +6575,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 17
+                "positive": 18
               }
             },
             "vouch": {
@@ -6162,667 +6829,6 @@
           "scoreText": "Positive",
           "clickUrl": "https://app.ethos.network/activity/review/536392",
           "reviewId": 536392
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 536300,
-          "authorProfileId": 20823,
-          "author": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
-          "subject": "0xAa37eB2841f4D1c4B283cc21800e2616d669B0b9",
-          "score": "positive",
-          "comment": "Abstract Asia Legend",
-          "metadata": "{\n  \"description\": \"First time we knew each other though the Huddle, a bit later when i joined Abstract and found out Brian. He is leading Asia region in ecosystem. So warm welcome newbies not only via socials like X, tg, discord, also IRL events (so important). Brian is real legend, happy to support him in such on-chain journey\"\n}",
-          "createdAt": 1761378583,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 9,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1761378583,
-        "author": {
-          "userkey": "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
-          "profileId": 20823,
-          "name": "Pavil ⚡️💵",
-          "username": "basedPavel",
-          "avatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "description": null,
-          "score": 1716,
-          "primaryAddress": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4"
-        },
-        "subject": {
-          "userkey": "address:0xC15741468743ff22dE312f4fb71059119E42471B",
-          "profileId": 17891,
-          "name": "Brian",
-          "username": "BrianAitch",
-          "avatar": "https://pbs.twimg.com/profile_images/1926016631404191745/46ySquwq.jpg",
-          "description": null,
-          "score": 1508,
-          "primaryAddress": "0xC15741468743ff22dE312f4fb71059119E42471B"
-        },
-        "authorUser": {
-          "id": 13738191,
-          "profileId": 20823,
-          "displayName": "Pavil ⚡️💵",
-          "username": "basedPavel",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "description": null,
-          "score": 1716,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
-            "address:0xc9F4067a38878A4CdC2cdd525F090Aa8BA0aC18a",
-            "service:x.com:1491753203620327437",
-            "profileId:20823",
-            "service:discord:748807182115536937"
-          ],
-          "xpTotal": 202187,
-          "xpStreakDays": 118,
-          "xpRemovedDueToAbuse": false,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/basedPavel",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/basedPavel/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 69
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "399032091261477160",
-                "count": 37
-              },
-              "received": {
-                "amountWeiTotal": "398248263173934418",
-                "count": 36
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 12261472,
-          "profileId": 17891,
-          "displayName": "Brian",
-          "username": "BrianAitch",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1926016631404191745/46ySquwq.jpg",
-          "description": null,
-          "score": 1508,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xC15741468743ff22dE312f4fb71059119E42471B",
-            "address:0xAa37eB2841f4D1c4B283cc21800e2616d669B0b9",
-            "service:x.com:1657809112451936257",
-            "profileId:17891"
-          ],
-          "xpTotal": 1901,
-          "xpStreakDays": 0,
-          "xpRemovedDueToAbuse": false,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/BrianAitch",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/BrianAitch/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 16
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "233146520014216953",
-                "count": 3
-              },
-              "received": {
-                "amountWeiTotal": "146486932599724891",
-                "count": 5
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 37956096,
-            "blockIndex": 510,
-            "blockNumber": 37294618,
-            "contract": "review",
-            "createdAt": 1761378583,
-            "processed": true,
-            "txHash": "0x06cc2b8e616a80d36debe19743e36b87814274732bee023bd6db9b701e366831",
-            "updatedAt": 1761378584
-          }
-        ],
-        "llmQualityScore": 79,
-        "translation": {
-          "contentHash": "1bcd3f43ea720ab705a5fa6ce7e54bd7012823fbb48ca6e3bfc518c8409a3bef",
-          "detectedLanguage": "unknown",
-          "translatedLanguage": "en",
-          "translatedContent": "Abstract Asia Legend",
-          "translatedDescription": "We first met through the Huddle, and a bit later, when I joined Abstract, I found out about Brian. He's leading the Asia region in the ecosystem. He warmly welcomes newbies not only via social media like X, Telegram, and Discord, but also through IRL events (which are so important). Brian is a real legend, and I'm happy to support him on this on-chain journey."
-        },
-        "isSpam": false,
-        "enriched": {
-          "authorName": "Pavil ⚡️💵",
-          "subjectName": "Brian",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1926016631404191745/46ySquwq.jpg",
-          "timeAgo": "3d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/536300",
-          "reviewId": 536300
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 536296,
-          "authorProfileId": 20823,
-          "author": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
-          "subject": "0x11ec1bD59eFc667C5d9bbb5b5Cd365DeC8dEe2cB",
-          "score": "positive",
-          "comment": "Elite person, founder and dev",
-          "metadata": "{\n  \"description\": \"Never told with him directly, but what he is doing for a long time deserve huge shout-out. How he cares about his community, early supporters. Nothing more then just huge respect.\"\n}",
-          "createdAt": 1761378251,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 19,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1761378251,
-        "author": {
-          "userkey": "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
-          "profileId": 20823,
-          "name": "Pavil ⚡️💵",
-          "username": "basedPavel",
-          "avatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "description": null,
-          "score": 1716,
-          "primaryAddress": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4"
-        },
-        "subject": {
-          "userkey": "address:0x7D9e186fe676565c184E4210Dba3b082e89a9781",
-          "profileId": 972,
-          "name": "skarly",
-          "username": "skarlywarly",
-          "avatar": "https://pbs.twimg.com/profile_images/1963640236312788992/xCduqIWy.jpg",
-          "description": null,
-          "score": 1812,
-          "primaryAddress": "0x7D9e186fe676565c184E4210Dba3b082e89a9781"
-        },
-        "authorUser": {
-          "id": 13738191,
-          "profileId": 20823,
-          "displayName": "Pavil ⚡️💵",
-          "username": "basedPavel",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "description": null,
-          "score": 1716,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
-            "address:0xc9F4067a38878A4CdC2cdd525F090Aa8BA0aC18a",
-            "service:x.com:1491753203620327437",
-            "profileId:20823",
-            "service:discord:748807182115536937"
-          ],
-          "xpTotal": 202187,
-          "xpStreakDays": 118,
-          "xpRemovedDueToAbuse": false,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/basedPavel",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/basedPavel/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 69
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "399032091261477160",
-                "count": 37
-              },
-              "received": {
-                "amountWeiTotal": "398248263173934418",
-                "count": 36
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 51242,
-          "profileId": 972,
-          "displayName": "skarly",
-          "username": "skarlywarly",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1963640236312788992/xCduqIWy.jpg",
-          "description": null,
-          "score": 1812,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0x7D9e186fe676565c184E4210Dba3b082e89a9781",
-            "address:0x11ec1bD59eFc667C5d9bbb5b5Cd365DeC8dEe2cB",
-            "service:x.com:1465507180191174656",
-            "profileId:972"
-          ],
-          "xpTotal": 79143,
-          "xpStreakDays": 0,
-          "xpRemovedDueToAbuse": false,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/skarlywarly",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/skarlywarly/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 1,
-                "positive": 78
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "147594775136915850",
-                "count": 10
-              },
-              "received": {
-                "amountWeiTotal": "285588030005734999",
-                "count": 10
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 37952599,
-            "blockIndex": 740,
-            "blockNumber": 37294452,
-            "contract": "review",
-            "createdAt": 1761378252,
-            "processed": true,
-            "txHash": "0xba8b3cb59af93907f937097abca29a1d6e253b75cbabb372363aa302926bc229",
-            "updatedAt": 1761378252
-          }
-        ],
-        "llmQualityScore": 79,
-        "translation": {
-          "contentHash": "6bb31d56fc3575c8d382400d0e7929ecf28660af777c2dbfa5413902d416b89c",
-          "detectedLanguage": "unknown",
-          "translatedLanguage": "en",
-          "translatedContent": "Elite person, founder and dev",
-          "translatedDescription": "Never talked with him directly, but what he has been doing for a long time deserves a huge shout-out. The way he cares about his community and early supporters is admirable. Nothing more than just huge respect."
-        },
-        "isSpam": false,
-        "enriched": {
-          "authorName": "Pavil ⚡️💵",
-          "subjectName": "skarly",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1963640236312788992/xCduqIWy.jpg",
-          "timeAgo": "3d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/536296",
-          "reviewId": 536296
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 536188,
-          "authorProfileId": 19246,
-          "author": "0xc5c1e47208a5f2191B645084C896347229c5B306",
-          "subject": "0x53854EdF8DCD8eED337C3Cb30E6E5ffd65CC4EbD",
-          "score": "positive",
-          "comment": "technical expert and a dev who build",
-          "metadata": "{\n  \"description\": \"I first knew him from what he built as the tool to help user manage and optimize bigcoin mining set-ups both facilities and miners.\\n\\nAs we met once again in onchain heroes discord where I feel like he's one of the most active guys in och community, I witnessed his 2nd large and solid build toward och ecosystem whether the real-time analytics, dragma leaderboard chart, or p2p marketplace to facilitate och players as a whole and even the season 2 summary \\n\\nmore than enough to say he's a talented dev and he usually share his thought technically on new contracts from various projects which I found this really useful in many cases and appreciate him\"\n}",
-          "createdAt": 1761366847,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 1,
-          "downvotes": 1
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1761366847,
-        "author": {
-          "userkey": "address:0x607d2381aFecbD80c4AD5CCE8059205C2a297966",
-          "profileId": 19246,
-          "name": "sillybilly 🐧✳️",
-          "username": "sillyybillyyyyy",
-          "avatar": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
-          "description": null,
-          "score": 1666,
-          "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
-        },
-        "subject": {
-          "userkey": "address:0x53854EdF8DCD8eED337C3Cb30E6E5ffd65CC4EbD",
-          "profileId": 8263,
-          "name": "SliKᵍᵐ",
-          "username": "0xSLK",
-          "avatar": "https://pbs.twimg.com/profile_images/1963685626139549696/PFv6-tBn.jpg",
-          "description": null,
-          "score": 1297,
-          "primaryAddress": "0x53854EdF8DCD8eED337C3Cb30E6E5ffd65CC4EbD"
-        },
-        "authorUser": {
-          "id": 13164918,
-          "profileId": 19246,
-          "displayName": "sillybilly 🐧✳️",
-          "username": "sillyybillyyyyy",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
-          "description": null,
-          "score": 1666,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0x607d2381aFecbD80c4AD5CCE8059205C2a297966",
-            "address:0xc5c1e47208a5f2191B645084C896347229c5B306",
-            "service:x.com:1482402554177015810",
-            "profileId:19246",
-            "service:discord:295229376776241152"
-          ],
-          "xpTotal": 75970,
-          "xpStreakDays": 37,
-          "xpRemovedDueToAbuse": false,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/sillyybillyyyyy",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/sillyybillyyyyy/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 1,
-                "neutral": 0,
-                "positive": 45
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "168830980319607736",
-                "count": 16
-              },
-              "received": {
-                "amountWeiTotal": "208639999999999904",
-                "count": 20
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 3022476,
-          "profileId": 8263,
-          "displayName": "SliKᵍᵐ",
-          "username": "0xSLK",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1963685626139549696/PFv6-tBn.jpg",
-          "description": null,
-          "score": 1297,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0x53854EdF8DCD8eED337C3Cb30E6E5ffd65CC4EbD",
-            "address:0xC452D3425570584b76a28C73BeefdF6ccB02f78A",
-            "service:x.com:1088689086",
-            "profileId:8263",
-            "service:discord:134765679743074304"
-          ],
-          "xpTotal": 4,
-          "xpStreakDays": 0,
-          "xpRemovedDueToAbuse": false,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/0xSLK",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/0xSLK/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 3
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "0",
-                "count": 0
-              },
-              "received": {
-                "amountWeiTotal": "0",
-                "count": 0
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 37834399,
-            "blockIndex": 392,
-            "blockNumber": 37288750,
-            "contract": "review",
-            "createdAt": 1761366847,
-            "processed": true,
-            "txHash": "0x2aef558285553f3f3e4b3341ec310055eb0695f0c9cfab67865ed0b61c52828f",
-            "updatedAt": 1761366848
-          }
-        ],
-        "llmQualityScore": 96,
-        "translation": {
-          "contentHash": "390e2ce81e6e0637b1c35df51b14be735159a0b573da17dad6819152b7db7b66",
-          "detectedLanguage": "en",
-          "translatedLanguage": "en",
-          "translatedContent": "technical expert and a dev who build",
-          "translatedDescription": "I first knew him from what he built as the tool to help user manage and optimize bigcoin mining set-ups both facilities and miners.\n\nAs we met once again in onchain heroes discord where I feel like he's one of the most active guys in och community, I witnessed his 2nd large and solid build toward och ecosystem whether the real-time analytics, dragma leaderboard chart, or p2p marketplace to facilitate och players as a whole and even the season 2 summary \n\nmore than enough to say he's a talented dev and he usually share his thought technically on new contracts from various projects which I found this really useful in many cases and appreciate him"
-        },
-        "isSpam": false,
-        "enriched": {
-          "authorName": "sillybilly 🐧✳️",
-          "subjectName": "SliKᵍᵐ",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1963685626139549696/PFv6-tBn.jpg",
-          "timeAgo": "3d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/536188",
-          "reviewId": 536188
-        }
-      },
-      {
-        "type": "review",
-        "data": {
-          "id": 535774,
-          "authorProfileId": 20823,
-          "author": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
-          "subject": "0xEac0fbBA47ea4D3ffF69019527092568492f2450",
-          "score": "positive",
-          "comment": "GIGA WOLV",
-          "metadata": "{\n  \"description\": \"My Giga Chad bro in Abstract, OG in Wolves. He always sharing Untamed Reports (pretty helpful) about eco and support others on-chain\"\n}",
-          "createdAt": 1761325889,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 30,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1761325889,
-        "author": {
-          "userkey": "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
-          "profileId": 20823,
-          "name": "Pavil ⚡️💵",
-          "username": "basedPavel",
-          "avatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "description": null,
-          "score": 1716,
-          "primaryAddress": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4"
-        },
-        "subject": {
-          "userkey": "address:0xEac0fbBA47ea4D3ffF69019527092568492f2450",
-          "profileId": 2703,
-          "name": "Untamed Adam 🐺",
-          "username": "adamagb",
-          "avatar": "https://pbs.twimg.com/profile_images/1967690579766120448/zHbGkt1x.jpg",
-          "description": null,
-          "score": 1926,
-          "primaryAddress": "0xEac0fbBA47ea4D3ffF69019527092568492f2450"
-        },
-        "authorUser": {
-          "id": 13738191,
-          "profileId": 20823,
-          "displayName": "Pavil ⚡️💵",
-          "username": "basedPavel",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "description": null,
-          "score": 1716,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
-            "address:0xc9F4067a38878A4CdC2cdd525F090Aa8BA0aC18a",
-            "service:x.com:1491753203620327437",
-            "profileId:20823",
-            "service:discord:748807182115536937"
-          ],
-          "xpTotal": 202187,
-          "xpStreakDays": 118,
-          "xpRemovedDueToAbuse": false,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/basedPavel",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/basedPavel/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 69
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "399032091261477160",
-                "count": 37
-              },
-              "received": {
-                "amountWeiTotal": "398248263173934418",
-                "count": 36
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 24460,
-          "profileId": 2703,
-          "displayName": "Untamed Adam 🐺",
-          "username": "adamagb",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1967690579766120448/zHbGkt1x.jpg",
-          "description": null,
-          "score": 1926,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xEac0fbBA47ea4D3ffF69019527092568492f2450",
-            "address:0x637adB3D0DdbB9088d99455F8c2b522C889B7347",
-            "service:x.com:24958437",
-            "profileId:2703"
-          ],
-          "xpTotal": 85353,
-          "xpStreakDays": 0,
-          "xpRemovedDueToAbuse": false,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/adamagb",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/adamagb/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 78
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "526431417615711527",
-                "count": 28
-              },
-              "received": {
-                "amountWeiTotal": "508390677974273070",
-                "count": 28
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 37572675,
-            "blockIndex": 472,
-            "blockNumber": 37268271,
-            "contract": "review",
-            "createdAt": 1761325890,
-            "processed": true,
-            "txHash": "0x1ff9e5bc969ff1a9794f3e846da7bfa9424038be32fc6d40d2a220064a9c0141",
-            "updatedAt": 1761325890
-          }
-        ],
-        "llmQualityScore": 73,
-        "translation": {
-          "contentHash": "4d1567df9799647549d931497d10beaf4aa486da5792d3a594d8f043911b135e",
-          "detectedLanguage": "en",
-          "translatedLanguage": "en",
-          "translatedContent": "GIGA WOLV",
-          "translatedDescription": "My Giga Chad bro in Abstract, OG in Wolves. He always sharing Untamed Reports (pretty helpful) about eco and support others on-chain"
-        },
-        "isSpam": false,
-        "enriched": {
-          "authorName": "Pavil ⚡️💵",
-          "subjectName": "Untamed Adam 🐺",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1967690579766120448/zHbGkt1x.jpg",
-          "timeAgo": "4d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/535774",
-          "reviewId": 535774
         }
       }
     ]
