@@ -1,14 +1,194 @@
 {
   "success": true,
-  "totalVouches": 55,
-  "totalReviews": 170,
+  "totalVouches": 56,
+  "totalReviews": 169,
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2025-11-27T17:01:43.867Z",
-  "lastUpdated": "27/11/2025 18:01:43",
+  "generatedAt": "2025-11-27T18:01:42.952Z",
+  "lastUpdated": "27/11/2025 19:01:42",
   "data": {
     "vouches": [
+      {
+        "type": "vouch",
+        "data": {
+          "id": 52345,
+          "authorProfileId": 14074,
+          "authorAddress": "0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6",
+          "subjectProfileId": 17646,
+          "subjectAddress": null,
+          "attestationHash": null,
+          "attestationDetails": null,
+          "deposited": "21000000000000000",
+          "staked": "22260000000000000",
+          "balance": "21000000000000000",
+          "withdrawn": "0",
+          "comment": "Giga Birbish Chad",
+          "metadata": "{\"description\":\"MIC and I first crossed paths on Abstract through a handful of shared projects, but it wasn’t until we connected more deeply in Moonbirds that I realized just how much he elevates a community. He shows up with positivity, insight, and a genuine desire to help the people around him grow. His involvement in the Solana ecosystem even inspired me to revisit trading platforms. MIC has given me confidence that the right tools can truly elevate my trading approach, rather than relying solely on raw ability. I’m grateful our paths keep crossing, and I’m excited to continue building alongside him.\"}",
+          "archived": false,
+          "unhealthy": false,
+          "activityCheckpoints": {
+            "vouchedAt": 1764265695,
+            "unvouchedAt": 0,
+            "unhealthyAt": 0
+          },
+          "mutualId": null
+        },
+        "votes": {
+          "upvotes": 0,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1764265695,
+        "author": {
+          "userkey": "address:0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6",
+          "profileId": 14074,
+          "name": "AL 🐧 ✳️",
+          "username": "thepeengwin",
+          "avatar": "https://pbs.twimg.com/profile_images/1989075382356635648/RFhQa6rW.jpg",
+          "description": null,
+          "score": 1610,
+          "primaryAddress": "0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6"
+        },
+        "subject": {
+          "userkey": "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
+          "profileId": 17646,
+          "name": "MIC ( miccinii )",
+          "username": "duckk9x",
+          "avatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
+          "description": null,
+          "score": 1622,
+          "primaryAddress": "0xb0619D866f8f3c3524F9bF8D2E588A53e5343857"
+        },
+        "authorUser": {
+          "id": 9105943,
+          "profileId": 14074,
+          "displayName": "AL 🐧 ✳️",
+          "username": "thepeengwin",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1989075382356635648/RFhQa6rW.jpg",
+          "description": null,
+          "score": 1610,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6",
+            "address:0xA96E173551f07aF35F2bc4cBCD8D3a21E8DA39BC",
+            "service:x.com:1532490954548121600",
+            "profileId:14074",
+            "service:discord:396784398453964801",
+            "service:telegram:5653686646",
+            "service:farcaster:16852"
+          ],
+          "xpTotal": 54586,
+          "xpStreakDays": 123,
+          "xpRemovedDueToAbuse": false,
+          "influenceFactor": 89,
+          "influenceFactorPercentile": 13,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/thepeengwin",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/thepeengwin/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 35
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "182903770404823362",
+                "count": 12
+              },
+              "received": {
+                "amountWeiTotal": "136879999999999962",
+                "count": 11
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 12188200,
+          "profileId": 17646,
+          "displayName": "MIC ( miccinii )",
+          "username": "duckk9x",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
+          "description": null,
+          "score": 1622,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
+            "address:0xdd9418830De1369F2ad0d8A9CAa98997675c07b4",
+            "address:0x825B4C51EAA2Ad51896E8b22D212EB706b69f328",
+            "service:x.com:1497831371498471426",
+            "profileId:17646",
+            "service:discord:1089537106059210793",
+            "service:telegram:6121832651"
+          ],
+          "xpTotal": 39277,
+          "xpStreakDays": 36,
+          "xpRemovedDueToAbuse": false,
+          "influenceFactor": 18,
+          "influenceFactorPercentile": 2,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/duckk9x",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/duckk9x/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 63
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "130910824428477393",
+                "count": 11
+              },
+              "received": {
+                "amountWeiTotal": "415559999999999829",
+                "count": 24
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 43913965,
+            "blockIndex": 472,
+            "blockNumber": 38738174,
+            "contract": "vouch",
+            "createdAt": 1764265696,
+            "processed": true,
+            "txHash": "0x87d6787f3ab85c111bb2f652fb0f1074fd4758db318b781f1d78765a9da4bece",
+            "updatedAt": 1764265696
+          }
+        ],
+        "llmQualityScore": 96,
+        "translation": {
+          "contentHash": "7172db0e8e6128e2c7cfc733306829c0ba61d5fe1add2d2e8a1394e596b9d826",
+          "detectedLanguage": "en",
+          "translatedLanguage": "en",
+          "translatedContent": "Giga Birbish Chad",
+          "translatedDescription": "MIC and I first crossed paths on Abstract through a handful of shared projects, but it wasn’t until we connected more deeply in Moonbirds that I realized just how much he elevates a community. He shows up with positivity, insight, and a genuine desire to help the people around him grow. His involvement in the Solana ecosystem even inspired me to revisit trading platforms. MIC has given me confidence that the right tools can truly elevate my trading approach, rather than relying solely on raw ability. I’m grateful our paths keep crossing, and I’m excited to continue building alongside him."
+        },
+        "isSpam": false,
+        "enriched": {
+          "authorName": "AL 🐧 ✳️",
+          "subjectName": "MIC ( miccinii )",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1989075382356635648/RFhQa6rW.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
+          "timeAgo": "13m ago",
+          "stakeAmount": "0.021",
+          "clickUrl": "https://app.ethos.network/activity/vouch/52345",
+          "vouchId": 52345
+        }
+      },
       {
         "type": "vouch",
         "data": {
@@ -148,7 +328,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "687924690058522220",
+                "amountWeiTotal": "687967649608071382",
                 "count": 26
               },
               "received": {
@@ -184,7 +364,7 @@
           "subjectName": "guezito",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1988704029866954752/6wzLzVm1.jpg",
-          "timeAgo": "10h ago",
+          "timeAgo": "11h ago",
           "stakeAmount": "0.011",
           "clickUrl": "https://app.ethos.network/activity/vouch/52264",
           "vouchId": 52264
@@ -231,7 +411,7 @@
           "username": "duckk9x",
           "avatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "primaryAddress": "0xb0619D866f8f3c3524F9bF8D2E588A53e5343857"
         },
         "subject": {
@@ -251,7 +431,7 @@
           "username": "duckk9x",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
@@ -276,7 +456,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 62
+                "positive": 63
               }
             },
             "vouch": {
@@ -285,8 +465,8 @@
                 "count": 11
               },
               "received": {
-                "amountWeiTotal": "393719999999999844",
-                "count": 23
+                "amountWeiTotal": "415559999999999829",
+                "count": 24
               }
             }
           }
@@ -363,7 +543,7 @@
           "subjectName": "Pavil ⚡️💵",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF_400x400.jpg",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "stakeAmount": "0.010",
           "clickUrl": "https://app.ethos.network/activity/vouch/52186",
           "vouchId": 52186
@@ -685,7 +865,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "687924690058522220",
+                "amountWeiTotal": "687967649608071382",
                 "count": 26
               },
               "received": {
@@ -862,7 +1042,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "195264745959558523",
+                "amountWeiTotal": "195287257954164325",
                 "count": 18
               },
               "received": {
@@ -1041,7 +1221,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "687924690058522220",
+                "amountWeiTotal": "687967649608071382",
                 "count": 26
               },
               "received": {
@@ -1124,7 +1304,7 @@
           "username": "duckk9x",
           "avatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "primaryAddress": "0xb0619D866f8f3c3524F9bF8D2E588A53e5343857"
         },
         "subject": {
@@ -1144,7 +1324,7 @@
           "username": "duckk9x",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
@@ -1169,7 +1349,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 62
+                "positive": 63
               }
             },
             "vouch": {
@@ -1178,8 +1358,8 @@
                 "count": 11
               },
               "received": {
-                "amountWeiTotal": "393719999999999844",
-                "count": 23
+                "amountWeiTotal": "415559999999999829",
+                "count": 24
               }
             }
           }
@@ -1222,7 +1402,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "687924690058522220",
+                "amountWeiTotal": "687967649608071382",
                 "count": 26
               },
               "received": {
@@ -1276,7 +1456,7 @@
           "attestationDetails": null,
           "deposited": "20000000000000000",
           "staked": "21200000000000000",
-          "balance": "20135754581543147",
+          "balance": "20178714131092309",
           "withdrawn": "0",
           "comment": "Abstract Gigachad",
           "metadata": "{\"description\":\"He is incredibly active on social media defending what he believes in, namely AbstractChain.\\n\\nHis work has been rewarded, as today he is a Gigachad, the Holy Grail of Abstract roles.\\n\\nI have witnessed his involvement and dedication on the gigachads channel on Abstract; he is helpful, committed, and full of good humor. He's a great guy who is a pleasure to spend time with.\"}",
@@ -1315,7 +1495,7 @@
           "username": "duckk9x",
           "avatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "primaryAddress": "0xb0619D866f8f3c3524F9bF8D2E588A53e5343857"
         },
         "authorUser": {
@@ -1356,7 +1536,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "687924690058522220",
+                "amountWeiTotal": "687967649608071382",
                 "count": 26
               },
               "received": {
@@ -1373,7 +1553,7 @@
           "username": "duckk9x",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
@@ -1398,7 +1578,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 62
+                "positive": 63
               }
             },
             "vouch": {
@@ -1407,8 +1587,8 @@
                 "count": 11
               },
               "received": {
-                "amountWeiTotal": "393719999999999844",
-                "count": 23
+                "amountWeiTotal": "415559999999999829",
+                "count": 24
               }
             }
           }
@@ -1449,7 +1629,7 @@
           "subjectName": "MIC ( miccinii )",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1988704029866954752/6wzLzVm1.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
-          "timeAgo": "22d ago",
+          "timeAgo": "23d ago",
           "stakeAmount": "0.020",
           "clickUrl": "https://app.ethos.network/activity/vouch/50771",
           "vouchId": 50771
@@ -1544,7 +1724,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "192150590361166725",
+                "amountWeiTotal": "192178200624083754",
                 "count": 18
               },
               "received": {
@@ -1592,7 +1772,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "687924690058522220",
+                "amountWeiTotal": "687967649608071382",
                 "count": 26
               },
               "received": {
@@ -1771,7 +1951,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "687924690058522220",
+                "amountWeiTotal": "687967649608071382",
                 "count": 26
               },
               "received": {
@@ -1952,7 +2132,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "687924690058522220",
+                "amountWeiTotal": "687967649608071382",
                 "count": 26
               },
               "received": {
@@ -2128,7 +2308,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "192150590361166725",
+                "amountWeiTotal": "192178200624083754",
                 "count": 18
               },
               "received": {
@@ -2303,7 +2483,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "192150590361166725",
+                "amountWeiTotal": "192178200624083754",
                 "count": 18
               },
               "received": {
@@ -2483,7 +2663,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "195264745959558523",
+                "amountWeiTotal": "195287257954164325",
                 "count": 18
               },
               "received": {
@@ -2519,7 +2699,7 @@
           "subjectName": "leeland アブス ✳️",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1978550498098544640/ajUP86PR.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1878584788614823936/2eHzb4xq.jpg",
-          "timeAgo": "28d ago",
+          "timeAgo": "29d ago",
           "stakeAmount": "0.010",
           "clickUrl": "https://app.ethos.network/activity/vouch/49774",
           "vouchId": 49774
@@ -2537,7 +2717,7 @@
           "attestationDetails": null,
           "deposited": "10000000000000000",
           "staked": "10600000000000000",
-          "balance": "10551693471662799",
+          "balance": "10574205466268601",
           "withdrawn": "0",
           "comment": "Vietnam Gigachad",
           "metadata": "{\"description\":\"Mic’s a Vietnam Gigachad. solid Abstract contributor, always active and dropping real alpha in the chats. humble, consistent, zero red flags, just pure builder energy. A trusted member who connects people, builds bridges, and pushes the ecosystem forward\"}",
@@ -2576,7 +2756,7 @@
           "username": "duckk9x",
           "avatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "primaryAddress": "0xb0619D866f8f3c3524F9bF8D2E588A53e5343857"
         },
         "authorUser": {
@@ -2616,7 +2796,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "195264745959558523",
+                "amountWeiTotal": "195287257954164325",
                 "count": 18
               },
               "received": {
@@ -2633,7 +2813,7 @@
           "username": "duckk9x",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
@@ -2658,7 +2838,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 62
+                "positive": 63
               }
             },
             "vouch": {
@@ -2667,8 +2847,8 @@
                 "count": 11
               },
               "received": {
-                "amountWeiTotal": "393719999999999844",
-                "count": 23
+                "amountWeiTotal": "415559999999999829",
+                "count": 24
               }
             }
           }
@@ -2796,7 +2976,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "195264745959558523",
+                "amountWeiTotal": "195287257954164325",
                 "count": 18
               },
               "received": {
@@ -3018,7 +3198,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "687924690058522220",
+                "amountWeiTotal": "687967649608071382",
                 "count": 26
               },
               "received": {
@@ -3162,7 +3342,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "687924690058522220",
+                "amountWeiTotal": "687967649608071382",
                 "count": 26
               },
               "received": {
@@ -3342,7 +3522,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "687924690058522220",
+                "amountWeiTotal": "687967649608071382",
                 "count": 26
               },
               "received": {
@@ -3440,31 +3620,25 @@
           "clickUrl": "https://app.ethos.network/activity/vouch/49145",
           "vouchId": 49145
         }
-      },
+      }
+    ],
+    "reviews": [
       {
-        "type": "vouch",
+        "type": "review",
         "data": {
-          "id": 49142,
-          "authorProfileId": 14905,
-          "authorAddress": "0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5",
-          "subjectProfileId": 17528,
-          "subjectAddress": null,
-          "attestationHash": null,
-          "attestationDetails": null,
-          "deposited": "10000000000000000",
-          "staked": "10600000000000000",
-          "balance": "10000000000000000",
-          "withdrawn": "0",
-          "comment": "Web3 enjoyer",
-          "metadata": "{\"description\":\"Envok knows what he's talking about, and I've often seen him discuss highly technical topics on our ecosystem for hours on end, without faltering and bringing real value to his arguments. He's a real OG of web3.\"}",
+          "id": 572617,
+          "authorProfileId": 14074,
+          "author": "0xA96E173551f07aF35F2bc4cBCD8D3a21E8DA39BC",
+          "subject": "0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
+          "score": "positive",
+          "comment": "Giga Birbish Chad",
+          "metadata": "{\n  \"description\": \"MIC and I first crossed paths on Abstract through a handful of shared projects, but it wasn’t until we connected more deeply in Moonbirds that I realized just how much he elevates a community. He shows up with positivity, insight, and a genuine desire to help the people around him grow. His involvement in the Solana ecosystem even inspired me to revisit trading platforms. MIC has given me confidence that the right tools can truly elevate my trading approach, rather than relying solely on raw ability. I’m grateful our paths keep crossing, and I’m excited to continue building alongside him.\"\n}",
+          "createdAt": 1764265375,
           "archived": false,
-          "unhealthy": false,
-          "activityCheckpoints": {
-            "vouchedAt": 1761595561,
-            "unvouchedAt": 0,
-            "unhealthyAt": 0
-          },
-          "mutualId": null
+          "attestationDetails": {
+            "account": "",
+            "service": ""
+          }
         },
         "votes": {
           "upvotes": 1,
@@ -3474,154 +3648,155 @@
           "count": 0,
           "participated": false
         },
-        "timestamp": 1761595561,
+        "timestamp": 1764265375,
         "author": {
-          "userkey": "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
-          "profileId": 14905,
-          "name": "guezito",
-          "username": "guezito",
-          "avatar": "https://pbs.twimg.com/profile_images/1988704029866954752/6wzLzVm1.jpg",
+          "userkey": "address:0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6",
+          "profileId": 14074,
+          "name": "AL 🐧 ✳️",
+          "username": "thepeengwin",
+          "avatar": "https://pbs.twimg.com/profile_images/1989075382356635648/RFhQa6rW.jpg",
           "description": null,
-          "score": 1634,
-          "primaryAddress": "0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731"
+          "score": 1610,
+          "primaryAddress": "0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6"
         },
         "subject": {
-          "userkey": "address:0xa2d70157cDD9ebf99b21a66d7478720Be8c058DA",
-          "profileId": 17528,
-          "name": "envok",
-          "username": "envokxbt",
-          "avatar": "https://pbs.twimg.com/profile_images/1929494982412337153/k0VALDqJ.jpg",
+          "userkey": "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
+          "profileId": 17646,
+          "name": "MIC ( miccinii )",
+          "username": "duckk9x",
+          "avatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1301,
-          "primaryAddress": "0xa2d70157cDD9ebf99b21a66d7478720Be8c058DA"
+          "score": 1622,
+          "primaryAddress": "0xb0619D866f8f3c3524F9bF8D2E588A53e5343857"
         },
         "authorUser": {
-          "id": 10792400,
-          "profileId": 14905,
-          "displayName": "guezito",
-          "username": "guezito",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1988704029866954752/6wzLzVm1.jpg",
+          "id": 9105943,
+          "profileId": 14074,
+          "displayName": "AL 🐧 ✳️",
+          "username": "thepeengwin",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1989075382356635648/RFhQa6rW.jpg",
           "description": null,
-          "score": 1634,
+          "score": 1610,
           "status": "ACTIVE",
           "userkeys": [
-            "address:0xE88824F3B9e6dc78A83A1C57fFa72b4e0D43e731",
-            "address:0x0957689E8a8f05aD3e0E870b81088f1d90A51CE5",
-            "address:0xA9AE1e47B255351855a15E43a94fD5372d1b1360",
-            "service:x.com:1120360579598831616",
-            "profileId:14905",
-            "service:discord:269284273457070081",
-            "service:telegram:636314012",
-            "service:farcaster:298275"
+            "address:0x2CCFF304eF578B238eE82E1D1d53c34e80B48ad6",
+            "address:0xA96E173551f07aF35F2bc4cBCD8D3a21E8DA39BC",
+            "service:x.com:1532490954548121600",
+            "profileId:14074",
+            "service:discord:396784398453964801",
+            "service:telegram:5653686646",
+            "service:farcaster:16852"
           ],
-          "xpTotal": 411103,
-          "xpStreakDays": 174,
+          "xpTotal": 54586,
+          "xpStreakDays": 123,
           "xpRemovedDueToAbuse": false,
-          "influenceFactor": 15,
-          "influenceFactorPercentile": 2,
+          "influenceFactor": 89,
+          "influenceFactorPercentile": 13,
           "links": {
-            "profile": "https://app.ethos.network/profile/x/guezito",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/guezito/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 1,
-                "neutral": 0,
-                "positive": 39
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "687924690058522220",
-                "count": 26
-              },
-              "received": {
-                "amountWeiTotal": "498117081545064260",
-                "count": 20
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 12117495,
-          "profileId": 17528,
-          "displayName": "envok",
-          "username": "envokxbt",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1929494982412337153/k0VALDqJ.jpg",
-          "description": null,
-          "score": 1301,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xa2d70157cDD9ebf99b21a66d7478720Be8c058DA",
-            "address:0xFEDa806D09a64Ff74088b1415E1fcc0aD676233D",
-            "service:x.com:985102134",
-            "profileId:17528",
-            "service:discord:1057271831972823050"
-          ],
-          "xpTotal": 490,
-          "xpStreakDays": 0,
-          "xpRemovedDueToAbuse": false,
-          "influenceFactor": 2,
-          "influenceFactorPercentile": 0,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/envokxbt",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/envokxbt/score"
+            "profile": "https://app.ethos.network/profile/x/thepeengwin",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/thepeengwin/score"
           },
           "stats": {
             "review": {
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 5
+                "positive": 35
               }
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "12000000000000000",
-                "count": 1
+                "amountWeiTotal": "182903770404823362",
+                "count": 12
               },
               "received": {
-                "amountWeiTotal": "20400000000000000",
-                "count": 2
+                "amountWeiTotal": "136879999999999962",
+                "count": 11
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 12188200,
+          "profileId": 17646,
+          "displayName": "MIC ( miccinii )",
+          "username": "duckk9x",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
+          "description": null,
+          "score": 1622,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
+            "address:0xdd9418830De1369F2ad0d8A9CAa98997675c07b4",
+            "address:0x825B4C51EAA2Ad51896E8b22D212EB706b69f328",
+            "service:x.com:1497831371498471426",
+            "profileId:17646",
+            "service:discord:1089537106059210793",
+            "service:telegram:6121832651"
+          ],
+          "xpTotal": 39277,
+          "xpStreakDays": 36,
+          "xpRemovedDueToAbuse": false,
+          "influenceFactor": 18,
+          "influenceFactorPercentile": 2,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/duckk9x",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/duckk9x/score"
+          },
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 63
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "130910824428477393",
+                "count": 11
+              },
+              "received": {
+                "amountWeiTotal": "415559999999999829",
+                "count": 24
               }
             }
           }
         },
         "events": [
           {
-            "id": 39862144,
-            "blockIndex": 149,
-            "blockNumber": 37403107,
-            "contract": "vouch",
-            "createdAt": 1761595562,
+            "id": 43913660,
+            "blockIndex": 440,
+            "blockNumber": 38738014,
+            "contract": "review",
+            "createdAt": 1764265376,
             "processed": true,
-            "txHash": "0x31d979638098536ab726615cf1fd8aa0a252accf1444772426023568bab92d3d",
-            "updatedAt": 1761595563
+            "txHash": "0xacd24280c99149183c8e1f812368a20afac1a6a9cc84d953e6473e0cd4dada04",
+            "updatedAt": 1764265376
           }
         ],
-        "llmQualityScore": 79,
+        "llmQualityScore": 96,
         "translation": {
-          "contentHash": "dd8de0f9b87a8ed3d6e3d82a948d432e1ca2d8b294cb8c3f4b66775677c5dc39",
+          "contentHash": "7172db0e8e6128e2c7cfc733306829c0ba61d5fe1add2d2e8a1394e596b9d826",
           "detectedLanguage": "en",
           "translatedLanguage": "en",
-          "translatedContent": "Web3 enjoyer",
-          "translatedDescription": "Envok knows what he's talking about, and I've often seen him discuss highly technical topics on our ecosystem for hours on end, without faltering and bringing real value to his arguments. He's a real OG of web3."
+          "translatedContent": "Giga Birbish Chad",
+          "translatedDescription": "MIC and I first crossed paths on Abstract through a handful of shared projects, but it wasn’t until we connected more deeply in Moonbirds that I realized just how much he elevates a community. He shows up with positivity, insight, and a genuine desire to help the people around him grow. His involvement in the Solana ecosystem even inspired me to revisit trading platforms. MIC has given me confidence that the right tools can truly elevate my trading approach, rather than relying solely on raw ability. I’m grateful our paths keep crossing, and I’m excited to continue building alongside him."
         },
         "isSpam": false,
         "enriched": {
-          "authorName": "guezito",
-          "subjectName": "envok",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1988704029866954752/6wzLzVm1.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1929494982412337153/k0VALDqJ.jpg",
-          "timeAgo": "1mo ago",
-          "stakeAmount": "0.010",
-          "clickUrl": "https://app.ethos.network/activity/vouch/49142",
-          "vouchId": 49142
+          "authorName": "AL 🐧 ✳️",
+          "subjectName": "MIC ( miccinii )",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1989075382356635648/RFhQa6rW.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
+          "timeAgo": "18m ago",
+          "score": "positive",
+          "scoreClass": "positive",
+          "scoreText": "Positive",
+          "clickUrl": "https://app.ethos.network/activity/review/572617",
+          "reviewId": 572617
         }
-      }
-    ],
-    "reviews": [
+      },
       {
         "type": "review",
         "data": {
@@ -3665,7 +3840,7 @@
           "username": "duckk9x",
           "avatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "primaryAddress": "0xb0619D866f8f3c3524F9bF8D2E588A53e5343857"
         },
         "authorUser": {
@@ -3724,7 +3899,7 @@
           "username": "duckk9x",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
@@ -3749,7 +3924,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 62
+                "positive": 63
               }
             },
             "vouch": {
@@ -3758,8 +3933,8 @@
                 "count": 11
               },
               "received": {
-                "amountWeiTotal": "393719999999999844",
-                "count": 23
+                "amountWeiTotal": "415559999999999829",
+                "count": 24
               }
             }
           }
@@ -3831,7 +4006,7 @@
           "username": "duckk9x",
           "avatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "primaryAddress": "0xb0619D866f8f3c3524F9bF8D2E588A53e5343857"
         },
         "subject": {
@@ -3851,7 +4026,7 @@
           "username": "duckk9x",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
@@ -3876,7 +4051,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 62
+                "positive": 63
               }
             },
             "vouch": {
@@ -3885,8 +4060,8 @@
                 "count": 11
               },
               "received": {
-                "amountWeiTotal": "393719999999999844",
-                "count": 23
+                "amountWeiTotal": "415559999999999829",
+                "count": 24
               }
             }
           }
@@ -4003,7 +4178,7 @@
           "username": "duckk9x",
           "avatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "primaryAddress": "0xb0619D866f8f3c3524F9bF8D2E588A53e5343857"
         },
         "subject": {
@@ -4023,7 +4198,7 @@
           "username": "duckk9x",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
@@ -4048,7 +4223,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 62
+                "positive": 63
               }
             },
             "vouch": {
@@ -4057,8 +4232,8 @@
                 "count": 11
               },
               "received": {
-                "amountWeiTotal": "393719999999999844",
-                "count": 23
+                "amountWeiTotal": "415559999999999829",
+                "count": 24
               }
             }
           }
@@ -4178,7 +4353,7 @@
           "username": "duckk9x",
           "avatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "primaryAddress": "0xb0619D866f8f3c3524F9bF8D2E588A53e5343857"
         },
         "subject": {
@@ -4198,7 +4373,7 @@
           "username": "duckk9x",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
@@ -4223,7 +4398,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 62
+                "positive": 63
               }
             },
             "vouch": {
@@ -4232,8 +4407,8 @@
                 "count": 11
               },
               "received": {
-                "amountWeiTotal": "393719999999999844",
-                "count": 23
+                "amountWeiTotal": "415559999999999829",
+                "count": 24
               }
             }
           }
@@ -4275,7 +4450,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "195264745959558523",
+                "amountWeiTotal": "195287257954164325",
                 "count": 18
               },
               "received": {
@@ -4446,7 +4621,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "192150590361166725",
+                "amountWeiTotal": "192178200624083754",
                 "count": 18
               },
               "received": {
@@ -4769,7 +4944,7 @@
           "xpTotal": 152164,
           "xpStreakDays": 0,
           "xpRemovedDueToAbuse": false,
-          "influenceFactor": 199,
+          "influenceFactor": 200,
           "influenceFactorPercentile": 28,
           "links": {
             "profile": "https://app.ethos.network/profile/x/Aizcalibur",
@@ -4959,7 +5134,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "195264745959558523",
+                "amountWeiTotal": "195287257954164325",
                 "count": 18
               },
               "received": {
@@ -5208,7 +5383,7 @@
           "username": "duckk9x",
           "avatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "primaryAddress": "0xb0619D866f8f3c3524F9bF8D2E588A53e5343857"
         },
         "subject": {
@@ -5228,7 +5403,7 @@
           "username": "duckk9x",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
@@ -5253,7 +5428,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 62
+                "positive": 63
               }
             },
             "vouch": {
@@ -5262,8 +5437,8 @@
                 "count": 11
               },
               "received": {
-                "amountWeiTotal": "393719999999999844",
-                "count": 23
+                "amountWeiTotal": "415559999999999829",
+                "count": 24
               }
             }
           }
@@ -5380,7 +5555,7 @@
           "username": "duckk9x",
           "avatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "primaryAddress": "0xb0619D866f8f3c3524F9bF8D2E588A53e5343857"
         },
         "subject": {
@@ -5400,7 +5575,7 @@
           "username": "duckk9x",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
           "description": null,
-          "score": 1616,
+          "score": 1622,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
@@ -5425,7 +5600,7 @@
               "received": {
                 "negative": 0,
                 "neutral": 0,
-                "positive": 62
+                "positive": 63
               }
             },
             "vouch": {
@@ -5434,8 +5609,8 @@
                 "count": 11
               },
               "received": {
-                "amountWeiTotal": "393719999999999844",
-                "count": 23
+                "amountWeiTotal": "415559999999999829",
+                "count": 24
               }
             }
           }
@@ -5457,7 +5632,7 @@
             "service:discord:717629969794334762"
           ],
           "xpTotal": 66409,
-          "xpStreakDays": 30,
+          "xpStreakDays": 31,
           "xpRemovedDueToAbuse": false,
           "influenceFactor": 130,
           "influenceFactorPercentile": 18,
@@ -6039,177 +6214,6 @@
       {
         "type": "review",
         "data": {
-          "id": 544126,
-          "authorProfileId": 17503,
-          "author": "0x17AD03a98448a4E5E85D5989cF6eD51964ef4633",
-          "subject": "0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
-          "score": "positive",
-          "comment": "OG Spirit in Action",
-          "metadata": "{\n  \"description\": \"MIC is one of the kindest and most supportive members of the Abstract community. As an OG Abstract member and the creator of the Vietnamese Abstract community, he’s played a huge role in growing and strengthening our ecosystem. Always helpful, positive, and dedicated - MIC truly represents what community spirit means!\"\n}",
-          "createdAt": 1761869139,
-          "archived": false,
-          "attestationDetails": {
-            "account": "",
-            "service": ""
-          }
-        },
-        "votes": {
-          "upvotes": 19,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1761869139,
-        "author": {
-          "userkey": "address:0xAf2010cF97F6d783C99810B63365167E6DA838aF",
-          "profileId": 17503,
-          "name": "mxbely",
-          "username": "mxbelyg",
-          "avatar": "https://pbs.twimg.com/profile_images/1957478389641605125/9670vBwZ_400x400.jpg",
-          "description": null,
-          "score": 1392,
-          "primaryAddress": "0xAf2010cF97F6d783C99810B63365167E6DA838aF"
-        },
-        "subject": {
-          "userkey": "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
-          "profileId": 17646,
-          "name": "MIC ( miccinii )",
-          "username": "duckk9x",
-          "avatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
-          "description": null,
-          "score": 1616,
-          "primaryAddress": "0xb0619D866f8f3c3524F9bF8D2E588A53e5343857"
-        },
-        "authorUser": {
-          "id": 12107198,
-          "profileId": 17503,
-          "displayName": "mxbely",
-          "username": "mxbelyg",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1957478389641605125/9670vBwZ_400x400.jpg",
-          "description": null,
-          "score": 1392,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xAf2010cF97F6d783C99810B63365167E6DA838aF",
-            "address:0x17AD03a98448a4E5E85D5989cF6eD51964ef4633",
-            "service:x.com:1440744070494633985",
-            "profileId:17503"
-          ],
-          "xpTotal": 3353,
-          "xpStreakDays": 0,
-          "xpRemovedDueToAbuse": false,
-          "influenceFactor": 23,
-          "influenceFactorPercentile": 3,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/mxbelyg",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/mxbelyg/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 27
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "0",
-                "count": 0
-              },
-              "received": {
-                "amountWeiTotal": "20196078431372549",
-                "count": 2
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 12188200,
-          "profileId": 17646,
-          "displayName": "MIC ( miccinii )",
-          "username": "duckk9x",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
-          "description": null,
-          "score": 1616,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
-            "address:0xdd9418830De1369F2ad0d8A9CAa98997675c07b4",
-            "address:0x825B4C51EAA2Ad51896E8b22D212EB706b69f328",
-            "service:x.com:1497831371498471426",
-            "profileId:17646",
-            "service:discord:1089537106059210793",
-            "service:telegram:6121832651"
-          ],
-          "xpTotal": 39277,
-          "xpStreakDays": 36,
-          "xpRemovedDueToAbuse": false,
-          "influenceFactor": 18,
-          "influenceFactorPercentile": 2,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/duckk9x",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/duckk9x/score"
-          },
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 62
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "130910824428477393",
-                "count": 11
-              },
-              "received": {
-                "amountWeiTotal": "393719999999999844",
-                "count": 23
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 41089022,
-            "blockIndex": 101,
-            "blockNumber": 37539896,
-            "contract": "review",
-            "createdAt": 1761869139,
-            "processed": true,
-            "txHash": "0x3378bb7b606ab66cb4f42ade236054f7e8256c048e192398777e043418f8f07e",
-            "updatedAt": 1761869140
-          }
-        ],
-        "llmQualityScore": 73,
-        "translation": {
-          "contentHash": "4375628b923ba0106d68b993bb942b89b63ae8fda21b54450d151e2a46285c57",
-          "detectedLanguage": "en",
-          "translatedLanguage": "en",
-          "translatedContent": "OG Spirit in Action",
-          "translatedDescription": "MIC is one of the kindest and most supportive members of the Abstract community. As an OG Abstract member and the creator of the Vietnamese Abstract community, he’s played a huge role in growing and strengthening our ecosystem. Always helpful, positive, and dedicated - MIC truly represents what community spirit means!"
-        },
-        "isSpam": false,
-        "enriched": {
-          "authorName": "mxbely",
-          "subjectName": "MIC ( miccinii )",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1957478389641605125/9670vBwZ_400x400.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1986496358166212608/fzbrdN3H.jpg",
-          "timeAgo": "27d ago",
-          "score": "positive",
-          "scoreClass": "positive",
-          "scoreText": "Positive",
-          "clickUrl": "https://app.ethos.network/activity/review/544126",
-          "reviewId": 544126
-        }
-      },
-      {
-        "type": "review",
-        "data": {
           "id": 544125,
           "authorProfileId": 17503,
           "author": "0x17AD03a98448a4E5E85D5989cF6eD51964ef4633",
@@ -6505,7 +6509,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "192150590361166725",
+                "amountWeiTotal": "192178200624083754",
                 "count": 18
               },
               "received": {
@@ -6630,7 +6634,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "192150590361166725",
+                "amountWeiTotal": "192178200624083754",
                 "count": 18
               },
               "received": {
