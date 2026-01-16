@@ -1,14 +1,195 @@
 {
   "success": true,
-  "totalVouches": 72,
+  "totalVouches": 73,
   "totalReviews": 141,
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2026-01-16T14:01:44.098Z",
-  "lastUpdated": "16/01/2026 15:01:44",
+  "generatedAt": "2026-01-16T15:01:47.533Z",
+  "lastUpdated": "16/01/2026 16:01:47",
   "data": {
     "vouches": [
+      {
+        "type": "vouch",
+        "data": {
+          "id": 53612,
+          "authorProfileId": 3378,
+          "authorAddress": "0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df",
+          "subjectProfileId": 21448,
+          "subjectAddress": null,
+          "attestationHash": null,
+          "attestationDetails": null,
+          "deposited": "10000000000000000",
+          "staked": "10200000000000000",
+          "balance": "10000000000000000",
+          "withdrawn": "0",
+          "comment": "Abstract soul",
+          "metadata": "{\"description\":\"Abschud is the ultimate representation of being part of Abstract. One of the core team members, especially together with Sauci, is always active and supportive. He supported my growth on X, just as he has for countless others. Truly a legend.\"}",
+          "archived": false,
+          "unhealthy": false,
+          "activityCheckpoints": {
+            "vouchedAt": 1768575375,
+            "unvouchedAt": 0,
+            "unhealthyAt": 0
+          },
+          "mutualId": null
+        },
+        "votes": {
+          "upvotes": 0,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1768575375,
+        "author": {
+          "userkey": "address:0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df",
+          "profileId": 3378,
+          "name": "gucci",
+          "username": "gucci_gcc",
+          "avatar": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
+          "description": null,
+          "score": 1684,
+          "primaryAddress": "0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df"
+        },
+        "subject": {
+          "userkey": "address:0x0e3274FEa64567fdA14187c89B08f61048F4d45a",
+          "profileId": 21448,
+          "name": "AbsChud",
+          "username": "abschud",
+          "avatar": "https://pbs.twimg.com/profile_images/1945464442407235584/XI4rdw7_.jpg",
+          "description": null,
+          "score": 1361,
+          "primaryAddress": "0x0e3274FEa64567fdA14187c89B08f61048F4d45a"
+        },
+        "authorUser": {
+          "id": 7213,
+          "profileId": 3378,
+          "displayName": "gucci",
+          "username": "gucci_gcc",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
+          "description": null,
+          "score": 1684,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x318D8ca3aD59f0ad3f1D63381638E5fAF9fC58Df",
+            "address:0xbc1fF39B2Ba84E6CaeC1daaf8441B199b29Bf9e5",
+            "address:0x7Ad7Ed96571083691C19b6FE74AB307290772221",
+            "service:x.com:1470800265695608844",
+            "profileId:3378",
+            "service:discord:930080564428566539",
+            "service:telegram:1436290029",
+            "service:farcaster:786075"
+          ],
+          "xpTotal": 369392,
+          "xpStreakDays": 1,
+          "xpRemovedDueToAbuse": false,
+          "influenceFactor": 63,
+          "influenceFactorPercentile": 8,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/gucci_gcc",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/gucci_gcc/score"
+          },
+          "mommyPawnshopBingo": null,
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 146
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "112736008080572760",
+                "count": 11
+              },
+              "received": {
+                "amountWeiTotal": "104208748280900807",
+                "count": 10
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 14251028,
+          "profileId": 21448,
+          "displayName": "AbsChud",
+          "username": "abschud",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1945464442407235584/XI4rdw7_.jpg",
+          "description": null,
+          "score": 1361,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x0e3274FEa64567fdA14187c89B08f61048F4d45a",
+            "address:0x00991c8f4653A559426e826EeA296a1D89BB3707",
+            "service:x.com:4903426130",
+            "profileId:21448"
+          ],
+          "xpTotal": 6,
+          "xpStreakDays": 0,
+          "xpRemovedDueToAbuse": false,
+          "influenceFactor": 50,
+          "influenceFactorPercentile": 7,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/abschud",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/abschud/score"
+          },
+          "mommyPawnshopBingo": null,
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 15
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "0",
+                "count": 0
+              },
+              "received": {
+                "amountWeiTotal": "10000000000000000",
+                "count": 1
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 46964393,
+            "blockIndex": 506,
+            "blockNumber": 40893014,
+            "contract": "vouch",
+            "createdAt": 1768575376,
+            "processed": true,
+            "txHash": "0x29d89dfe0922f962d258a34ac5a0689a903db8d7e5d70e11b5b6abb773fa268d",
+            "updatedAt": 1768575376
+          }
+        ],
+        "llmQualityScore": 73,
+        "translation": {
+          "contentHash": "cbeaa0b09ae4d16806131a8646b5fd1be5c1ba0a67fa8b79134e2e724598e50f",
+          "detectedLanguage": "unknown",
+          "translatedLanguage": "unknown",
+          "translatedContent": null,
+          "translatedDescription": null
+        },
+        "isSpam": false,
+        "link": "https://app.ethos.network/activity/vouch/53612/abstract-soul",
+        "enriched": {
+          "authorName": "gucci",
+          "subjectName": "AbsChud",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1921866534168727552/0uiU64sq.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1945464442407235584/XI4rdw7_.jpg",
+          "timeAgo": "5m ago",
+          "stakeAmount": "0.010",
+          "clickUrl": "https://app.ethos.network/activity/vouch/53612",
+          "vouchId": 53612
+        }
+      },
       {
         "type": "vouch",
         "data": {
@@ -3060,8 +3241,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "102736008080572760",
-                "count": 10
+                "amountWeiTotal": "112736008080572760",
+                "count": 11
               },
               "received": {
                 "amountWeiTotal": "104208748280900807",
@@ -3521,189 +3702,6 @@
           "clickUrl": "https://app.ethos.network/activity/vouch/51902",
           "vouchId": 51902
         }
-      },
-      {
-        "type": "vouch",
-        "data": {
-          "id": 51887,
-          "authorProfileId": 37967,
-          "authorAddress": "0xC771f56517515467991Dc92E5a4e53fCD417d54c",
-          "subjectProfileId": 19246,
-          "subjectAddress": null,
-          "attestationHash": null,
-          "attestationDetails": null,
-          "deposited": "20000000000000000",
-          "staked": "21200000000000000",
-          "balance": "20241533119462661",
-          "withdrawn": "0",
-          "comment": "Billy, the News Anchor of Abstract",
-          "metadata": "{\"description\":\"Curious about what’s happening across the Abstract ecosystem? Turn on notifications for sillybilly on X he drops new updates every single week.\\n\\nI’m deep diving into Abstract myself and having a great time, but even I miss things sometimes. That’s when this guy comes through with the updates I didn’t catch. Super grateful for him.\\n\\nHe stays on top of everything collaborations and events, project progress, K-pop & NFT crossovers, NFT & DeFi and so much more. The amount of info he consistently puts out is wild.\\n\\nHe even earned the rare Giga Chad role, which speaks for itself.\\n\\nI met him in person during KBW, and I can say for sure he’s someone you can trust.\\n\\nAlso he is the one who invited me to Ethos platform. Thank you!\\n\\nWe love Abstract!\"}",
-          "archived": false,
-          "unhealthy": false,
-          "activityCheckpoints": {
-            "vouchedAt": 1763890753,
-            "unvouchedAt": 0,
-            "unhealthyAt": 0
-          },
-          "mutualId": 51621
-        },
-        "votes": {
-          "upvotes": 0,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1763890753,
-        "author": {
-          "userkey": "address:0xC771f56517515467991Dc92E5a4e53fCD417d54c",
-          "profileId": 37967,
-          "name": "KangBokSoon✳️",
-          "username": "jochef1995",
-          "avatar": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
-          "description": null,
-          "score": 1628,
-          "primaryAddress": "0xC771f56517515467991Dc92E5a4e53fCD417d54c"
-        },
-        "subject": {
-          "userkey": "address:0x607d2381aFecbD80c4AD5CCE8059205C2a297966",
-          "profileId": 19246,
-          "name": "sillybilly 🐧",
-          "username": "sillybilly",
-          "avatar": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
-          "description": null,
-          "score": 1723,
-          "primaryAddress": "0x607d2381aFecbD80c4AD5CCE8059205C2a297966"
-        },
-        "authorUser": {
-          "id": 22771188,
-          "profileId": 37967,
-          "displayName": "KangBokSoon✳️",
-          "username": "jochef1995",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
-          "description": null,
-          "score": 1628,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xC771f56517515467991Dc92E5a4e53fCD417d54c",
-            "address:0x6500555EEAAA4A0f040c558Ec0282c342daa5259",
-            "address:0x4d2b8676f52575354140436BD55b8E61F448D8a7",
-            "service:x.com:1431115132721979392",
-            "profileId:37967",
-            "service:discord:350201053247176705",
-            "service:telegram:1272359414",
-            "service:farcaster:246955",
-            "service:github:107971586"
-          ],
-          "xpTotal": 69734,
-          "xpStreakDays": 107,
-          "xpRemovedDueToAbuse": false,
-          "influenceFactor": 20,
-          "influenceFactorPercentile": 3,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/jochef1995",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/jochef1995/score"
-          },
-          "mommyPawnshopBingo": null,
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 2,
-                "positive": 19
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "643708789908835337",
-                "count": 31
-              },
-              "received": {
-                "amountWeiTotal": "696399999999999797",
-                "count": 28
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 13164918,
-          "profileId": 19246,
-          "displayName": "sillybilly 🐧",
-          "username": "sillybilly",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
-          "description": null,
-          "score": 1723,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0x607d2381aFecbD80c4AD5CCE8059205C2a297966",
-            "address:0xc5c1e47208a5f2191B645084C896347229c5B306",
-            "service:x.com:1482402554177015810",
-            "profileId:19246",
-            "service:discord:295229376776241152"
-          ],
-          "xpTotal": 139322,
-          "xpStreakDays": 10,
-          "xpRemovedDueToAbuse": false,
-          "influenceFactor": 39,
-          "influenceFactorPercentile": 5,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/sillybilly",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/sillybilly/score"
-          },
-          "mommyPawnshopBingo": null,
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 1,
-                "neutral": 0,
-                "positive": 51
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "367367527939446256",
-                "count": 25
-              },
-              "received": {
-                "amountWeiTotal": "368279999999999796",
-                "count": 25
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 43581927,
-            "blockIndex": 121,
-            "blockNumber": 38550703,
-            "contract": "vouch",
-            "createdAt": 1763890754,
-            "processed": true,
-            "txHash": "0x3b5cdcd28b66ba728ceb5280f9e68ba498e1d2252f9cb79a6d2a9c33a8cc36f4",
-            "updatedAt": 1763890755
-          }
-        ],
-        "llmQualityScore": 73,
-        "translation": {
-          "contentHash": "3c8186319e0c8f2495ddcef5c8c9f4e6f817b4b01edfcf6a37df39bf2d3e652b",
-          "detectedLanguage": "en",
-          "translatedLanguage": "en",
-          "translatedContent": "Billy, the News Anchor of Abstract",
-          "translatedDescription": "Curious about what’s happening across the Abstract ecosystem? Turn on notifications for sillybilly on X he drops new updates every single week.\n\nI’m deep diving into Abstract myself and having a great time, but even I miss things sometimes. That’s when this guy comes through with the updates I didn’t catch. Super grateful for him.\n\nHe stays on top of everything collaborations and events, project progress, K-pop & NFT crossovers, NFT & DeFi and so much more. The amount of info he consistently puts out is wild.\n\nHe even earned the rare Giga Chad role, which speaks for itself.\n\nI met him in person during KBW, and I can say for sure he’s someone you can trust.\n\nAlso he is the one who invited me to Ethos platform. Thank you!\n\nWe love Abstract!"
-        },
-        "isSpam": false,
-        "link": "https://app.ethos.network/activity/vouch/51887/billy-the-news-anchor-of-abstract",
-        "enriched": {
-          "authorName": "KangBokSoon✳️",
-          "subjectName": "sillybilly 🐧",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1944220984719912960/XxjiK3Z7.jpg",
-          "timeAgo": "1mo ago",
-          "stakeAmount": "0.020",
-          "clickUrl": "https://app.ethos.network/activity/vouch/51887",
-          "vouchId": 51887
-        }
       }
     ],
     "reviews": [
@@ -3877,7 +3875,7 @@
           "subjectName": "Pavil ⚡️💵",
           "authorAvatar": "https://pbs.twimg.com/profile_images/2009700843793035264/TVNsayaK.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "timeAgo": "17h ago",
+          "timeAgo": "18h ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -4539,7 +4537,7 @@
               "received": {
                 "negative": 7,
                 "neutral": 12,
-                "positive": 769
+                "positive": 770
               }
             },
             "vouch": {
@@ -5335,7 +5333,7 @@
           "username": "abschud",
           "avatar": "https://pbs.twimg.com/profile_images/1945464442407235584/XI4rdw7_.jpg",
           "description": null,
-          "score": 1358,
+          "score": 1361,
           "primaryAddress": "0x0e3274FEa64567fdA14187c89B08f61048F4d45a"
         },
         "authorUser": {
@@ -5393,7 +5391,7 @@
           "username": "abschud",
           "avatarUrl": "https://pbs.twimg.com/profile_images/1945464442407235584/XI4rdw7_.jpg",
           "description": null,
-          "score": 1358,
+          "score": 1361,
           "status": "ACTIVE",
           "userkeys": [
             "address:0x0e3274FEa64567fdA14187c89B08f61048F4d45a",
@@ -5404,7 +5402,7 @@
           "xpTotal": 6,
           "xpStreakDays": 0,
           "xpRemovedDueToAbuse": false,
-          "influenceFactor": 51,
+          "influenceFactor": 50,
           "influenceFactorPercentile": 7,
           "links": {
             "profile": "https://app.ethos.network/profile/x/abschud",
@@ -5425,8 +5423,8 @@
                 "count": 0
               },
               "received": {
-                "amountWeiTotal": "0",
-                "count": 0
+                "amountWeiTotal": "10000000000000000",
+                "count": 1
               }
             }
           }
