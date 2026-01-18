@@ -1,14 +1,383 @@
 {
   "success": true,
-  "totalVouches": 73,
+  "totalVouches": 75,
   "totalReviews": 141,
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2026-01-18T13:01:45.126Z",
-  "lastUpdated": "18/01/2026 14:01:45",
+  "generatedAt": "2026-01-18T14:01:45.227Z",
+  "lastUpdated": "18/01/2026 15:01:45",
   "data": {
     "vouches": [
+      {
+        "type": "vouch",
+        "data": {
+          "id": 53642,
+          "authorProfileId": 20823,
+          "authorAddress": "0xc9F4067a38878A4CdC2cdd525F090Aa8BA0aC18a",
+          "subjectProfileId": 21182,
+          "subjectAddress": null,
+          "attestationHash": null,
+          "attestationDetails": null,
+          "deposited": "20000000000000000",
+          "staked": "21200000000000000",
+          "balance": "20000000000000000",
+          "withdrawn": "0",
+          "comment": "Pudgy SOUL",
+          "metadata": "{\"description\":\"Guys, show my even one person who can't say that Berko isn't GOAT. Absolutely legendary person: supportive, friendly, positive, honest. Discord beast too he he he. Brooo, yea, i can call you bro, hope that in 2026 we are going to meet each other on any IRL event. Hugs and shake your hand.\"}",
+          "archived": false,
+          "unhealthy": false,
+          "activityCheckpoints": {
+            "vouchedAt": 1768743865,
+            "unvouchedAt": 0,
+            "unhealthyAt": 0
+          },
+          "mutualId": null
+        },
+        "votes": {
+          "upvotes": 1,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1768743865,
+        "author": {
+          "userkey": "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
+          "profileId": 20823,
+          "name": "Pavil ⚡️💵",
+          "username": "basedPavel",
+          "avatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
+          "description": null,
+          "score": 1779,
+          "primaryAddress": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4"
+        },
+        "subject": {
+          "userkey": "address:0xED68E3E103C296118339B7feF6dF487C1E9FAed3",
+          "profileId": 21182,
+          "name": "Berko 燕麦 🐧",
+          "username": "Berko_Crypto",
+          "avatar": "https://pbs.twimg.com/profile_images/1885782267026391040/l-0TvQR0.jpg",
+          "description": null,
+          "score": 1445,
+          "primaryAddress": "0xED68E3E103C296118339B7feF6dF487C1E9FAed3"
+        },
+        "authorUser": {
+          "id": 13738191,
+          "profileId": 20823,
+          "displayName": "Pavil ⚡️💵",
+          "username": "basedPavel",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
+          "description": null,
+          "score": 1779,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
+            "address:0xc9F4067a38878A4CdC2cdd525F090Aa8BA0aC18a",
+            "address:0xA0fc3Fb805C2C7063AF548ce38Fa0ecc1AbF69E4",
+            "service:x.com:1491753203620327437",
+            "profileId:20823",
+            "service:discord:748807182115536937",
+            "service:telegram:6412569216"
+          ],
+          "xpTotal": 236656,
+          "xpStreakDays": 200,
+          "xpRemovedDueToAbuse": false,
+          "influenceFactor": 130,
+          "influenceFactorPercentile": 17,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/basedPavel",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/basedPavel/score"
+          },
+          "mommyPawnshopBingo": null,
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 98
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "521716687055881456",
+                "count": 41
+              },
+              "received": {
+                "amountWeiTotal": "493928263173934310",
+                "count": 39
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 14005931,
+          "profileId": 21182,
+          "displayName": "Berko 燕麦 🐧",
+          "username": "Berko_Crypto",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1885782267026391040/l-0TvQR0.jpg",
+          "description": null,
+          "score": 1445,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xED68E3E103C296118339B7feF6dF487C1E9FAed3",
+            "address:0x64281CB494f97e8C1216d2C757c0fc50B09ac0d2",
+            "address:0x1A05c6D8df2Ba5229957722F93Ff34999B10a895",
+            "service:x.com:1734602156",
+            "profileId:21182",
+            "service:discord:394454438611255296",
+            "service:telegram:991392939",
+            "service:farcaster:284088"
+          ],
+          "xpTotal": 22,
+          "xpStreakDays": 2,
+          "xpRemovedDueToAbuse": false,
+          "influenceFactor": 203,
+          "influenceFactorPercentile": 27,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/Berko_Crypto",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/Berko_Crypto/score"
+          },
+          "mommyPawnshopBingo": null,
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 20
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "0",
+                "count": 0
+              },
+              "received": {
+                "amountWeiTotal": "40800000000000000",
+                "count": 2
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 47101003,
+            "blockIndex": 588,
+            "blockNumber": 40977259,
+            "contract": "vouch",
+            "createdAt": 1768743866,
+            "processed": true,
+            "txHash": "0x1c53cc975342b33b57d1399ecfa2d22438a824bbd20efdd80aa7dcb8f0209629",
+            "updatedAt": 1768743866
+          }
+        ],
+        "llmQualityScore": 73,
+        "translation": {
+          "contentHash": "101258f42f0177ba48ecb0523ea9dbe780521abcc46e8b20803ce15e9baf3495",
+          "detectedLanguage": "unknown",
+          "translatedLanguage": "unknown",
+          "translatedContent": null,
+          "translatedDescription": null
+        },
+        "isSpam": false,
+        "link": "https://app.ethos.network/activity/vouch/53642/pudgy-soul",
+        "enriched": {
+          "authorName": "Pavil ⚡️💵",
+          "subjectName": "Berko 燕麦 🐧",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/1885782267026391040/l-0TvQR0.jpg",
+          "timeAgo": "17m ago",
+          "stakeAmount": "0.020",
+          "clickUrl": "https://app.ethos.network/activity/vouch/53642",
+          "vouchId": 53642
+        }
+      },
+      {
+        "type": "vouch",
+        "data": {
+          "id": 53640,
+          "authorProfileId": 20823,
+          "authorAddress": "0xc9F4067a38878A4CdC2cdd525F090Aa8BA0aC18a",
+          "subjectProfileId": 37967,
+          "subjectAddress": null,
+          "attestationHash": null,
+          "attestationDetails": null,
+          "deposited": "31000000000000000",
+          "staked": "32860000000000000",
+          "balance": "31000000000000000",
+          "withdrawn": "0",
+          "comment": "Korean GigaChad",
+          "metadata": "{\"description\":\"Previously i left positive review to Kang and a bit later made decision about vouch to him. \\n\\nKang super helpful and hardworking person, which is spreading word about Abstract in his region. Their local community (Korean) growing up because of such persons. \\n\\nHe is spreading word about all updates, alphas, features, trying to onboard new users, IRL events. \\n\\nAnd yea, he is a Pudgy! Happy to vouch for you mate! Happy to connect with you.\"}",
+          "archived": false,
+          "unhealthy": false,
+          "activityCheckpoints": {
+            "vouchedAt": 1768742473,
+            "unvouchedAt": 0,
+            "unhealthyAt": 0
+          },
+          "mutualId": 53332
+        },
+        "votes": {
+          "upvotes": 1,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1768742473,
+        "author": {
+          "userkey": "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
+          "profileId": 20823,
+          "name": "Pavil ⚡️💵",
+          "username": "basedPavel",
+          "avatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
+          "description": null,
+          "score": 1779,
+          "primaryAddress": "0xeA43D9d2b85a363d8e760F936b05978B853F24c4"
+        },
+        "subject": {
+          "userkey": "address:0xC771f56517515467991Dc92E5a4e53fCD417d54c",
+          "profileId": 37967,
+          "name": "KangBokSoon✳️",
+          "username": "jochef1995",
+          "avatar": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
+          "description": null,
+          "score": 1637,
+          "primaryAddress": "0xC771f56517515467991Dc92E5a4e53fCD417d54c"
+        },
+        "authorUser": {
+          "id": 13738191,
+          "profileId": 20823,
+          "displayName": "Pavil ⚡️💵",
+          "username": "basedPavel",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
+          "description": null,
+          "score": 1779,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xeA43D9d2b85a363d8e760F936b05978B853F24c4",
+            "address:0xc9F4067a38878A4CdC2cdd525F090Aa8BA0aC18a",
+            "address:0xA0fc3Fb805C2C7063AF548ce38Fa0ecc1AbF69E4",
+            "service:x.com:1491753203620327437",
+            "profileId:20823",
+            "service:discord:748807182115536937",
+            "service:telegram:6412569216"
+          ],
+          "xpTotal": 236656,
+          "xpStreakDays": 200,
+          "xpRemovedDueToAbuse": false,
+          "influenceFactor": 130,
+          "influenceFactorPercentile": 17,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/basedPavel",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/basedPavel/score"
+          },
+          "mommyPawnshopBingo": null,
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 98
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "521716687055881456",
+                "count": 41
+              },
+              "received": {
+                "amountWeiTotal": "493928263173934310",
+                "count": 39
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 22771188,
+          "profileId": 37967,
+          "displayName": "KangBokSoon✳️",
+          "username": "jochef1995",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
+          "description": null,
+          "score": 1637,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xC771f56517515467991Dc92E5a4e53fCD417d54c",
+            "address:0x6500555EEAAA4A0f040c558Ec0282c342daa5259",
+            "address:0x4d2b8676f52575354140436BD55b8E61F448D8a7",
+            "service:x.com:1431115132721979392",
+            "profileId:37967",
+            "service:discord:350201053247176705",
+            "service:telegram:1272359414",
+            "service:farcaster:246955",
+            "service:github:107971586"
+          ],
+          "xpTotal": 69734,
+          "xpStreakDays": 109,
+          "xpRemovedDueToAbuse": false,
+          "influenceFactor": 20,
+          "influenceFactorPercentile": 3,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/jochef1995",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/jochef1995/score"
+          },
+          "mommyPawnshopBingo": null,
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 2,
+                "positive": 20
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "643708789908835337",
+                "count": 31
+              },
+              "received": {
+                "amountWeiTotal": "728639999999999783",
+                "count": 29
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 47099855,
+            "blockIndex": 505,
+            "blockNumber": 40976563,
+            "contract": "vouch",
+            "createdAt": 1768742474,
+            "processed": true,
+            "txHash": "0xc48a31c8fe08f9ce2778bb442db9fd64155a4894b86b7de6abb7fc3af04e9941",
+            "updatedAt": 1768742474
+          }
+        ],
+        "llmQualityScore": 96,
+        "translation": {
+          "contentHash": "b8892872da1834d72623fb937d7e6d4115b51fdff2ff41c9cc4249dd07c3c79b",
+          "detectedLanguage": "unknown",
+          "translatedLanguage": "unknown",
+          "translatedContent": null,
+          "translatedDescription": null
+        },
+        "isSpam": false,
+        "link": "https://app.ethos.network/activity/vouch/53640/korean-giga-chad",
+        "enriched": {
+          "authorName": "Pavil ⚡️💵",
+          "subjectName": "KangBokSoon✳️",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
+          "timeAgo": "40m ago",
+          "stakeAmount": "0.031",
+          "clickUrl": "https://app.ethos.network/activity/vouch/53640",
+          "vouchId": 53640
+        }
+      },
       {
         "type": "vouch",
         "data": {
@@ -213,7 +582,7 @@
             "unvouchedAt": 0,
             "unhealthyAt": 0
           },
-          "mutualId": null
+          "mutualId": 53640
         },
         "votes": {
           "upvotes": 49,
@@ -231,7 +600,7 @@
           "username": "jochef1995",
           "avatar": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
           "description": null,
-          "score": 1635,
+          "score": 1637,
           "primaryAddress": "0xC771f56517515467991Dc92E5a4e53fCD417d54c"
         },
         "subject": {
@@ -251,7 +620,7 @@
           "username": "jochef1995",
           "avatarUrl": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
           "description": null,
-          "score": 1635,
+          "score": 1637,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xC771f56517515467991Dc92E5a4e53fCD417d54c",
@@ -288,8 +657,8 @@
                 "count": 31
               },
               "received": {
-                "amountWeiTotal": "696399999999999797",
-                "count": 28
+                "amountWeiTotal": "728639999999999783",
+                "count": 29
               }
             }
           }
@@ -332,8 +701,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "470716687055881456",
-                "count": 39
+                "amountWeiTotal": "521716687055881456",
+                "count": 41
               },
               "received": {
                 "amountWeiTotal": "493928263173934310",
@@ -369,7 +738,7 @@
           "subjectName": "Pavil ⚡️💵",
           "authorAvatar": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "timeAgo": "12d ago",
+          "timeAgo": "13d ago",
           "stakeAmount": "0.030",
           "clickUrl": "https://app.ethos.network/activity/vouch/53332",
           "vouchId": 53332
@@ -697,8 +1066,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "470716687055881456",
-                "count": 39
+                "amountWeiTotal": "521716687055881456",
+                "count": 41
               },
               "received": {
                 "amountWeiTotal": "493928263173934310",
@@ -1012,7 +1381,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "367367527939446256",
+                "amountWeiTotal": "367406506836538569",
                 "count": 25
               },
               "received": {
@@ -1772,8 +2141,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "470716687055881456",
-                "count": 39
+                "amountWeiTotal": "521716687055881456",
+                "count": 41
               },
               "received": {
                 "amountWeiTotal": "493928263173934310",
@@ -1820,7 +2189,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "173863908149969366",
+                "amountWeiTotal": "173881921925363750",
                 "count": 13
               },
               "received": {
@@ -1955,7 +2324,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "173863908149969366",
+                "amountWeiTotal": "173881921925363750",
                 "count": 13
               },
               "received": {
@@ -2184,7 +2553,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "367367527939446256",
+                "amountWeiTotal": "367406506836538569",
                 "count": 25
               },
               "received": {
@@ -2367,7 +2736,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "173863908149969366",
+                "amountWeiTotal": "173881921925363750",
                 "count": 13
               },
               "received": {
@@ -2687,7 +3056,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "173863908149969366",
+                "amountWeiTotal": "173881921925363750",
                 "count": 13
               },
               "received": {
@@ -2735,8 +3104,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "470716687055881456",
-                "count": 39
+                "amountWeiTotal": "521716687055881456",
+                "count": 41
               },
               "received": {
                 "amountWeiTotal": "493928263173934310",
@@ -2819,7 +3188,7 @@
           "username": "jochef1995",
           "avatar": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
           "description": null,
-          "score": 1635,
+          "score": 1637,
           "primaryAddress": "0xC771f56517515467991Dc92E5a4e53fCD417d54c"
         },
         "subject": {
@@ -2839,7 +3208,7 @@
           "username": "jochef1995",
           "avatarUrl": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
           "description": null,
-          "score": 1635,
+          "score": 1637,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xC771f56517515467991Dc92E5a4e53fCD417d54c",
@@ -2876,8 +3245,8 @@
                 "count": 31
               },
               "received": {
-                "amountWeiTotal": "696399999999999797",
-                "count": 28
+                "amountWeiTotal": "728639999999999783",
+                "count": 29
               }
             }
           }
@@ -2920,7 +3289,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "173863908149969366",
+                "amountWeiTotal": "173881921925363750",
                 "count": 13
               },
               "received": {
@@ -2975,7 +3344,7 @@
           "attestationDetails": null,
           "deposited": "10000000000000000",
           "staked": "10600000000000000",
-          "balance": "10116768697297621",
+          "balance": "10134782472692005",
           "withdrawn": "0",
           "comment": "Kang Chad Oppa",
           "metadata": "{\"description\":\"I love your energy brother, keep up your good work, keep doing every great things like you still do\\nWish you da best my friend. Let's make Abstract Korea community great than ever\"}",
@@ -3014,7 +3383,7 @@
           "username": "jochef1995",
           "avatar": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
           "description": null,
-          "score": 1635,
+          "score": 1637,
           "primaryAddress": "0xC771f56517515467991Dc92E5a4e53fCD417d54c"
         },
         "authorUser": {
@@ -3055,7 +3424,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "173863908149969366",
+                "amountWeiTotal": "173881921925363750",
                 "count": 13
               },
               "received": {
@@ -3072,7 +3441,7 @@
           "username": "jochef1995",
           "avatarUrl": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
           "description": null,
-          "score": 1635,
+          "score": 1637,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xC771f56517515467991Dc92E5a4e53fCD417d54c",
@@ -3109,8 +3478,8 @@
                 "count": 31
               },
               "received": {
-                "amountWeiTotal": "696399999999999797",
-                "count": 28
+                "amountWeiTotal": "728639999999999783",
+                "count": 29
               }
             }
           }
@@ -3328,380 +3697,6 @@
           "clickUrl": "https://app.ethos.network/activity/vouch/52144",
           "vouchId": 52144
         }
-      },
-      {
-        "type": "vouch",
-        "data": {
-          "id": 51927,
-          "authorProfileId": 16576,
-          "authorAddress": "0xb0bf6F6Fd3C8bD194d94d39a41FcB99FdFfb5273",
-          "subjectProfileId": 37967,
-          "subjectAddress": null,
-          "attestationHash": null,
-          "attestationDetails": null,
-          "deposited": "10000000000000000",
-          "staked": "10600000000000000",
-          "balance": "10588130854137785",
-          "withdrawn": "0",
-          "comment": "The Gigachad of Abstract in Korea",
-          "metadata": "{\"description\":\"KangBokSoon is the legend in Korean Gigachad community. He always on top take care Abstract Korea community in telegram chat and contents on X.\\n\\nI also have a chance to meet him in Korea durng KBW. SUPER NICE GUY\\n\\nKangBokSoon is super good energy that people want to be around!\"}",
-          "archived": false,
-          "unhealthy": false,
-          "activityCheckpoints": {
-            "vouchedAt": 1763976725,
-            "unvouchedAt": 0,
-            "unhealthyAt": 0
-          },
-          "mutualId": 51902
-        },
-        "votes": {
-          "upvotes": 1,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1763976725,
-        "author": {
-          "userkey": "address:0x386A69673124B5557D508020e795A72c14D020Fb",
-          "profileId": 16576,
-          "name": "Nat 聖誕版 🐧✳️",
-          "username": "HeyNat",
-          "avatar": "https://pbs.twimg.com/profile_images/1977904662063050753/sA4X0up7.jpg",
-          "description": null,
-          "score": 1875,
-          "primaryAddress": "0x386A69673124B5557D508020e795A72c14D020Fb"
-        },
-        "subject": {
-          "userkey": "address:0xC771f56517515467991Dc92E5a4e53fCD417d54c",
-          "profileId": 37967,
-          "name": "KangBokSoon✳️",
-          "username": "jochef1995",
-          "avatar": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
-          "description": null,
-          "score": 1635,
-          "primaryAddress": "0xC771f56517515467991Dc92E5a4e53fCD417d54c"
-        },
-        "authorUser": {
-          "id": 11674241,
-          "profileId": 16576,
-          "displayName": "Nat 聖誕版 🐧✳️",
-          "username": "HeyNat",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1977904662063050753/sA4X0up7.jpg",
-          "description": null,
-          "score": 1875,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0x386A69673124B5557D508020e795A72c14D020Fb",
-            "address:0xb0bf6F6Fd3C8bD194d94d39a41FcB99FdFfb5273",
-            "address:0x9E915584903Ce3B783C6968A3BfC84d4060351B8",
-            "address:0xFED1BC194a33e38Eb9eE4490B7f256a59E0dEC44",
-            "address:0x60B70C89C7f6dF289775c2b997D7DE2112748faC",
-            "service:x.com:1963676172",
-            "profileId:16576",
-            "service:discord:393069479912931340",
-            "service:telegram:1608108336"
-          ],
-          "xpTotal": 341334,
-          "xpStreakDays": 19,
-          "xpRemovedDueToAbuse": false,
-          "influenceFactor": 137,
-          "influenceFactorPercentile": 18,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/HeyNat",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/HeyNat/score"
-          },
-          "mommyPawnshopBingo": null,
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 2,
-                "neutral": 1,
-                "positive": 72
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "733113113359024403",
-                "count": 56
-              },
-              "received": {
-                "amountWeiTotal": "679826133080974732",
-                "count": 53
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 22771188,
-          "profileId": 37967,
-          "displayName": "KangBokSoon✳️",
-          "username": "jochef1995",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
-          "description": null,
-          "score": 1635,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xC771f56517515467991Dc92E5a4e53fCD417d54c",
-            "address:0x6500555EEAAA4A0f040c558Ec0282c342daa5259",
-            "address:0x4d2b8676f52575354140436BD55b8E61F448D8a7",
-            "service:x.com:1431115132721979392",
-            "profileId:37967",
-            "service:discord:350201053247176705",
-            "service:telegram:1272359414",
-            "service:farcaster:246955",
-            "service:github:107971586"
-          ],
-          "xpTotal": 69734,
-          "xpStreakDays": 109,
-          "xpRemovedDueToAbuse": false,
-          "influenceFactor": 20,
-          "influenceFactorPercentile": 3,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/jochef1995",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/jochef1995/score"
-          },
-          "mommyPawnshopBingo": null,
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 2,
-                "positive": 20
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "643708789908835337",
-                "count": 31
-              },
-              "received": {
-                "amountWeiTotal": "696399999999999797",
-                "count": 28
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 43667471,
-            "blockIndex": 454,
-            "blockNumber": 38593689,
-            "contract": "vouch",
-            "createdAt": 1763976726,
-            "processed": true,
-            "txHash": "0xda394b5a24ebeee7068c83903f2f4e51ddadc96daaeaffe5334d9a840815deae",
-            "updatedAt": 1763976726
-          }
-        ],
-        "llmQualityScore": 73,
-        "translation": {
-          "contentHash": "5f915ffc32a6173028ca524abfc05146bdf72e8fce4cf6af3d06422ed9c81f4d",
-          "detectedLanguage": "ko",
-          "translatedLanguage": "en",
-          "translatedContent": "The Gigachad of Abstract in Korea",
-          "translatedDescription": "KangBokSoon is the legend in the Korean Gigachad community. He is always on top, taking care of the Abstract Korea community in the Telegram chat and with content on X.\n\nI also had a chance to meet him in Korea during KBW. SUPER NICE GUY.\n\nKangBokSoon has super good energy that people want to be around!"
-        },
-        "isSpam": false,
-        "link": "https://app.ethos.network/activity/vouch/51927/the-gigachad-of-abstract-in-korea",
-        "enriched": {
-          "authorName": "Nat 聖誕版 🐧✳️",
-          "subjectName": "KangBokSoon✳️",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/1977904662063050753/sA4X0up7.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
-          "timeAgo": "1mo ago",
-          "stakeAmount": "0.010",
-          "clickUrl": "https://app.ethos.network/activity/vouch/51927",
-          "vouchId": 51927
-        }
-      },
-      {
-        "type": "vouch",
-        "data": {
-          "id": 51902,
-          "authorProfileId": 37967,
-          "authorAddress": "0xC771f56517515467991Dc92E5a4e53fCD417d54c",
-          "subjectProfileId": 16576,
-          "subjectAddress": null,
-          "attestationHash": null,
-          "attestationDetails": null,
-          "deposited": "10000000000000000",
-          "staked": "10600000000000000",
-          "balance": "10104455436517949",
-          "withdrawn": "0",
-          "comment": "Nat Head of the Abstract Thailand Chapter & Guardian of the Community",
-          "metadata": "{\"description\":\"Nat is both a devoted father and the Giga Chad of Abstract in Thailand. On Discord, he takes on the role of community moderator always present, always dependable.\\n\\nHe has global impact for sure, but his main mission is focused on educating and growing the Abstract ecosystem within Thailand. He’s a true builder, introducing new people to Abstract every day and making the community feel like home.\\n\\nSometimes he jokingly calls me “Oppa” yes, the Korean word just for fun in English. It always catches me off guard and makes everyone laugh.\\n\\nHe frequently hosts Spaces where he and other community members explore everything happening in Abstract. I often join just to listen and translate in Korean while learning from him.\\n\\nI met him in person at KBW 2025, and we had a really nice conversation. He was there with Billy both of them are great friends and even better people.\\n\\nWe share the same sentiment at the end of the day\\n\\nWe love Abstract.\"}",
-          "archived": false,
-          "unhealthy": false,
-          "activityCheckpoints": {
-            "vouchedAt": 1763905441,
-            "unvouchedAt": 0,
-            "unhealthyAt": 0
-          },
-          "mutualId": 51927
-        },
-        "votes": {
-          "upvotes": 5,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 1,
-          "participated": false
-        },
-        "timestamp": 1763905441,
-        "author": {
-          "userkey": "address:0xC771f56517515467991Dc92E5a4e53fCD417d54c",
-          "profileId": 37967,
-          "name": "KangBokSoon✳️",
-          "username": "jochef1995",
-          "avatar": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
-          "description": null,
-          "score": 1635,
-          "primaryAddress": "0xC771f56517515467991Dc92E5a4e53fCD417d54c"
-        },
-        "subject": {
-          "userkey": "address:0x386A69673124B5557D508020e795A72c14D020Fb",
-          "profileId": 16576,
-          "name": "Nat 聖誕版 🐧✳️",
-          "username": "HeyNat",
-          "avatar": "https://pbs.twimg.com/profile_images/1977904662063050753/sA4X0up7.jpg",
-          "description": null,
-          "score": 1875,
-          "primaryAddress": "0x386A69673124B5557D508020e795A72c14D020Fb"
-        },
-        "authorUser": {
-          "id": 22771188,
-          "profileId": 37967,
-          "displayName": "KangBokSoon✳️",
-          "username": "jochef1995",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
-          "description": null,
-          "score": 1635,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xC771f56517515467991Dc92E5a4e53fCD417d54c",
-            "address:0x6500555EEAAA4A0f040c558Ec0282c342daa5259",
-            "address:0x4d2b8676f52575354140436BD55b8E61F448D8a7",
-            "service:x.com:1431115132721979392",
-            "profileId:37967",
-            "service:discord:350201053247176705",
-            "service:telegram:1272359414",
-            "service:farcaster:246955",
-            "service:github:107971586"
-          ],
-          "xpTotal": 69734,
-          "xpStreakDays": 109,
-          "xpRemovedDueToAbuse": false,
-          "influenceFactor": 20,
-          "influenceFactorPercentile": 3,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/jochef1995",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/jochef1995/score"
-          },
-          "mommyPawnshopBingo": null,
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 2,
-                "positive": 20
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "643708789908835337",
-                "count": 31
-              },
-              "received": {
-                "amountWeiTotal": "696399999999999797",
-                "count": 28
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 11674241,
-          "profileId": 16576,
-          "displayName": "Nat 聖誕版 🐧✳️",
-          "username": "HeyNat",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/1977904662063050753/sA4X0up7.jpg",
-          "description": null,
-          "score": 1875,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0x386A69673124B5557D508020e795A72c14D020Fb",
-            "address:0xb0bf6F6Fd3C8bD194d94d39a41FcB99FdFfb5273",
-            "address:0x9E915584903Ce3B783C6968A3BfC84d4060351B8",
-            "address:0xFED1BC194a33e38Eb9eE4490B7f256a59E0dEC44",
-            "address:0x60B70C89C7f6dF289775c2b997D7DE2112748faC",
-            "service:x.com:1963676172",
-            "profileId:16576",
-            "service:discord:393069479912931340",
-            "service:telegram:1608108336"
-          ],
-          "xpTotal": 341334,
-          "xpStreakDays": 19,
-          "xpRemovedDueToAbuse": false,
-          "influenceFactor": 137,
-          "influenceFactorPercentile": 18,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/HeyNat",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/HeyNat/score"
-          },
-          "mommyPawnshopBingo": null,
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 2,
-                "neutral": 1,
-                "positive": 72
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "733113113359024403",
-                "count": 56
-              },
-              "received": {
-                "amountWeiTotal": "679826133080974732",
-                "count": 53
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 43598132,
-            "blockIndex": 828,
-            "blockNumber": 38558047,
-            "contract": "vouch",
-            "createdAt": 1763905442,
-            "processed": true,
-            "txHash": "0x34fa7e03f1908c20ad8fd35e2c9db9bdf3a95b75f304e798478b640b2680d324",
-            "updatedAt": 1763905443
-          }
-        ],
-        "llmQualityScore": 84,
-        "translation": {
-          "contentHash": "5311ab04d358a9be0657e81214a4854c5f41e4f8b2e040edab5a41868c220b5d",
-          "detectedLanguage": "en",
-          "translatedLanguage": "en",
-          "translatedContent": "Nat Head of the Abstract Thailand Chapter & Guardian of the Community",
-          "translatedDescription": "Nat is both a devoted father and the Giga Chad of Abstract in Thailand. On Discord, he takes on the role of community moderator always present, always dependable.\n\nHe has global impact for sure, but his main mission is focused on educating and growing the Abstract ecosystem within Thailand. He’s a true builder, introducing new people to Abstract every day and making the community feel like home.\n\nSometimes he jokingly calls me “Oppa” yes, the Korean word just for fun in English. It always catches me off guard and makes everyone laugh.\n\nHe frequently hosts Spaces where he and other community members explore everything happening in Abstract. I often join just to listen and translate in Korean while learning from him.\n\nI met him in person at KBW 2025, and we had a really nice conversation. He was there with Billy both of them are great friends and even better people.\n\nWe share the same sentiment at the end of the day\n\nWe love Abstract."
-        },
-        "isSpam": false,
-        "link": "https://app.ethos.network/activity/vouch/51902/nat-head-of-the-abstract-thailand-chapter-guardian-of-the-community",
-        "enriched": {
-          "authorName": "KangBokSoon✳️",
-          "subjectName": "Nat 聖誕版 🐧✳️",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/1977904662063050753/sA4X0up7.jpg",
-          "timeAgo": "1mo ago",
-          "stakeAmount": "0.010",
-          "clickUrl": "https://app.ethos.network/activity/vouch/51902",
-          "vouchId": 51902
-        }
       }
     ],
     "reviews": [
@@ -3838,8 +3833,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "470716687055881456",
-                "count": 39
+                "amountWeiTotal": "521716687055881456",
+                "count": 41
               },
               "received": {
                 "amountWeiTotal": "493928263173934310",
@@ -4012,8 +4007,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "470716687055881456",
-                "count": 39
+                "amountWeiTotal": "521716687055881456",
+                "count": 41
               },
               "received": {
                 "amountWeiTotal": "493928263173934310",
@@ -4188,8 +4183,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "470716687055881456",
-                "count": 39
+                "amountWeiTotal": "521716687055881456",
+                "count": 41
               },
               "received": {
                 "amountWeiTotal": "493928263173934310",
@@ -4317,8 +4312,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "470716687055881456",
-                "count": 39
+                "amountWeiTotal": "521716687055881456",
+                "count": 41
               },
               "received": {
                 "amountWeiTotal": "493928263173934310",
@@ -4495,8 +4490,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "470716687055881456",
-                "count": 39
+                "amountWeiTotal": "521716687055881456",
+                "count": 41
               },
               "received": {
                 "amountWeiTotal": "493928263173934310",
@@ -4717,8 +4712,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "470716687055881456",
-                "count": 39
+                "amountWeiTotal": "521716687055881456",
+                "count": 41
               },
               "received": {
                 "amountWeiTotal": "493928263173934310",
@@ -4892,8 +4887,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "470716687055881456",
-                "count": 39
+                "amountWeiTotal": "521716687055881456",
+                "count": 41
               },
               "received": {
                 "amountWeiTotal": "493928263173934310",
@@ -4929,7 +4924,7 @@
           "subjectName": "Pavil ⚡️💵",
           "authorAvatar": "https://pbs.twimg.com/profile_images/1964901327395581952/KhlfHWu2.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "timeAgo": "19d ago",
+          "timeAgo": "20d ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -5066,8 +5061,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "470716687055881456",
-                "count": 39
+                "amountWeiTotal": "521716687055881456",
+                "count": 41
               },
               "received": {
                 "amountWeiTotal": "493928263173934310",
@@ -5154,7 +5149,7 @@
           "username": "jochef1995",
           "avatar": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
           "description": null,
-          "score": 1635,
+          "score": 1637,
           "primaryAddress": "0xC771f56517515467991Dc92E5a4e53fCD417d54c"
         },
         "authorUser": {
@@ -5195,8 +5190,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "470716687055881456",
-                "count": 39
+                "amountWeiTotal": "521716687055881456",
+                "count": 41
               },
               "received": {
                 "amountWeiTotal": "493928263173934310",
@@ -5212,7 +5207,7 @@
           "username": "jochef1995",
           "avatarUrl": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
           "description": null,
-          "score": 1635,
+          "score": 1637,
           "status": "ACTIVE",
           "userkeys": [
             "address:0xC771f56517515467991Dc92E5a4e53fCD417d54c",
@@ -5249,8 +5244,8 @@
                 "count": 31
               },
               "received": {
-                "amountWeiTotal": "696399999999999797",
-                "count": 28
+                "amountWeiTotal": "728639999999999783",
+                "count": 29
               }
             }
           }
@@ -5941,8 +5936,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "470716687055881456",
-                "count": 39
+                "amountWeiTotal": "521716687055881456",
+                "count": 41
               },
               "received": {
                 "amountWeiTotal": "493928263173934310",
@@ -6070,8 +6065,8 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "470716687055881456",
-                "count": 39
+                "amountWeiTotal": "521716687055881456",
+                "count": 41
               },
               "received": {
                 "amountWeiTotal": "493928263173934310",
@@ -6289,7 +6284,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "367367527939446256",
+                "amountWeiTotal": "367406506836538569",
                 "count": 25
               },
               "received": {
@@ -6594,7 +6589,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "173863908149969366",
+                "amountWeiTotal": "173881921925363750",
                 "count": 13
               },
               "received": {
@@ -6768,7 +6763,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "173863908149969366",
+                "amountWeiTotal": "173881921925363750",
                 "count": 13
               },
               "received": {
@@ -7166,7 +7161,7 @@
             },
             "vouch": {
               "given": {
-                "amountWeiTotal": "173863908149969366",
+                "amountWeiTotal": "173881921925363750",
                 "count": 13
               },
               "received": {
