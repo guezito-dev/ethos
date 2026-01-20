@@ -1,14 +1,194 @@
 {
   "success": true,
-  "totalVouches": 76,
+  "totalVouches": 77,
   "totalReviews": 138,
   "recentVouches": 20,
   "recentReviews": 20,
   "usersProcessed": 15,
-  "generatedAt": "2026-01-20T20:01:42.528Z",
-  "lastUpdated": "20/01/2026 21:01:42",
+  "generatedAt": "2026-01-20T21:01:42.137Z",
+  "lastUpdated": "20/01/2026 22:01:42",
   "data": {
     "vouches": [
+      {
+        "type": "vouch",
+        "data": {
+          "id": 53683,
+          "authorProfileId": 17531,
+          "authorAddress": "0xA270Bde2ecbD72aD259D02D7cCB47D2d95eF94eD",
+          "subjectProfileId": 50587,
+          "subjectAddress": null,
+          "attestationHash": null,
+          "attestationDetails": null,
+          "deposited": "10000000000000000",
+          "staked": "10200000000000000",
+          "balance": "10000000000000000",
+          "withdrawn": "0",
+          "comment": "Parcerita",
+          "metadata": "{\"description\":\"Lola is a top Abstract streamer and an amazing artist. She always brings great vibes, and her smile is contagious. Always kind and positive, she also introduces her community to Web3 and Abstract through games, dApps, and her streams.\\n\\nRecently reaching giga status, she has become one of the faces of the chain over the past few months. Consistent and reliable, she is fully committed and truly reflects the values of the chain.\\n\\nIf you’re not following her yet… there’s still time \\nSigan a mi parcerita, es una chimba 🔥\"}",
+          "archived": false,
+          "unhealthy": false,
+          "activityCheckpoints": {
+            "vouchedAt": 1768937785,
+            "unvouchedAt": 0,
+            "unhealthyAt": 0
+          },
+          "mutualId": null
+        },
+        "votes": {
+          "upvotes": 0,
+          "downvotes": 0
+        },
+        "replySummary": {
+          "count": 0,
+          "participated": false
+        },
+        "timestamp": 1768937785,
+        "author": {
+          "userkey": "address:0xBDa4f483431074DcB0D9e13dc488A7611d6d58aC",
+          "profileId": 17531,
+          "name": "L0K0",
+          "username": "KeTalLoko",
+          "avatar": "https://pbs.twimg.com/profile_images/2009775190981394433/54OHVGaa.jpg",
+          "description": null,
+          "score": 1373,
+          "primaryAddress": "0xBDa4f483431074DcB0D9e13dc488A7611d6d58aC"
+        },
+        "subject": {
+          "userkey": "address:0x9B948183BD0a1D2F25393c931C47271d1067bbC9",
+          "profileId": 50587,
+          "name": "LOLA BUNNY🇨🇴🐰",
+          "username": "lola03art",
+          "avatar": "https://pbs.twimg.com/profile_images/2010862377579782144/49_ALDcD.jpg",
+          "description": null,
+          "score": 1216,
+          "primaryAddress": "0x9B948183BD0a1D2F25393c931C47271d1067bbC9"
+        },
+        "authorUser": {
+          "id": 12117964,
+          "profileId": 17531,
+          "displayName": "L0K0",
+          "username": "KeTalLoko",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/2009775190981394433/54OHVGaa.jpg",
+          "description": null,
+          "score": 1373,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0xBDa4f483431074DcB0D9e13dc488A7611d6d58aC",
+            "address:0xA270Bde2ecbD72aD259D02D7cCB47D2d95eF94eD",
+            "service:x.com:1549468885317033984",
+            "profileId:17531",
+            "service:discord:1182781534390980639",
+            "service:telegram:1228210872",
+            "service:farcaster:826792"
+          ],
+          "xpTotal": 5855,
+          "xpStreakDays": 8,
+          "xpRemovedDueToAbuse": false,
+          "influenceFactor": 37,
+          "influenceFactorPercentile": 5,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/KeTalLoko",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/KeTalLoko/score"
+          },
+          "mommyPawnshopBingo": null,
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 22
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "20000000000000000",
+                "count": 2
+              },
+              "received": {
+                "amountWeiTotal": "10000000000000000",
+                "count": 1
+              }
+            }
+          }
+        },
+        "subjectUser": {
+          "id": 26711910,
+          "profileId": 50587,
+          "displayName": "LOLA BUNNY🇨🇴🐰",
+          "username": "lola03art",
+          "avatarUrl": "https://pbs.twimg.com/profile_images/2010862377579782144/49_ALDcD.jpg",
+          "description": null,
+          "score": 1216,
+          "status": "ACTIVE",
+          "userkeys": [
+            "address:0x9B948183BD0a1D2F25393c931C47271d1067bbC9",
+            "address:0x04376C176294900A038179450D46FE0eb3179f1D",
+            "service:x.com:314721120",
+            "profileId:50587"
+          ],
+          "xpTotal": 0,
+          "xpStreakDays": 0,
+          "xpRemovedDueToAbuse": false,
+          "influenceFactor": 22,
+          "influenceFactorPercentile": 3,
+          "links": {
+            "profile": "https://app.ethos.network/profile/x/lola03art",
+            "scoreBreakdown": "https://app.ethos.network/profile/x/lola03art/score"
+          },
+          "mommyPawnshopBingo": null,
+          "stats": {
+            "review": {
+              "received": {
+                "negative": 0,
+                "neutral": 0,
+                "positive": 0
+              }
+            },
+            "vouch": {
+              "given": {
+                "amountWeiTotal": "0",
+                "count": 0
+              },
+              "received": {
+                "amountWeiTotal": "10000000000000000",
+                "count": 1
+              }
+            }
+          }
+        },
+        "events": [
+          {
+            "id": 47268267,
+            "blockIndex": 389,
+            "blockNumber": 41074219,
+            "contract": "vouch",
+            "createdAt": 1768937786,
+            "processed": true,
+            "txHash": "0x0a5ec392e31491feb15af73ab581eb394b96c72a5acdd592d8653aa9214e473e",
+            "updatedAt": 1768937788
+          }
+        ],
+        "llmQualityScore": 28,
+        "translation": {
+          "contentHash": "e18601cd940b23d8f9ce543adc038e463bc6bedb248dbf3ddd3d9aed9c10a9dc",
+          "detectedLanguage": "es",
+          "translatedLanguage": "en",
+          "translatedContent": "Parcerita",
+          "translatedDescription": "Lola is a top Abstract streamer and an amazing artist. She always brings great vibes, and her smile is contagious. Always kind and positive, she also introduces her community to Web3 and Abstract through games, dApps, and her streams.\n\nRecently reaching giga status, she has become one of the faces of the chain over the past few months. Consistent and reliable, she is fully committed and truly reflects the values of the chain.\n\nIf you’re not following her yet… there’s still time \nFollow my friend, she's awesome 🔥"
+        },
+        "isSpam": false,
+        "link": "https://app.ethos.network/activity/vouch/53683/parcerita",
+        "enriched": {
+          "authorName": "L0K0",
+          "subjectName": "LOLA BUNNY🇨🇴🐰",
+          "authorAvatar": "https://pbs.twimg.com/profile_images/2009775190981394433/54OHVGaa.jpg",
+          "subjectAvatar": "https://pbs.twimg.com/profile_images/2010862377579782144/49_ALDcD.jpg",
+          "timeAgo": "1h ago",
+          "stakeAmount": "0.010",
+          "clickUrl": "https://app.ethos.network/activity/vouch/53683",
+          "vouchId": 53683
+        }
+      },
       {
         "type": "vouch",
         "data": {
@@ -188,7 +368,7 @@
           "subjectName": "guezito",
           "authorAvatar": "https://pbs.twimg.com/profile_images/2009775190981394433/54OHVGaa.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1988704029866954752/6wzLzVm1.jpg",
-          "timeAgo": "11h ago",
+          "timeAgo": "12h ago",
           "stakeAmount": "0.010",
           "clickUrl": "https://app.ethos.network/activity/vouch/53673",
           "vouchId": 53673
@@ -1416,8 +1596,8 @@
           "xpTotal": 894,
           "xpStreakDays": 0,
           "xpRemovedDueToAbuse": false,
-          "influenceFactor": 86,
-          "influenceFactorPercentile": 11,
+          "influenceFactor": 87,
+          "influenceFactorPercentile": 12,
           "links": {
             "profile": "https://app.ethos.network/profile/x/crisnochris",
             "scoreBreakdown": "https://app.ethos.network/profile/x/crisnochris/score"
@@ -2357,7 +2537,7 @@
           "xpTotal": 71428,
           "xpStreakDays": 44,
           "xpRemovedDueToAbuse": false,
-          "influenceFactor": 22,
+          "influenceFactor": 21,
           "influenceFactorPercentile": 3,
           "links": {
             "profile": "https://app.ethos.network/profile/x/duckk9x",
@@ -2492,7 +2672,7 @@
           "xpTotal": 71428,
           "xpStreakDays": 44,
           "xpRemovedDueToAbuse": false,
-          "influenceFactor": 22,
+          "influenceFactor": 21,
           "influenceFactorPercentile": 3,
           "links": {
             "profile": "https://app.ethos.network/profile/x/duckk9x",
@@ -2904,7 +3084,7 @@
           "xpTotal": 71428,
           "xpStreakDays": 44,
           "xpRemovedDueToAbuse": false,
-          "influenceFactor": 22,
+          "influenceFactor": 21,
           "influenceFactorPercentile": 3,
           "links": {
             "profile": "https://app.ethos.network/profile/x/duckk9x",
@@ -3224,7 +3404,7 @@
           "xpTotal": 71428,
           "xpStreakDays": 44,
           "xpRemovedDueToAbuse": false,
-          "influenceFactor": 22,
+          "influenceFactor": 21,
           "influenceFactorPercentile": 3,
           "links": {
             "profile": "https://app.ethos.network/profile/x/duckk9x",
@@ -3457,7 +3637,7 @@
           "xpTotal": 71428,
           "xpStreakDays": 44,
           "xpRemovedDueToAbuse": false,
-          "influenceFactor": 22,
+          "influenceFactor": 21,
           "influenceFactorPercentile": 3,
           "links": {
             "profile": "https://app.ethos.network/profile/x/duckk9x",
@@ -3515,191 +3695,6 @@
           "stakeAmount": "0.010",
           "clickUrl": "https://app.ethos.network/activity/vouch/52182",
           "vouchId": 52182
-        }
-      },
-      {
-        "type": "vouch",
-        "data": {
-          "id": 52156,
-          "authorProfileId": 17646,
-          "authorAddress": "0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
-          "subjectProfileId": 37967,
-          "subjectAddress": null,
-          "attestationHash": null,
-          "attestationDetails": null,
-          "deposited": "10000000000000000",
-          "staked": "10600000000000000",
-          "balance": "10162600825987712",
-          "withdrawn": "0",
-          "comment": "Kang Chad Oppa",
-          "metadata": "{\"description\":\"I love your energy brother, keep up your good work, keep doing every great things like you still do\\nWish you da best my friend. Let's make Abstract Korea community great than ever\"}",
-          "archived": false,
-          "unhealthy": false,
-          "activityCheckpoints": {
-            "vouchedAt": 1764170049,
-            "unvouchedAt": 0,
-            "unhealthyAt": 0
-          },
-          "mutualId": 52182
-        },
-        "votes": {
-          "upvotes": 1,
-          "downvotes": 0
-        },
-        "replySummary": {
-          "count": 0,
-          "participated": false
-        },
-        "timestamp": 1764170049,
-        "author": {
-          "userkey": "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
-          "profileId": 17646,
-          "name": "MIC",
-          "username": "duckk9x",
-          "avatar": "https://pbs.twimg.com/profile_images/2004920377894735872/SjLgd7bN.jpg",
-          "description": null,
-          "score": 1678,
-          "primaryAddress": "0xb0619D866f8f3c3524F9bF8D2E588A53e5343857"
-        },
-        "subject": {
-          "userkey": "address:0xC771f56517515467991Dc92E5a4e53fCD417d54c",
-          "profileId": 37967,
-          "name": "KangBokSoon✳️",
-          "username": "jochef1995",
-          "avatar": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
-          "description": null,
-          "score": 1650,
-          "primaryAddress": "0xC771f56517515467991Dc92E5a4e53fCD417d54c"
-        },
-        "authorUser": {
-          "id": 12188200,
-          "profileId": 17646,
-          "displayName": "MIC",
-          "username": "duckk9x",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/2004920377894735872/SjLgd7bN.jpg",
-          "description": null,
-          "score": 1678,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xb0619D866f8f3c3524F9bF8D2E588A53e5343857",
-            "address:0xdd9418830De1369F2ad0d8A9CAa98997675c07b4",
-            "address:0x825B4C51EAA2Ad51896E8b22D212EB706b69f328",
-            "service:x.com:1497831371498471426",
-            "profileId:17646",
-            "service:discord:1089537106059210793",
-            "service:telegram:6121832651"
-          ],
-          "xpTotal": 71428,
-          "xpStreakDays": 44,
-          "xpRemovedDueToAbuse": false,
-          "influenceFactor": 22,
-          "influenceFactorPercentile": 3,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/duckk9x",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/duckk9x/score"
-          },
-          "mommyPawnshopBingo": null,
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 0,
-                "positive": 67
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "173924732044072351",
-                "count": 13
-              },
-              "received": {
-                "amountWeiTotal": "387022449967291045",
-                "count": 22
-              }
-            }
-          }
-        },
-        "subjectUser": {
-          "id": 22771188,
-          "profileId": 37967,
-          "displayName": "KangBokSoon✳️",
-          "username": "jochef1995",
-          "avatarUrl": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
-          "description": null,
-          "score": 1650,
-          "status": "ACTIVE",
-          "userkeys": [
-            "address:0xC771f56517515467991Dc92E5a4e53fCD417d54c",
-            "address:0x6500555EEAAA4A0f040c558Ec0282c342daa5259",
-            "address:0x4d2b8676f52575354140436BD55b8E61F448D8a7",
-            "service:x.com:1431115132721979392",
-            "profileId:37967",
-            "service:discord:350201053247176705",
-            "service:telegram:1272359414",
-            "service:farcaster:246955",
-            "service:github:107971586"
-          ],
-          "xpTotal": 69734,
-          "xpStreakDays": 111,
-          "xpRemovedDueToAbuse": false,
-          "influenceFactor": 20,
-          "influenceFactorPercentile": 3,
-          "links": {
-            "profile": "https://app.ethos.network/profile/x/jochef1995",
-            "scoreBreakdown": "https://app.ethos.network/profile/x/jochef1995/score"
-          },
-          "mommyPawnshopBingo": null,
-          "stats": {
-            "review": {
-              "received": {
-                "negative": 0,
-                "neutral": 2,
-                "positive": 22
-              }
-            },
-            "vouch": {
-              "given": {
-                "amountWeiTotal": "693708789908835337",
-                "count": 32
-              },
-              "received": {
-                "amountWeiTotal": "780639999999999767",
-                "count": 30
-              }
-            }
-          }
-        },
-        "events": [
-          {
-            "id": 43823717,
-            "blockIndex": 378,
-            "blockNumber": 38690351,
-            "contract": "vouch",
-            "createdAt": 1764170050,
-            "processed": true,
-            "txHash": "0x033dee707abf67aef8417401ab21b33e9b8031c97b6bbb21250da189156b1fe1",
-            "updatedAt": 1764170051
-          }
-        ],
-        "llmQualityScore": 23,
-        "translation": {
-          "contentHash": "b8cf7cf8a711a9bfda8f1dfc3f3b2c10845c01c669a8f3956f309b8e21398ec1",
-          "detectedLanguage": "ko",
-          "translatedLanguage": "en",
-          "translatedContent": "Kang Chad Oppa",
-          "translatedDescription": "I love your energy brother, keep up your good work, keep doing every great things like you still do\nWish you da best my friend. Let's make Abstract Korea community great than ever"
-        },
-        "isSpam": false,
-        "link": "https://app.ethos.network/activity/vouch/52156/kang-chad-oppa",
-        "enriched": {
-          "authorName": "MIC",
-          "subjectName": "KangBokSoon✳️",
-          "authorAvatar": "https://pbs.twimg.com/profile_images/2004920377894735872/SjLgd7bN.jpg",
-          "subjectAvatar": "https://pbs.twimg.com/profile_images/2006631127252115457/DTnI2Zpg.jpg",
-          "timeAgo": "1mo ago",
-          "stakeAmount": "0.010",
-          "clickUrl": "https://app.ethos.network/activity/vouch/52156",
-          "vouchId": 52156
         }
       }
     ],
@@ -3874,7 +3869,7 @@
           "subjectName": "Pavil ⚡️💵",
           "authorAvatar": "https://pbs.twimg.com/profile_images/2009700843793035264/TVNsayaK.jpg",
           "subjectAvatar": "https://pbs.twimg.com/profile_images/1917517920596303872/wsvb_iTF.jpg",
-          "timeAgo": "4d ago",
+          "timeAgo": "5d ago",
           "score": "positive",
           "scoreClass": "positive",
           "scoreText": "Positive",
@@ -6447,8 +6442,8 @@
           "xpTotal": 894,
           "xpStreakDays": 0,
           "xpRemovedDueToAbuse": false,
-          "influenceFactor": 86,
-          "influenceFactorPercentile": 11,
+          "influenceFactor": 87,
+          "influenceFactorPercentile": 12,
           "links": {
             "profile": "https://app.ethos.network/profile/x/crisnochris",
             "scoreBreakdown": "https://app.ethos.network/profile/x/crisnochris/score"
@@ -6576,7 +6571,7 @@
           "xpTotal": 71428,
           "xpStreakDays": 44,
           "xpRemovedDueToAbuse": false,
-          "influenceFactor": 22,
+          "influenceFactor": 21,
           "influenceFactorPercentile": 3,
           "links": {
             "profile": "https://app.ethos.network/profile/x/duckk9x",
@@ -6750,7 +6745,7 @@
           "xpTotal": 71428,
           "xpStreakDays": 44,
           "xpRemovedDueToAbuse": false,
-          "influenceFactor": 22,
+          "influenceFactor": 21,
           "influenceFactorPercentile": 3,
           "links": {
             "profile": "https://app.ethos.network/profile/x/duckk9x",
@@ -6923,8 +6918,8 @@
           "xpTotal": 894,
           "xpStreakDays": 0,
           "xpRemovedDueToAbuse": false,
-          "influenceFactor": 86,
-          "influenceFactorPercentile": 11,
+          "influenceFactor": 87,
+          "influenceFactorPercentile": 12,
           "links": {
             "profile": "https://app.ethos.network/profile/x/crisnochris",
             "scoreBreakdown": "https://app.ethos.network/profile/x/crisnochris/score"
@@ -7148,7 +7143,7 @@
           "xpTotal": 71428,
           "xpStreakDays": 44,
           "xpRemovedDueToAbuse": false,
-          "influenceFactor": 22,
+          "influenceFactor": 21,
           "influenceFactorPercentile": 3,
           "links": {
             "profile": "https://app.ethos.network/profile/x/duckk9x",
